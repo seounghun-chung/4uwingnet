@@ -1,0 +1,7 @@
+[
+  "testscript/test2.py::MyTestCase::testFail",
+  "testscript/test2.py::MyTestCase::testFail2",
+  "testscript/test2.py::MyTestCase::testFail3",
+  "testscript/test2.py::MyTestCase::testTrue",
+  "testscript/test2.py::MyTestCase::testTrue2"
+]

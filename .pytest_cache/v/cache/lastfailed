@@ -1,0 +1,6 @@
+{
+  "testscript/test1.py::MyTestCase::testFail": true,
+  "testscript/test2.py::MyTestCase::testFail": true,
+  "testscript/test2.py::MyTestCase::testFail2": true,
+  "testscript/test2.py::MyTestCase::testFail3": true
+}

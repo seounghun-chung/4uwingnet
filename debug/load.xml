@@ -1,0 +1,31 @@
+<main>
+    <routine name="routine">
+        <attr>
+            <type name="request1" command="ab12cd"/>      
+            <desc>this function blah blah1</desc>
+        </attr>
+        <attr>
+            <type name="request2" command="123456"/>              
+            <desc>this function blah blah2</desc>        
+        </attr>
+        <attr>
+            <type name="request3" command="123456"/>              
+            <desc>this function blah blah3</desc>        
+        </attr>
+    </routine>
+    
+    <readidentifier name="readidentifier">
+        <attr>
+            <type name="request4" command="ab12cd"/>      
+            <desc>this function blah blah1</desc>
+        </attr>
+        <attr>
+            <type name="request5" command="123456"/>              
+            <desc>this function blah blah2</desc>        
+        </attr>
+        <attr>
+            <type name="request6" command="123456"/>              
+            <desc>this function blah blah3</desc>        
+        </attr>
+    </readidentifier>    
+</main>
