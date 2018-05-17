@@ -18,7 +18,6 @@ class MainWindow(QMainWindow, form_class):
 
         self.graphicsView.dragEnterEvent = self._lineEdit_dragEnterEvent
         self.graphicsView.dragMoveEvent = self._lineEdit_dropEvent
-#        self.graphicsView.dropEvent = self._lineEdit_dropEvent
 
         self.lineEdit.returnPressed.connect(self._lineEdit_returnPressed)
         self.lineEdit.dragEnterEvent = self._lineEdit_dragEnterEvent
