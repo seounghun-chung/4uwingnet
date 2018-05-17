@@ -73,13 +73,15 @@ class CommandWindows(QWidget, form_class):
         self.treeView.expandAll()
 
         self.treeView.activated.connect(self.dummy) # activated -> pressed @fixme pyqt bug fix
-        self.treeView.pressed.connect(self.treeView_itemSelectionChanged_connect)
+#        self.treeView.pressed.connect(self.treeView_itemSelectionChanged_connect)
+        self.treeView.selectionModel().currentChanged.connect(self.treeView_itemSelectionChanged_connect)  # self.selectionChanged
 
 #        self.treeView.itemSelectionChanged.connect()
 #        self.treeView.returnPressed.connect(self.dummy)
 
     def treeView_itemSelectionChanged_connect(self, e):
         item = self.model.itemFromIndex(e)
+
         try:    # parents node don't display information
             self.label.setText("Command Name : " + item.text())
             self.label_2.setText("Command Info : " + str(item.data()[0]))
