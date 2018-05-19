@@ -1,58 +1,82 @@
 <main>
-    <routine name="routine">
+    <routine>
         <attr>
-            <type name="request1" command="ab12cd" length="5"/>
+            <name>request1</name> 
+            <command>1b12cd</command>
+            <length>5</length>
             <desc>this function blah blah1</desc>
         </attr>
         <attr>
-            <type name="request2" command="123456" length="5"/>
-            <desc>this function blah blah2</desc>        
+            <name>request2</name> 
+            <command>ab32cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>    
         </attr>
         <attr>
-            <type name="request3" command="123456" length="5"/>
-            <desc>this function blah blah3</desc>        
+            <name>request3</name> 
+            <command>ab12cf</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>     
         </attr>
         <attr>
-            <type name="request7" command="123456" length="5"/>
+            <name>request4</name> 
+            <command>ab12cd</command>
+            <length>5</length>
             <desc>this function blah blah1</desc>
         </attr>
         <attr>
-            <type name="request11" command="abcdefab" length="2"/>
-            <desc>change blah</desc>
+            <name>request5</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc></desc>
         </attr>
         <attr>
-            <type name="request12" command="fd04" length="3"/>
-            <desc>random gen</desc>
+            <name>request6</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>
         </attr>
     </routine>
     
-    <readidentifier name="readidentifier">
+    <readidentifier>
         <attr>
-            <type name="request4" command="ab12cd" length="5"/>
+            <name>request7</name> 
+            <command>ab12cd</command>
+            <length>5</length>
             <desc>this function blah blah1</desc>
         </attr>
         <attr>
-            <type name="request5" command="123456" length="5"/>
-            <desc>this function blah blah2</desc>        
+            <name>request8</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>    
         </attr>
         <attr>
-            <type name="request6" command="123456" length="5"/>
-            <desc>this function blah blah3</desc>        
+            <name>request9</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>    
         </attr>
     </readidentifier>    
     
-    <session name="session">
+    <session>
         <attr>
-            <type name="request4" command="ab12cd" length="5"/>
+            <name>request10</name> 
+            <command>ab12cd</command>
+            <length>5</length>
             <desc>this function blah blah1</desc>
         </attr>
         <attr>
-            <type name="request5" command="123456" length="5"/>
-            <desc>this function blah blah2</desc>        
+            <name>request11</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>      
         </attr>
         <attr>
-            <type name="request6" command="123456" length="5"/>
-            <desc>this function blah blah3</desc>        
+            <name>request12</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>     
         </attr>
     </session>        
 </main>

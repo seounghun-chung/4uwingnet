@@ -1,31 +1,83 @@
 <main>
-    <routine name="routine">
+    <routine>
         <attr>
-            <type name="request1" command="ab12cd"/>      
+            <name>request1</name> 
+            <command>1b12cd</command>
+            <length>5</length>
             <desc>this function blah blah1</desc>
         </attr>
         <attr>
-            <type name="request2" command="123456"/>              
-            <desc>this function blah blah2</desc>        
+            <name>request2</name> 
+            <command>ab32cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>    
         </attr>
         <attr>
-            <type name="request3" command="123456"/>              
-            <desc>this function blah blah3</desc>        
+            <name>request3</name> 
+            <command>ab12cf</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>     
+        </attr>
+        <attr>
+            <name>request4</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>
+        </attr>
+        <attr>
+            <name>request5</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>
+        </attr>
+        <attr>
+            <name>request6</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>
         </attr>
     </routine>
     
-    <readidentifier name="readidentifier">
+    <readidentifier>
         <attr>
-            <type name="request4" command="ab12cd"/>      
+            <name>request7</name> 
+            <command>ab12cd</command>
+            <length>5</length>
             <desc>this function blah blah1</desc>
         </attr>
         <attr>
-            <type name="request5" command="123456"/>              
-            <desc>this function blah blah2</desc>        
+            <name>request8</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>    
         </attr>
         <attr>
-            <type name="request6" command="123456"/>              
-            <desc>this function blah blah3</desc>        
+            <name>request9</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>    
         </attr>
     </readidentifier>    
+    
+    <session>
+        <attr>
+            <name>request10</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>
+        </attr>
+        <attr>
+            <name>request11</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>      
+        </attr>
+        <attr>
+            <name>request12</name> 
+            <command>ab12cd</command>
+            <length>5</length>
+            <desc>this function blah blah1</desc>  
+            <test>aaa</test>
+        </attr>
+    </session>        
 </main>

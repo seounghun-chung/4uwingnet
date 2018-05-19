@@ -8,6 +8,7 @@ from PyQt5.QtGui import QStandardItemModel
 from PyQt5.QtGui import QStandardItem
 import os
 import xml.etree.ElementTree
+import xmltodict
 
 #logging.basicConfig(level = logging.DEBUG)
 
@@ -20,12 +21,19 @@ form_class = uic.loadUiType(os.path.join(qtDesignerPath, "CommandWindows.ui"))[0
 class Model(QStandardItemModel):
     def __init__(self, data):
         QStandardItemModel.__init__(self)
+        with open(os.path.join(xmlconfigPath, 'load.xml')) as fd:
+            doc = xmltodict.parse(fd.read())
+        
+        for mainattr in doc["main"]:    # find command type (routine, readidentifier, ...)
+            parentitem = QStandardItem(mainattr)
 
-        e = xml.etree.ElementTree.parse(os.path.join(xmlconfigPath, 'load.xml')).getroot()
-        self._add_standard_item('routine',e)
-        self._add_standard_item('readidentifier',e)
-        self._add_standard_item('session',e)
-
+            for subattr in doc["main"][mainattr]:   # select one of attr in routine / session ..
+                for eachofitem in doc["main"][mainattr][subattr]:   # find all data in attr
+                    childitem = QStandardItem(eachofitem["name"])
+                    childitem.setToolTip(eachofitem["desc"])
+                    childitem.setData(eachofitem)
+                    parentitem.appendRow(childitem)
+            self.appendRow(parentitem)
 
         d = data[0]  # Fruit
         item = QStandardItem(d["type"])
@@ -81,13 +89,12 @@ class CommandWindows(QWidget, form_class):
 
     def treeView_itemSelectionChanged_connect(self, e):
         item = self.model.itemFromIndex(e)
-
         try:    # parents node don't display information
             self.label.setText("Command Name : " + item.text())
-            self.label_2.setText("Command Info : " + str(item.data()[0]))
-            self.label_3.setText("Command Length : " + str(item.data()[1]))
+            self.label_2.setText("Command Info : " + (item.data()["command"]))
+            self.label_3.setText("Command Length : " + (item.data()["length"]))
             self.label_4.setText("Command Desc : " + str(item.toolTip()))
-        except:
+        except TypeError as e:
             self.label.setText("Command Name : ")
             self.label_2.setText("Command Info : ")
             self.label_3.setText("Command Length : ")
