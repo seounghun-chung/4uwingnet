@@ -19,7 +19,7 @@ import sys
 base = None if sys.platform=='win32' else None
 
 executables = [
-    Executable('run.py', base=base)
+    Executable('run.py', base="Win32Gui")
 ]
  
 setup(
