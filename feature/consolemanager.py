@@ -9,9 +9,11 @@
 
 import threading
 import os
-import sys
 import traceback
+import sys
+import inspect
 
+from inspect import formatargspec, getfullargspec
 from feature.dummymanager import *
 from gui.consolewindows import ConsoleWindows
 from feature.command import Command
@@ -19,6 +21,9 @@ from feature.command import Command
 ClassConsoleWindows = None
 ClassCommand = None
 C = DummyManager()
+
+def help(module):
+    print(module.__doc__)
 
 def cexec(s):
     """private functions"""
@@ -81,10 +86,6 @@ def getinfo():
 
 
 def info():
-    import sys
-    import inspect
-    from inspect import formatargspec, getfullargspec
-
     func = inspect.getmembers(sys.modules[__name__],
                               predicate=lambda f: inspect.isfunction(f) and f.__module__ == __name__)
     print("command list")
