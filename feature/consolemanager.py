@@ -11,6 +11,7 @@ import threading
 import os
 import sys
 import traceback
+
 from feature.dummymanager import *
 from gui.consolewindows import ConsoleWindows
 from feature.command import Command
@@ -87,6 +88,10 @@ def info():
     func = inspect.getmembers(sys.modules[__name__],
                               predicate=lambda f: inspect.isfunction(f) and f.__module__ == __name__)
     print("command list")
+    func = sorted(func, key = lambda x : x[1].__doc__.lower()
+                                if type(x[1].__doc__) is not type(None) \
+                                else "z")
+    
     for ii in func:
         if (ii[1].__doc__ != "private functions"):
             print("  ", end="")
