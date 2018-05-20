@@ -48,6 +48,8 @@ class ConsoleWindows(QWidget, form_class):
         self._stdout.printOccur.connect(lambda x, y: self.append_text(x, y)) # print redirection
 
         self.comboBox.keyPressEvent = self.comboBox_keyPressEvent
+        self.comboBox.addItems(self._GetConsoleManagerFunctionList())        
+        self.comboBox.setCurrentText("")
         
     def stdout_redirect(self, s):
         if s is True:
@@ -74,6 +76,19 @@ class ConsoleWindows(QWidget, form_class):
         else:
             pass
             
+    def _GetConsoleManagerFunctionList(self):
+        from inspect import formatargspec, getfullargspec, getmembers, isfunction, getargspec
+        import inspect
+        
+        # skip private functions in console manager
+        functions_list = [o for o in getmembers(consolemanager) if isfunction(o[1]) and (o[1].__doc__ != "private functions")]
+        # make function list and argv
+        # o[0] is function name
+        # o[1] is function address
+        # formatargspec(getfullargspec(o[1])[0]) is argv of functions
+        ret = [o[0] + (formatargspec(getfullargspec(o[1])[0])) for o in functions_list] 
+        return ret
+        
     def append_text(self, msg, color="black"):
         self.textBrowser.moveCursor(QtGui.QTextCursor.End)
         self.textBrowser.setTextColor(QtGui.QColor(color))

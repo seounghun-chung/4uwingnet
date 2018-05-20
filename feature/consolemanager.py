@@ -13,7 +13,6 @@ import traceback
 import sys
 import inspect
 
-from inspect import formatargspec, getfullargspec
 from feature.dummymanager import *
 from gui.consolewindows import ConsoleWindows
 from feature.command import Command
@@ -97,5 +96,5 @@ def info():
         if (ii[1].__doc__ != "private functions"):
             print("  ", end="")
             print(ii[0], end="")
-            print(formatargspec(*getfullargspec(ii[1])), end=" : ")
+            print(inspect.formatargspec(*inspect.getfullargspec(ii[1])), end=" : ")
             print(ii[1].__doc__)
