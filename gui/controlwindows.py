@@ -9,6 +9,14 @@ import sys
 qtDesignerPath = os.path.dirname(__file__)
 form_class = uic.loadUiType(os.path.join(qtDesignerPath, "ControlWindows.ui"))[0]
 
+style = "background-color: AliceBlue;\
+         border-style: outset;\
+         border-width: 2px;\
+         border-radius: 10px;\
+         border-color: beige;\
+         font: 14px;\
+         min-width: 4em;\
+         padding: 4px;"
 
 class ControlWindows(QWidget, form_class):
     def __init__(self, parent = None):
@@ -20,6 +28,25 @@ class ControlWindows(QWidget, form_class):
         self.pushButton_3.clicked.connect(self.pushButton_3_clicked)
         self.pushButton_13.clicked.connect(self.pushButton_13_clicked)
         self.pushButton_16.clicked.connect(self.pushButton_16_clicked)
+
+        self.pushButton_2.setStyleSheet(style)
+        self.pushButton.setStyleSheet(style)
+        self.pushButton_3.setStyleSheet(style)
+        self.pushButton_13.setStyleSheet(style)
+        self.pushButton_16.setStyleSheet(style)
+
+#        self.pushButton_2.setObjectName("myParentWidget");
+#        self.pushButton_2.setStyleSheet('{\
+#                background-color: AliceBlue;\
+#                border-style: outset;\
+#                border-width: 2px;\
+#                border-radius: 10px;\
+#                border-color: beige;\
+#                font: 14px;\
+#                min-width: 4em;\
+#                padding: 4px;\
+#            }   ')
+
 
         self.checkBox.stateChanged.connect(self.checkBox_stateChanged)
         self.ClassDummyManager = DummyManager()
@@ -56,6 +83,17 @@ class ControlWindows(QWidget, form_class):
         self.lineEdit.clear()
 
     def pushButton_2_clicked(self):
+        self.pushButton_2.setStyleSheet('QWidget#myParentWidget \
+                {\
+                background-color: HotPink	;\
+                border-style: outset;\
+                border-width: 2px;\
+                border-radius: 10px;\
+                border-color: beige;\
+                font: 14px;\
+                min-width: 4em;\
+                padding: 4px;\
+            }   ')    
         r = self.ClassDummyManager.run()
         self.ClassDummyManager.callback =lambda x : self.label_3.setText(str(x))
 

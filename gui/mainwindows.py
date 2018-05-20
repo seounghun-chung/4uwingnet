@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import *
-from PyQt5 import QtGui
+from PyQt5 import QtGui, QtCore
 from PyQt5 import uic
 from feature import consolemanager
 from feature.command import Command
@@ -35,7 +35,12 @@ class MainWindow(QMainWindow, form_class):
         self.widget_2.getCommandInstance(self.ClassCommand) # connect command windows
         consolemanager.connect(self.ClassCommand)   # connect console consolemanager
         consolemanager.connect(self.dockWidgetContents) # connect console windows to consolemanager
+#        self.setObjectName("myParentWidget");
+#        self.setStyleSheet('QWidget#myParentWidget { background-color:transparent; color: #f8f8f8}')
 
+#        self.tabWidget.setObjectName("tabWidget");
+#        self.tabWidget.setStyleSheet('QWidget#tabWidget { background-color: green ; color: black ;}')
+#        self.tabWidget.setWindowFlags(QtCore.Qt.FramelessWindowHint)
 #        self.tabWidget.removeTab(2)
 
     def _actionOpen_triggered_connect(self):

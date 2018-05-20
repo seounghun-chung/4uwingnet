@@ -43,7 +43,7 @@ class ConsoleWindows(QWidget, form_class):
     def __init__(self, parent = None):
         super(ConsoleWindows, self).__init__(parent)
         self.setupUi(self)
-        
+
         self._stdout = StdoutRedirect()
         self._stdout.printOccur.connect(lambda x, y: self.append_text(x, y)) # print redirection
 

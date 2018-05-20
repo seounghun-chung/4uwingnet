@@ -17,7 +17,12 @@ xmlconfigPath = os.path.join(os.path.dirname(__file__),"../config/")
 
 form_class = uic.loadUiType(os.path.join(qtDesignerPath, "CommandWindows.ui"))[0]
 
-
+styleSheet = """
+QTreeView {
+    alternate-background-color: #f6fafb;
+    background: #e8f4fc;
+}
+"""
 class Model(QStandardItemModel):
     def __init__(self, data):
         QStandardItemModel.__init__(self)
@@ -79,6 +84,8 @@ class CommandWindows(QWidget, form_class):
         self.treeView.reset()
         self.treeView.setModel(self.model)
         self.treeView.expandAll()
+        self.treeView.setAlternatingRowColors(True)
+        self.treeView.setStyleSheet(styleSheet)
 
         self.treeView.activated.connect(self.dummy) # activated -> pressed @fixme pyqt bug fix
 #        self.treeView.pressed.connect(self.treeView_itemSelectionChanged_connect)
