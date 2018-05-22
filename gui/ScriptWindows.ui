@@ -69,7 +69,7 @@
        <item>
         <widget class="QPushButton" name="pushButton_5">
          <property name="text">
-          <string>Search Directory (ctrl+d)</string>
+          <string>Select Directory (ctrl+d)</string>
          </property>
          <property name="shortcut">
           <string>Ctrl+D</string>
