@@ -48,6 +48,31 @@
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="QFontComboBox" name="fontComboBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="fontFilters">
+        <set>QFontComboBox::ScalableFonts</set>
+       </property>
+       <property name="currentFont">
+        <font>
+         <family>Consolas</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>

@@ -29,20 +29,22 @@ class MainWindow(QMainWindow, form_class):
         self.dockWidgetContents.stdout_redirect(False)
 
         self.actionRun_script.triggered.connect(self._actionOpen_triggered_connect)
-
+        self.actionChange_Font.triggered.connect(self.font_choice)
+        
         # set command class instance to other windows
         self.ClassCommand = Command()
         self.widget_2.getCommandInstance(self.ClassCommand) # connect command windows
         consolemanager.connect(self.ClassCommand)   # connect console consolemanager
         consolemanager.connect(self.dockWidgetContents) # connect console windows to consolemanager
-#        self.setObjectName("myParentWidget");
-#        self.setStyleSheet('QWidget#myParentWidget { background-color:transparent; color: #f8f8f8}')
 
-#        self.tabWidget.setObjectName("tabWidget");
-#        self.tabWidget.setStyleSheet('QWidget#tabWidget { background-color: green ; color: black ;}')
-#        self.tabWidget.setWindowFlags(QtCore.Qt.FramelessWindowHint)
-#        self.tabWidget.removeTab(2)
-
+        # set default font
+#        self.setFont(QtGui.QFont("Consolas", 10))
+        
+    def font_choice(self):
+        font, valid = QFontDialog.getFont()
+        if valid:
+            self.setFont(font)        
+        
     def _actionOpen_triggered_connect(self):
         options = QFileDialog.Options()
         fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",

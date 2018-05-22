@@ -51,7 +51,9 @@ class ConsoleWindows(QWidget, form_class):
 
         self.comboBox.keyPressEvent = self.comboBox_keyPressEvent
         self.comboBox.addItems(self._GetConsoleManagerFunctionList())        
-        self.comboBox.setCurrentText("")
+        self.comboBox.setCurrentText("")        
+        self.fontComboBox.currentFontChanged.connect(lambda x : self.textBrowser.setFont(x))
+        self.textBrowser.setFont(QtGui.QFont(self.fontComboBox.currentText(), 9))
         
     def stdout_redirect(self, s):
         if s is True:
@@ -98,6 +100,5 @@ class ConsoleWindows(QWidget, form_class):
         self.textBrowser.setTextColor(QtGui.QColor("black"))
 
     def clear(self):
-        print("test")
         self.textBrowser.clear()
         self.comboBox.clear()

@@ -138,6 +138,7 @@
     </property>
     <addaction name="actionOpen"/>
     <addaction name="actionRun_script"/>
+    <addaction name="actionChange_Font"/>
    </widget>
    <addaction name="menuConsole"/>
   </widget>
@@ -174,6 +175,11 @@
    </property>
    <property name="shortcut">
     <string>Alt+R</string>
+   </property>
+  </action>
+  <action name="actionChange_Font">
+   <property name="text">
+    <string>Change Font</string>
    </property>
   </action>
  </widget>
