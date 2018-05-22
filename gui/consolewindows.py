@@ -55,9 +55,7 @@ class ConsoleWindows(QWidget, form_class):
         self.comboBox.setCurrentText("")        
         self.fontComboBox.currentFontChanged.connect(lambda x : self.textBrowser.setFont(x))
         self.textBrowser.setFont(QtGui.QFont(self.fontComboBox.currentText(), 9))
-        
-        self.highlight = syntax.PythonHighlighter(self.textBrowser.document())        
-        
+        self.fmt = QtGui.QTextCharFormat();
     def stdout_redirect(self, s):
         if s is True:
             self._stdout.start()
@@ -98,14 +96,11 @@ class ConsoleWindows(QWidget, form_class):
         
     def append_text(self, msg, color="black"):
         self.textBrowser.moveCursor(QtGui.QTextCursor.End)
-        
-        fmt = QtGui.QTextCharFormat();
-        fmt.setForeground(QtGui.QBrush(QtGui.QColor(color)));
-        self.textBrowser.mergeCurrentCharFormat(fmt);        
-        
-#        self.textBrowser.setTextColor(QtGui.QColor(color))
+
+        # set user color
+        self.fmt.setForeground(QtGui.QBrush(QtGui.QColor(color)));
+        self.textBrowser.mergeCurrentCharFormat(self.fmt);                
         self.textBrowser.insertPlainText(msg)
-#        self.textBrowser.setTextColor(QtGui.QColor("black"))
 
     def clear(self):
         self.textBrowser.clear()

@@ -94,6 +94,7 @@ class ScriptWindows(QWidget, form_class):
         dir = QDir(self._defaultdir)
         dir.setFilter(QDir.Files | QDir.Hidden | QDir.NoSymLinks)        
         dirlist = dir.entryInfoList();
+        
         for ii in dirlist:
             if (ii.fileName()[-3:] == ".py"):
                 self.listWidget.addItem(ii.fileName())   
@@ -107,5 +108,9 @@ class ScriptWindows(QWidget, form_class):
         
     def _pushButton_5_connect(self):    # direcotry btn
         dir = QFileDialog()
-        self._defaultdir = dir.getExistingDirectory(self, "Select script folder", self._defaultdir);          
-        self._find_script_directory()
+        dir = dir.getExistingDirectory(self, "Select script folder", self._defaultdir);          
+        if dir == "":   # cancle select folder
+            pass
+        else:   # add python script to listwidget
+            self._defaultdir = dir
+            self._find_script_directory()
