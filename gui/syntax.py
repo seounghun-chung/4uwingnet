@@ -33,6 +33,8 @@ STYLES = {
     'comment': format('darkGreen', 'italic'),
     'self': format('black', 'italic'),
     'numbers': format('brown'),
+    'userkeyword' : format('darkblue'),
+    
 }
 
 
@@ -66,6 +68,10 @@ class PythonHighlighter (QSyntaxHighlighter):
     braces = [
         '\{', '\}', '\(', '\)', '\[', '\]',
     ]
+    
+    # User keywords
+    userkeyword = [ '[SYSTEM]', '[SERIAL]' ]
+    
     def __init__(self, document):
         QSyntaxHighlighter.__init__(self, document)
 
@@ -84,6 +90,8 @@ class PythonHighlighter (QSyntaxHighlighter):
             for o in PythonHighlighter.operators]
         rules += [(r'%s' % b, 0, STYLES['brace'])
             for b in PythonHighlighter.braces]
+        rules += [(r'%s' % b, 0, STYLES['userkeyword'])
+            for b in PythonHighlighter.userkeyword]
 
         # All other rules
         rules += [
