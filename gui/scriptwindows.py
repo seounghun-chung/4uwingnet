@@ -36,6 +36,8 @@ class ScriptWindows(QWidget, form_class):
         self.listWidget.setAlternatingRowColors(True)   
         self.plainTextEdit.keyPressEvent = self.plainTextEdit_keyPressEvent            
         self._find_script_directory()
+        self._leftdefaultsize = 200
+        self.splitter.setSizes([self._leftdefaultsize,(self.size().width()) - self._leftdefaultsize])
         
     def _pushButton_3_connect(self):    # loadUiType
         options = QFileDialog.Options()
