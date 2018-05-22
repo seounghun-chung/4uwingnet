@@ -88,18 +88,21 @@ class ScriptWindows(QWidget, form_class):
         consolemanager.cexec("_temp.py")  
         os.remove("_temp.py")
         
-    def _find_script_directory(self):     
+    def _find_script_directory(self):     # find directory 
         self.listWidget.clear();    
         dir = QDir(self._defaultdir)
         dir.setFilter(QDir.Files | QDir.Hidden | QDir.NoSymLinks)        
         dirlist = dir.entryInfoList();
         for ii in dirlist:
-            self.listWidget.addItem(ii.fileName())   
-            
+            if (ii.fileName()[-3:] == ".py"):
+                self.listWidget.addItem(ii.fileName())   
+            else:
+                pass
         abspath = os.path.abspath(self._defaultdir)
         relativepath = abspath.split("\\")
         
-        self.label_2.setText(os.path.join(*relativepath[-4:-1]))
+        self.label_2.setText(os.path.join(*relativepath[-3:]))
+        self.label_2.setToolTip(os.path.join(*relativepath))
         
     def _pushButton_5_connect(self):    # direcotry btn
         dir = QFileDialog()
