@@ -21,8 +21,6 @@ class StdoutRedirect(QObject):
 
     def __init__(self, *param):
         QObject.__init__(self, None)
-        self._write = QtCore.pyqtSignal(str)
-
         self.daemon = True
         self.sysstdout = sys.stdout.write
         self.sysstderr = sys.stderr.write
@@ -44,6 +42,10 @@ class ConsoleWindows(QWidget, form_class):
         super(ConsoleWindows, self).__init__(parent)
         self.setupUi(self)
 
+        # get class object for connecting GUI
+        self._clear = consolemanager.ClassGuiControlSignal  
+        self._clear.clearOccur.connect(lambda x : self.clear())
+        
         self._stdout = StdoutRedirect()
         self._stdout.printOccur.connect(lambda x, y: self.append_text(x, y)) # print redirection
 
@@ -96,7 +98,6 @@ class ConsoleWindows(QWidget, form_class):
         self.textBrowser.setTextColor(QtGui.QColor("black"))
 
     def clear(self):
+        print("test")
         self.textBrowser.clear()
         self.comboBox.clear()
-
-

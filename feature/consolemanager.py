@@ -13,14 +13,30 @@ import traceback
 import sys
 import inspect
 
+from PyQt5.QtCore import QObject, pyqtSignal
+
 from feature.dummymanager import *
 from gui.consolewindows import ConsoleWindows
 from feature.command import Command
 
+class GuiControlSignal(QObject):
+    clearOccur = pyqtSignal(int, name="control")
+
+    def __init__(self, *param):
+        QObject.__init__(self, None)
+
+    def clear(self):
+        self.clearOccur.emit(1)
+        
+    def test(self):
+        print("hello?")
+
 ClassConsoleWindows = None
 ClassCommand = None
 C = DummyManager()
+ClassGuiControlSignal = GuiControlSignal()
 
+        
 def help(module):
     print(module.__doc__)
 
@@ -30,6 +46,8 @@ def cexec(s):
         if (os.path.isfile(s) is True):
             f = open(s).read()
             f = "from feature import dummymanager\r" + f
+            
+            # gui class is not worked in thread ....
             t1 = threading.Thread(target=exec, args=(f, globals(),))
             t1.daemon = True
             t1.start()
@@ -57,8 +75,10 @@ def connect(c):
 
 def clear():
     """clear console windows"""
-    if ClassConsoleWindows is not None:
-        ClassConsoleWindows.clear()
+    ClassGuiControlSignal.clear()
+#    if ClassConsoleWindows is not None:
+#        ClassConsoleWindows.clear()
+        
 
 
 def WaitForResponse(msg, timeout = 1):
