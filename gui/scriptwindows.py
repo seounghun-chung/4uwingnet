@@ -32,7 +32,7 @@ class ScriptWindows(QWidget, form_class):
         self.pushButton_2.clicked.connect(self._pushButton_2_connect)
         self.pushButton_3.clicked.connect(self._pushButton_3_connect)
 
-        self.listWidget.itemDoubleClicked.connect(self.listWidget_itemDoubleClicked)
+        self.listWidget.itemActivated.connect(self.listWidget_itemDoubleClicked)
         self.listWidget.setAlternatingRowColors(True)   
         self.plainTextEdit.keyPressEvent = self.plainTextEdit_keyPressEvent            
         self._find_script_directory()

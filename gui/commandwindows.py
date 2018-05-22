@@ -90,9 +90,8 @@ class CommandWindows(QWidget, form_class):
         self.treeView.activated.connect(self.dummy) # activated -> pressed @fixme pyqt bug fix
 #        self.treeView.pressed.connect(self.treeView_itemSelectionChanged_connect)
         self.treeView.selectionModel().currentChanged.connect(self.treeView_itemSelectionChanged_connect)  # self.selectionChanged
-
-#        self.treeView.itemSelectionChanged.connect()
-#        self.treeView.returnPressed.connect(self.dummy)
+        self._leftdefaultsize = 200
+        self.splitter.setSizes([self._leftdefaultsize,(self.size().width()) - self._leftdefaultsize])
 
     def treeView_itemSelectionChanged_connect(self, e):
         item = self.model.itemFromIndex(e)
