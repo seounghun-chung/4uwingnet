@@ -9,7 +9,7 @@ from PyQt5 import QtGui
 from PyQt5 import uic
 from PyQt5.QtCore import *
 from PyQt5.QtGui import QStandardItemModel
-from PyQt5.QtGui import QStandardItem
+from PyQt5.QtGui import QStandardItem 
 import os
 
 #logging.basicConfig(level = logging.DEBUG)
@@ -33,9 +33,8 @@ class ScriptWindows(QWidget, form_class):
         self.pushButton_3.clicked.connect(self._pushButton_3_connect)
 
         self.listWidget.itemDoubleClicked.connect(self.listWidget_itemDoubleClicked)
-        
-        self.plainTextEdit.keyPressEvent = self.plainTextEdit_keyPressEvent
-        
+        self.listWidget.setAlternatingRowColors(True)   
+        self.plainTextEdit.keyPressEvent = self.plainTextEdit_keyPressEvent            
         self._find_script_directory()
         
     def _pushButton_3_connect(self):    # loadUiType
@@ -108,4 +107,3 @@ class ScriptWindows(QWidget, form_class):
         dir = QFileDialog()
         self._defaultdir = dir.getExistingDirectory(self, "Select script folder", self._defaultdir);          
         self._find_script_directory()
-
