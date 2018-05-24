@@ -29,6 +29,9 @@ class SourceView(QWidget, form_class):
         self.pushButton_4.setFlat(True)
         self.pushButton_4.setAutoFillBackground(True)
         self.pushButton_4.setIcon(QIcon(join(qtdesignpath,"zoomout.png")));
+        self.pushButton_5.setFlat(True)
+        self.pushButton_5.setAutoFillBackground(True)
+        self.pushButton_5.setIcon(QIcon(join(qtdesignpath,"run.png")));
         
         
         # treeView model create
@@ -51,7 +54,9 @@ class SourceView(QWidget, form_class):
         self.pushButton_4.clicked.connect(lambda : self.plainTextEdit.zoomOut(2))
         self.pushButton_3.clicked.connect(lambda : self.plainTextEdit.zoomIn(2))
         self.pushButton.clicked.connect(lambda : self._save_script())
-        self.pushButton_2.clicked.connect(lambda : self._new_script())        
+        self.pushButton_2.clicked.connect(lambda : self._new_script())       
+        self.pushButton_5.clicked.connect(lambda : print("run!"))       
+        
         self.fontComboBox.currentFontChanged.connect(lambda x : self.plainTextEdit.setFont(x))
         self.plainTextEdit.keyPressEvent = self._plainTextEdit_keyPressEvent            
         self.plainTextEdit.wheelEvent = self._plainTextEdit_wheelEvent            

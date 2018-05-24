@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>736</width>
+    <height>599</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,21 +35,27 @@
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
           <widget class="QPushButton" name="pushButton_2">
+           <property name="toolTip">
+            <string>ctrl + n</string>
+           </property>
            <property name="text">
             <string/>
            </property>
            <property name="shortcut">
-            <string>Ctrl+N</string>
+            <string extracomment="ctrl + n">Ctrl+N</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="pushButton">
+           <property name="toolTip">
+            <string>ctrl + s</string>
+           </property>
            <property name="text">
             <string/>
            </property>
            <property name="shortcut">
-            <string>Ctrl+S</string>
+            <string extracomment="ctrl + s">Ctrl+S</string>
            </property>
           </widget>
          </item>
@@ -64,6 +70,19 @@
           <widget class="QPushButton" name="pushButton_3">
            <property name="text">
             <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="toolTip">
+            <string>Run Script ( Ctrl + r )</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="shortcut">
+            <string>Ctrl+R</string>
            </property>
           </widget>
          </item>
