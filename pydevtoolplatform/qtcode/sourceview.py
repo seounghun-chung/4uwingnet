@@ -108,7 +108,7 @@ class SourceView(QWidget, form_class):
         if (event.modifiers() & Qt.ControlModifier):
             self._plainTextEdit_zoom(event.angleDelta().y())
         else:
-            QPlainTextEdit.wheelEvent(self, event)              
+            QPlainTextEdit.wheelEvent(self.plainTextEdit, event)              
 
     def _plainTextEdit_zoom(self, delta):
         if delta < 0:
