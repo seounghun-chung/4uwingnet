@@ -48,9 +48,10 @@ def cexec(s):
             f = "from feature import dummymanager\r" + f
             
             # gui class is not worked in thread ....
-            t1 = threading.Thread(target=exec, args=(f, globals(),))
-            t1.daemon = True
-            t1.start()
+#            t1 = threading.Thread(target=exec, args=(f, globals(),))
+#            t1.daemon = True
+#            t1.start()
+            exec(f, globals())
         else:
             c = compile(s, "<string>", "single")
             exec(c, globals())

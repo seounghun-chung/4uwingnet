@@ -2,7 +2,7 @@ from feature import consolemanager
 from PyQt5.QtWidgets import *
 from PyQt5 import QtGui, QtCore
 from PyQt5 import uic
-from PyQt5.QtCore import QObject, pyqtSignal, Qt
+from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop
 from gui import syntax
 
 import os
@@ -35,6 +35,7 @@ class StdoutRedirect(QObject):
         sys.stderr.write = lambda msg : self.write(msg, color="red")
 
     def write(self, s, color="black"):
+        sys.stdout.flush()
         self.printOccur.emit(s, color)
 
 
@@ -99,9 +100,12 @@ class ConsoleWindows(QWidget, form_class):
 
         # set user color
         self.fmt.setForeground(QtGui.QBrush(QtGui.QColor(color)));
-        self.textBrowser.mergeCurrentCharFormat(self.fmt);                
-        self.textBrowser.insertPlainText(msg)
+        self.textBrowser.mergeCurrentCharFormat(self.fmt);    
 
+        self.textBrowser.insertPlainText(msg)
+        # refresh textedit show, refer) https://doc.qt.io/qt-5/qeventloop.html#ProcessEventsFlag-enum
+        QApplication.processEvents(QEventLoop.ExcludeUserInputEvents)
+        
     def clear(self):
         self.textBrowser.clear()
         self.comboBox.clear()

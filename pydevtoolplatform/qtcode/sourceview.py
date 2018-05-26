@@ -4,6 +4,8 @@ from PyQt5.QtCore import QSize, Qt
 from PyQt5 import uic
 from os.path import join
 
+from threading import Thread
+
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"sourceview.ui"))[0]
 
@@ -55,13 +57,12 @@ class SourceView(QWidget, form_class):
         self.pushButton_3.clicked.connect(lambda : self.plainTextEdit.zoomIn(2))
         self.pushButton.clicked.connect(lambda : self._save_script())
         self.pushButton_2.clicked.connect(lambda : self._new_script())       
-        self.pushButton_5.clicked.connect(lambda : print("run!"))       
+        self.pushButton_5.clicked.connect(lambda : self._run_script())       
         
         self.fontComboBox.currentFontChanged.connect(lambda x : self.plainTextEdit.setFont(x))
         self.plainTextEdit.keyPressEvent = self._plainTextEdit_keyPressEvent            
         self.plainTextEdit.wheelEvent = self._plainTextEdit_wheelEvent            
 
-        
         # private variable
         self.__currentpath = ""
         
@@ -121,3 +122,15 @@ class SourceView(QWidget, form_class):
         elif delta > 0:
             self.plainTextEdit.zoomIn(2)            
                 
+                
+    def _run_script(self):
+        try:
+            exec(self.plainTextEdit.toPlainText(), globals())        
+        except:  # (OverflowError, ValueError, SyntaxError, NameError):
+            import sys, traceback
+            info = sys.exc_info()
+            backtrace = traceback.format_exception(*info)
+            for line in backtrace:
+                sys.stderr.write(line)
+
+    
