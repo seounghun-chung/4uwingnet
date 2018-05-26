@@ -3,7 +3,7 @@ from PyQt5.QtGui import QPalette, QColor, QIcon
 from PyQt5.QtCore import QSize, Qt
 from PyQt5 import uic
 from os.path import join
-
+from command import command
 from threading import Thread
 
 qtdesignpath = "./qtdesign"
@@ -17,7 +17,8 @@ class SourceView(QWidget, form_class):
 
         self._leftdefaultsize = 200
         self.splitter.setSizes([self._leftdefaultsize,(self.size().width()) - self._leftdefaultsize])
-
+        self._PyQtSignalConnect = command.GetPyQtSignalFromConsole()
+        
         # button icon
         self.pushButton.setFlat(True)
 #        self.pushButton.setAutoFillBackground(True)
@@ -62,6 +63,8 @@ class SourceView(QWidget, form_class):
         self.fontComboBox.currentFontChanged.connect(lambda x : self.plainTextEdit.setFont(x))
         self.plainTextEdit.keyPressEvent = self._plainTextEdit_keyPressEvent            
         self.plainTextEdit.wheelEvent = self._plainTextEdit_wheelEvent            
+
+        self._PyQtSignalConnect.script_run.connect(lambda : self.pushButton_5.animateClick())
 
         # private variable
         self.__currentpath = ""
