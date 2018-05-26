@@ -20,19 +20,19 @@ class SourceView(QWidget, form_class):
 
         # button icon
         self.pushButton.setFlat(True)
-        self.pushButton.setAutoFillBackground(True)
+#        self.pushButton.setAutoFillBackground(True)
         self.pushButton.setIcon(QIcon(join(qtdesignpath,"save-30169.png")));
         self.pushButton_2.setFlat(True)
-        self.pushButton_2.setAutoFillBackground(True)
+#        self.pushButton_2.setAutoFillBackground(True)
         self.pushButton_2.setIcon(QIcon(join(qtdesignpath,"iconmonstr-file-2.png")));
         self.pushButton_3.setFlat(True)
-        self.pushButton_3.setAutoFillBackground(True)
+#        self.pushButton_3.setAutoFillBackground(True)
         self.pushButton_3.setIcon(QIcon(join(qtdesignpath,"zoomin.png")));
         self.pushButton_4.setFlat(True)
-        self.pushButton_4.setAutoFillBackground(True)
+#        self.pushButton_4.setAutoFillBackground(True)
         self.pushButton_4.setIcon(QIcon(join(qtdesignpath,"zoomout.png")));
         self.pushButton_5.setFlat(True)
-        self.pushButton_5.setAutoFillBackground(True)
+#        self.pushButton_5.setAutoFillBackground(True)
         self.pushButton_5.setIcon(QIcon(join(qtdesignpath,"run.png")));
         
         
