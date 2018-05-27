@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5 import QtGui, QtCore
 from PyQt5 import uic
 from os.path import join
-from command.command import *
+from console.console import *
 
 import sys
 import os

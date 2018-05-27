@@ -57,6 +57,16 @@
            </widget>
           </item>
           <item>
+           <widget class="QPushButton" name="btnOpen">
+            <property name="toolTip">
+             <string>Open (Ctrl + O)</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QPushButton" name="pushButton">
             <property name="toolTip">
              <string>ctrl + s</string>

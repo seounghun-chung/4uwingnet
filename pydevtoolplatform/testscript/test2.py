@@ -2,6 +2,8 @@ from unittest.case import TestCase
 import unittest
 
 class MyTestCase(TestCase):
+    def tearDown(self):
+        print("teadown class....")
     def testTrue(self):
         '''
         Always true

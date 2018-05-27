@@ -97,7 +97,12 @@ class TestView(QWidget, form_class):
                 """ python script only can be added """
                 continue
             else:
-                suite = testloader.discover(dirname(ii), pattern = basename(ii))
+                try:
+                    suite = testloader.discover(dirname(ii), pattern = basename(ii))
+                except ImportError as e:
+                    sys.stderr.write("don't duplicated unittest althought there are in other folder")
+                    return
+                    
                 testunits = list()
                 self.__extract_testunit(suite,testunits)
                 for testname in testunits:

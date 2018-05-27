@@ -3,10 +3,9 @@ from PyQt5 import QtGui, QtCore
 from PyQt5 import uic
 from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop
 from os.path import join
-from command.command import *
-# command must be imported using * for executing def (functions) of command.py 
+from console import console
 import sys
-import traceback
+
 
 #logging.basicConfig(level = logging.DEBUG)
 
@@ -43,7 +42,7 @@ class ConsoleView(QWidget, form_class):
         # member variable
         self._fmt = QtGui.QTextCharFormat();        
         self._stdout = StdoutRedirect()
-        self._PyQtSignalConnect = GetPyQtSignalFromConsole()
+        self._PyQtSignalConnect = console.GetPyQtSignalFromConsole()
         
         # view setting            
         self.textBrowser.setFont(QtGui.QFont(self.fontComboBox.currentText(), 9))
@@ -51,7 +50,7 @@ class ConsoleView(QWidget, form_class):
         # signal connect
         self._stdout.printOccur.connect(lambda x, y: self._append_text(x, y)) # print redirection
         self.fontComboBox.currentFontChanged.connect(lambda x : self.textBrowser.setFont(x))
-        self._PyQtSignalConnect.consoleview_clear.connect(lambda : self.clear()) # command.py is connected
+        self._PyQtSignalConnect.consoleview_clear.connect(lambda : self.clear()) # console.py is connected
         self.comboBox.keyPressEvent = self._comboBox_keyPressEvent   
         self.comboBox.setCurrentText("")            
 #        self.comboBox.activated.connect(lambda x : print(x))
@@ -60,14 +59,7 @@ class ConsoleView(QWidget, form_class):
         QComboBox.keyPressEvent(self.comboBox, e)
         if e.key() == Qt.Key_Return:
             cmd = self.comboBox.currentText()
-            try:
-                exec(cmd, globals())
-            except:
-                info = sys.exc_info()
-                backtrace = traceback.format_exception(*info)
-                for line in backtrace:
-                    sys.stderr.write(line)
-                    
+            console.cexec(cmd)
             self.textBrowser.moveCursor(QtGui.QTextCursor.End)            
             self.comboBox.setCurrentText("")
         else:

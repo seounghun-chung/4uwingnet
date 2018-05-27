@@ -2,9 +2,14 @@ from PyQt5.QtWidgets import QWidget, QFileSystemModel, QHeaderView, QFileDialog,
 from PyQt5.QtGui import QPalette, QColor, QIcon
 from PyQt5.QtCore import QSize, Qt
 from PyQt5 import uic
+from console.console import *
+# console must be imported using * for executing def (functions) of console.py 
+
 from os.path import join
-from command import command
+from console import console
 from threading import Thread
+
+import os
 
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"sourceview.ui"))[0]
@@ -17,7 +22,7 @@ class SourceView(QWidget, form_class):
 
         self._leftdefaultsize = 200
         self.splitter.setSizes([self._leftdefaultsize,(self.size().width()) - self._leftdefaultsize])
-        self._PyQtSignalConnect = command.GetPyQtSignalFromConsole()
+        self._PyQtSignalConnect = console.GetPyQtSignalFromConsole()
         
         # button icon
         self.pushButton.setFlat(True)
@@ -35,6 +40,8 @@ class SourceView(QWidget, form_class):
         self.pushButton_5.setFlat(True)
 #        self.pushButton_5.setAutoFillBackground(True)
         self.pushButton_5.setIcon(QIcon(join(qtdesignpath,"run.png")));
+        self.btnOpen.setFlat(True)
+        self.btnOpen.setIcon(QIcon(join(qtdesignpath,"open.png")));
         
         
         # treeView model create
@@ -59,6 +66,7 @@ class SourceView(QWidget, form_class):
         self.pushButton.clicked.connect(lambda : self._save_script())
         self.pushButton_2.clicked.connect(lambda : self._new_script())       
         self.pushButton_5.clicked.connect(lambda : self._run_script())       
+        self.btnOpen.clicked.connect(lambda : self._btnOpen_clicked())       
         
         self.fontComboBox.currentFontChanged.connect(lambda x : self.plainTextEdit.setFont(x))
         self.plainTextEdit.keyPressEvent = self._plainTextEdit_keyPressEvent            
@@ -68,6 +76,15 @@ class SourceView(QWidget, form_class):
 
         # private variable
         self.__currentpath = ""
+
+    def _btnOpen_clicked(self):
+        options = QFileDialog.Options()
+        fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
+                                                  "All Files (*);;Python Files (*.py)", options=options)
+        if (os.path.isfile(fileName) == True):
+            self._open_script(fileName)
+        else:
+            pass    
         
     def _new_script(self):    
         reply = QMessageBox.question(self, 'Text clear', 

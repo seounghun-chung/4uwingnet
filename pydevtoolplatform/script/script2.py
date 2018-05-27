@@ -1,8 +1,10 @@
-from unittest.case import TestCase
-import unittest
-import time
-import traceback
+if __name__ == '__main__':
+    from console.console import *
+    from features.example import Example
+    from features.example2 import Example2
+    
+    example1 = Example()    # for connecting class object with console.py
+    example2 = Example2()   # for connecting class object with console.py
 
-print("hello load script!")
-print("bye")
-info()
+func1()
+func2()
