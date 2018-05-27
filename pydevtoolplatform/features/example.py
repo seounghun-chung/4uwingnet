@@ -1,9 +1,5 @@
-from console import console
+from features.consoleconnect import ConsoleConnect
 
-class Example(object):
-    def __init__(self):
-        console.RegisterCommandClassObjectMap(self)
-        pass
-        
+class Example(ConsoleConnect):
     def func1(self):
-        print("func1")
+        print("func1 ", self._argv)

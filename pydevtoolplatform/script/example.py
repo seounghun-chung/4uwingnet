@@ -19,3 +19,5 @@ else:
 
 func1()    # == example1.func1()
 func2()    # == example2.func2()
+c = Example(111)
+c.func1()
