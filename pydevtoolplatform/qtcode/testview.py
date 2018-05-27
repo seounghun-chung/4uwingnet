@@ -6,7 +6,7 @@ from os.path import join, basename, dirname
 
 import sys
 import unittest
-
+import time
 
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"testview.ui"))[0]
@@ -24,6 +24,25 @@ class RollbackImporter(object):
                 # Force reload when modname next imported
                 del(sys.modules[modname])
 
+class TestResult(unittest.TestResult):
+    def __init__(self, *argv):
+        super(TestResult, self).__init__(*argv)
+        self.success = list()
+        self.executetime = {}
+        self._starttime = 0
+        
+    def addSuccess(self, test):
+        super(TestResult, self).addSuccess(test)
+        self.success.append(test)
+        
+    def startTest(self, test):
+        super(TestResult, self).startTest(test)
+        self._starttime = time.time()
+        
+    def stopTest(self, test):
+        super(TestResult, self).stopTest(test)
+        self.executetime[test] = (time.time()-self._starttime)*1000
+        
 class TestView(QWidget, form_class):
     def __init__(self, parent = None):
         super(TestView, self).__init__(parent)
@@ -66,6 +85,7 @@ class TestView(QWidget, form_class):
         self.listView.activated.connect(self._btnRun_clicked)
         
     def __extract_testunit(self, testsuite, testunits):
+        """ extract unittest from testsuite discover was used"""
         if type(testsuite._tests[0]) == unittest.suite.TestSuite:
             self.__extract_testunit(testsuite._tests[0], testunits)
         else:
@@ -73,6 +93,7 @@ class TestView(QWidget, form_class):
                 testunits.append(ii) 
        
     def _btnDel_clicked(self):
+        """ delete selected unittest list """
         selectedIndex = self.listView.selectedIndexes()
         deleteRow = list()
         for select in selectedIndex:
@@ -82,6 +103,7 @@ class TestView(QWidget, form_class):
             self.testmodel.removeRow(selectRow[0], selectRow[1])
         
     def _btnRun_clicked(self):
+        """ unittest run start """
         self.__rollbackImporter.rollbackImports() # clearly make sure test modules    
     
         selectedIndex = self.listView.selectedIndexes()
@@ -93,14 +115,30 @@ class TestView(QWidget, form_class):
                 suite.addTest(testcase.data())
             else:
                 """ parents (filename) is not runnable """
+
+        if suite.countTestCases() != 0:          
+            report = TestResult()
+            suite.run(report)
+            print(report)
+            for success in report.success:
+                print("%s %d ms" %(success, report.executetime[success]))
                 
-        runner = unittest.TextTestRunner(verbosity = 2)
-        
-        if suite.countTestCases() != 0:
-            runner.run(suite)
+            for failures in report.failures:
+                print("%s %d ms" %(failures, report.executetime[failures[0]]))
         else:
             """ there are not selected item """
             print("there are not selected item")
+
+#        print(report.failures)
+#        print(report.skipped)
+        
+#        runner = unittest.TextTestRunner(verbosity = 2)
+#        
+#        if suite.countTestCases() != 0:
+#            runner.run(suite)
+#        else:
+#            """ there are not selected item """
+#            print("there are not selected item")
        
     def _btnAdd_clicked(self):
         selectedIndex = self.treeView.selectedIndexes()

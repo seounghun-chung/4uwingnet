@@ -19,12 +19,15 @@ class ExampleView(QWidget, form_class):
         self.setupUi(self)
     
         self._commandSignal = console.GetPyQtSignalFromConsole()
-        self.cExample = Example("example")
-        self.cExample2 = Example2("example2")        
+        self.cExample = Example()
+        self.cExample2 = Example2()        
         
         self.pushButton.clicked.connect(lambda : self.cExample.func1())
-        self._commandSignal.exampleview.connect(lambda x : self.lineEdit.setText(x))        
+        self._commandSignal.exampleview.connect(lambda x : self.lineEdit.setText(x))  
+        
         console.RegisterObjectInConsole(self, "exampleview")
+        console.RegisterObjectInConsole(self.cExample, "example")
+        console.RegisterObjectInConsole(self.cExample2, "example2")
         
     def text(self, x):
         """set test"""

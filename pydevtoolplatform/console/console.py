@@ -93,22 +93,18 @@ def help(obj = None):
                                     else "z")    
         for ii in func:
             if (ii[1].__doc__ != "private"):
-                print("  ", end="")
-                print(ii[0], end="")
-                print(inspect.formatargspec(*inspect.getfullargspec(ii[1])), end=" : ")
-                print(ii[1].__doc__)    
-                
+                out = "  %s%s : %s" %(ii[0], inspect.formatargspec(*inspect.getfullargspec(ii[1])), ii[1].__doc__)
+                print(out)
+
         for ii in _rigesteredClassObject:
-            print(" ", ii, ": object, for getting more information help("+ii+")")
+            print(" %s : object , for getting more information help(%s)" % (ii, ii))
     else:
         func = inspect.getmembers(obj, predicate = inspect.ismethod)  
         if len(func) == 0:
             try:
                 inspect.getfullargspec(obj) # pass not support help()
-                print("Function method = ")    
-                print("parameter ", end="")
-                print(inspect.formatargspec(*inspect.getfullargspec(obj)),end=" : ")
-                print(obj.__doc__)                
+                out = "parameter %s : %s" % (inspect.formatargspec(*inspect.getfullargspec(obj)), obj.__doc__)    
+                print(out)
             except:
                 print("Not support help()")
                 pass
@@ -117,9 +113,8 @@ def help(obj = None):
             for ii in func:
                 if ii[0] == "__init__":
                     continue
-
-                print("  ", end="")
-                print(ii[0], end="")
-                print(inspect.formatargspec(*inspect.getfullargspec(ii[1])), ":", ii[1].__doc__)
+                out = "  %s%s : %s" % (ii[0], inspect.formatargspec(*inspect.getfullargspec(ii[1]))
+                                    , ii[1].__doc__)
+                print(out)
     print("")
         

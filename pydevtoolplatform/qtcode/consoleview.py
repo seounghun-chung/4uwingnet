@@ -5,12 +5,21 @@ from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop
 from os.path import join
 from console import console
 import sys
-
+import datetime
+import time
+import logging
 
 #logging.basicConfig(level = logging.DEBUG)
 
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"consoleview.ui"))[0]
+
+logger = logging.getLogger("consoleview")
+logger.setLevel(logging.INFO)
+file_handler = logging.FileHandler("console_%s.log"%(datetime.datetime.now().strftime("%Y-%m-%d")))
+formatter = logging.Formatter('%(asctime)s:%(name)s:%(levelname)s:%(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
 
 class StdoutRedirect(QObject):
     printOccur = pyqtSignal(str, str, name="print")
@@ -30,6 +39,13 @@ class StdoutRedirect(QObject):
         sys.stderr.write = lambda msg : self.write(msg, color="red")
 
     def write(self, s, color="black"):
+        if s.strip() != "":
+            if color == "black":
+                logger.info(s)
+            elif color == "red":
+                logger.warning(s)
+            else:
+                pass
         sys.stdout.flush()
         self.printOccur.emit(s, color)
 
@@ -64,7 +80,7 @@ class ConsoleView(QWidget, form_class):
             self.comboBox.setCurrentText("")
         else:
             pass
-            
+
     def stdout_redirect(self, s):
         if s is True:
             self._stdout.start()
@@ -76,8 +92,7 @@ class ConsoleView(QWidget, form_class):
 
         # set user color
         self._fmt.setForeground(QtGui.QBrush(QtGui.QColor(color)));
-        self.textBrowser.mergeCurrentCharFormat(self._fmt);    
-
+        self.textBrowser.mergeCurrentCharFormat(self._fmt); 
         self.textBrowser.insertPlainText(msg)
         # refresh textedit show, refer) https://doc.qt.io/qt-5/qeventloop.html#ProcessEventsFlag-enum
         QApplication.processEvents(QEventLoop.ExcludeUserInputEvents)
