@@ -7,7 +7,9 @@ from os.path import join, basename, dirname
 import sys
 import unittest
 import time
+import logging
 
+logger = logging.getLogger("qtcode.testview")
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"testview.ui"))[0]
 
@@ -84,6 +86,8 @@ class TestView(QWidget, form_class):
         self.treeView.activated.connect(self._btnAdd_clicked)
         self.listView.activated.connect(self._btnRun_clicked)
         
+        logger.debug("testview is initialized")
+        
     def __extract_testunit(self, testsuite, testunits):
         """ extract unittest from testsuite discover was used"""
         if type(testsuite._tests[0]) == unittest.suite.TestSuite:
@@ -94,6 +98,7 @@ class TestView(QWidget, form_class):
        
     def _btnDel_clicked(self):
         """ delete selected unittest list """
+        logger.debug("del btn click")
         selectedIndex = self.listView.selectedIndexes()
         deleteRow = list()
         for select in selectedIndex:
@@ -115,6 +120,7 @@ class TestView(QWidget, form_class):
                 suite.addTest(testcase.data())
             else:
                 """ parents (filename) is not runnable """
+                logger.error("bug")
 
         if suite.countTestCases() != 0:          
             report = TestResult()
@@ -128,6 +134,7 @@ class TestView(QWidget, form_class):
         else:
             """ there are not selected item """
             print("there are not selected item")
+            logger.debug("there are not selected item")
 
 #        print(report.failures)
 #        print(report.skipped)
@@ -149,6 +156,7 @@ class TestView(QWidget, form_class):
         for ii in selectedItems:
             if (ii[-3:] != ".py"):
                 """ python script only can be added """
+                logger.debug("not python item is selected")
                 continue
             else:
                 try:
@@ -163,3 +171,4 @@ class TestView(QWidget, form_class):
                     child = QStandardItem(str(testname))
                     child.setData(testname)
                     self.testmodel.insertRow(0, child)
+                    logger.debug("%s is added" % (testname))

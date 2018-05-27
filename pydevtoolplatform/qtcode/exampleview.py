@@ -6,9 +6,11 @@ from os.path import join
 from console import console
 from features.example import Example
 from features.example2 import Example2
-
+import logging
 import sys
 import traceback
+
+logger = logging.getLogger("qtcode.exampleview")
 
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"exampleview.ui"))[0]
@@ -17,7 +19,8 @@ class ExampleView(QWidget, form_class):
     def __init__(self, parent = None):
         super(ExampleView, self).__init__(parent)
         self.setupUi(self)
-    
+        logger.debug("exampleview created")
+        
         self._commandSignal = console.GetPyQtSignalFromConsole()
         self.cExample = Example()
         self.cExample2 = Example2()        
@@ -31,4 +34,5 @@ class ExampleView(QWidget, form_class):
         
     def text(self, x):
         """set test"""
+        logger.debug("text() is called")        
         self.lineEdit.setText(x)
