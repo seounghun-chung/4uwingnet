@@ -11,6 +11,19 @@ import unittest
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"testview.ui"))[0]
 
+class RollbackImporter(object):
+    """This tricky little class is used to make sure that modules under test
+    will be reloaded the next time they are imported.
+    """
+    def __init__(self):
+        self.previousModules = sys.modules.copy()
+
+    def rollbackImports(self):
+        for modname in sys.modules.copy().keys():
+            if not modname in self.previousModules:
+                # Force reload when modname next imported
+                del(sys.modules[modname])
+
 class TestView(QWidget, form_class):
     def __init__(self, parent = None):
         super(TestView, self).__init__(parent)
@@ -19,7 +32,8 @@ class TestView(QWidget, form_class):
         # member variable
         self._leftdefaultsize = 200
         self.splitter.setSizes([self._leftdefaultsize,(self.size().width()) - self._leftdefaultsize])
-
+        self.__rollbackImporter = RollbackImporter()
+        
         # treeView model create
         self.model = QFileSystemModel()
         self.model.setNameFilters(["*.py"])        
@@ -68,6 +82,8 @@ class TestView(QWidget, form_class):
             self.testmodel.removeRow(selectRow[0], selectRow[1])
         
     def _btnRun_clicked(self):
+        self.__rollbackImporter.rollbackImports() # clearly make sure test modules    
+    
         selectedIndex = self.listView.selectedIndexes()
         selectedItems = [self.testmodel.itemFromIndex(ii) for ii in selectedIndex]
         

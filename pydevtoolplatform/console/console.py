@@ -15,13 +15,18 @@
 """
 
 from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop    
-from features.example import Example
 
 import os
 import traceback
 import sys
 import inspect
+import logging
 
+logger = logging.getLogger("console.console")
+
+# it will be allocated in mainview.py from calling ConnectPytQtSignalBothCommandWithGui
+_PyQtSignalConnect = None
+_rigesteredClassObject = dict() # using RegisterObjectInConsole
 
 class PyQtSignalConnect(QObject):
     consoleview_clear = pyqtSignal()
@@ -30,16 +35,24 @@ class PyQtSignalConnect(QObject):
     
     def __init__(self, *param):
         QObject.__init__(self, None)
-    
-        
-# it will be allocated in mainview.py from calling ConnectPytQtSignalBothCommandWithGui
-cPyQtSignalConnect = None
-classObjectList = dict()
 
-def cexec(arg1):
+def RegisterObjectInConsole(object, name):
+    """ for using class object as CONSOLE api """
+    global _rigesteredClassObject
+    if (name in _rigesteredClassObject) is True:
+        raise RuntimeError("don't register duplicated name")
+    else:
+        _rigesteredClassObject.update({name : object})
+        c = compile(name + " = _rigesteredClassObject['"+ name +"']",  "<string>", "single")
+        exec(c, globals())
+
+def cexec(arg1, isfile = False):
     """ it is used in consoleview """
     try:
-        c = compile(arg1, "<string>", "single")
+        if isfile is False:
+            c = compile(arg1, "<string>", "single")
+        else:
+            c = arg1
         exec(c, globals())
     except:  # (OverflowError, ValueError, SyntaxError, NameError):
         info = sys.exc_info()
@@ -49,68 +62,64 @@ def cexec(arg1):
             
 def ConnectPytQtSignalBothCommandWithGui():
     """ it is for mainview.py. Signal must be used in GUI app """
-    
-    global cPyQtSignalConnect
-    cPyQtSignalConnect = PyQtSignalConnect()
+    global _PyQtSignalConnect
+    _PyQtSignalConnect = PyQtSignalConnect()
 
-def get_name_of_obj(obj, except_word = ""):
-
-    for name, item in globals().items():
-        if item == obj and name != except_word:
-            return name
-def RegisterCommandClassObjectMap(o):
-    """ Register class object for controlling in console """    
-    global classObjectList        
-    name = str(o.__class__.__name__)
-    
-    if (name in classObjectList) is True:
-        print("Already class object (%s) was assigned in console API" % name)
-    else:
-        classObjectList[name] = o
-        print("class object (%s) is assigned in console API" % name) 
-        
 def GetPyQtSignalFromConsole():
     """ GUI components will connected it with here """    
-    return cPyQtSignalConnect
-
+    return _PyQtSignalConnect
 
 def clear():
     """ clear console view """
-    cPyQtSignalConnect.consoleview_clear.emit()
+    _PyQtSignalConnect.consoleview_clear.emit()
     
 def run():
     """ run script """
-    cPyQtSignalConnect.script_run.emit()
-    
-def exampleview(s):
-    """ set text example view """
-    cPyQtSignalConnect.exampleview.emit(s)
-    
-def func1():
-    """ example.func1() """
-    classObjectList["Example"].func1()
-    
-def func2():
-    """ example2.func2() """
-    classObjectList["Example2"].func2()
+    _PyQtSignalConnect.script_run.emit()
 
-def help():
-    RegisterCommandClassObjectMap.__doc__ = "private"
+def help(obj = None):
+    RegisterObjectInConsole.__doc__ = "private"
     ConnectPytQtSignalBothCommandWithGui.__doc__ = "private"
     GetPyQtSignalFromConsole.__doc__ = "private"    
     cexec.__doc__ = "private"
     help.__doc__ = "private"
     
-    func = inspect.getmembers(sys.modules[__name__],
-                              predicate=lambda f: inspect.isfunction(f) and f.__module__ == __name__)
-    print("========== Console Command List ============")
-    func = sorted(func, key = lambda x : x[1].__doc__.lower()
-                                if type(x[1].__doc__) is not type(None) \
-                                else "z")    
-    for ii in func:
-        if (ii[1].__doc__ != "private"):
-            print("  ", end="")
-            print(ii[0], end="")
-            print(inspect.formatargspec(*inspect.getfullargspec(ii[1])), end=" : ")
-            print(ii[1].__doc__)    
-    
+    if obj is None:
+        func = inspect.getmembers(sys.modules[__name__],
+                                  predicate=lambda f: inspect.isfunction(f) and f.__module__ == __name__)
+        print("========== Console Command List ============")
+        func = sorted(func, key = lambda x : x[1].__doc__.lower()
+                                    if type(x[1].__doc__) is not type(None) \
+                                    else "z")    
+        for ii in func:
+            if (ii[1].__doc__ != "private"):
+                print("  ", end="")
+                print(ii[0], end="")
+                print(inspect.formatargspec(*inspect.getfullargspec(ii[1])), end=" : ")
+                print(ii[1].__doc__)    
+                
+        for ii in _rigesteredClassObject:
+            print(" ", ii, ": object, for getting more information help("+ii+")")
+    else:
+        func = inspect.getmembers(obj, predicate = inspect.ismethod)  
+        if len(func) == 0:
+            try:
+                inspect.getfullargspec(obj) # pass not support help()
+                print("Function method = ")    
+                print("parameter ", end="")
+                print(inspect.formatargspec(*inspect.getfullargspec(obj)),end=" : ")
+                print(obj.__doc__)                
+            except:
+                print("Not support help()")
+                pass
+        else:
+            print("Class method = ")
+            for ii in func:
+                if ii[0] == "__init__":
+                    continue
+
+                print("  ", end="")
+                print(ii[0], end="")
+                print(inspect.formatargspec(*inspect.getfullargspec(ii[1])), ":", ii[1].__doc__)
+    print("")
+        

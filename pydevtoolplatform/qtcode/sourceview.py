@@ -2,9 +2,6 @@ from PyQt5.QtWidgets import QWidget, QFileSystemModel, QHeaderView, QFileDialog,
 from PyQt5.QtGui import QPalette, QColor, QIcon
 from PyQt5.QtCore import QSize, Qt
 from PyQt5 import uic
-from console.console import *
-# console must be imported using * for executing def (functions) of console.py 
-
 from os.path import join
 from console import console
 from threading import Thread
@@ -144,13 +141,6 @@ class SourceView(QWidget, form_class):
                 
                 
     def _run_script(self):
-        try:
-            exec(self.plainTextEdit.toPlainText(), globals())        
-        except:  # (OverflowError, ValueError, SyntaxError, NameError):
-            import sys, traceback
-            info = sys.exc_info()
-            backtrace = traceback.format_exception(*info)
-            for line in backtrace:
-                sys.stderr.write(line)
+        console.cexec(self.plainTextEdit.toPlainText(), isfile = True)
 
     
