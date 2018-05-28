@@ -125,12 +125,18 @@ class TestView(QWidget, form_class):
         if suite.countTestCases() != 0:          
             report = TestResult()
             suite.run(report)
-            print(report)
+            
+
+            
             for success in report.success:
                 print("%s %d ms" %(success, report.executetime[success]))
-                
+                print(success._testMethodDoc)
+                print(success.shortDescription())                  
             for failures in report.failures:
                 print("%s %d ms" %(failures, report.executetime[failures[0]]))
+                print(failures[0]._testMethodDoc)
+                print(failures[0].shortDescription())              
+    
         else:
             """ there are not selected item """
             print("there are not selected item")

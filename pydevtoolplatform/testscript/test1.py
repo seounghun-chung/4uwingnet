@@ -10,9 +10,7 @@ class MyTestCase(TestCase):
         '''
         assert True
     def testTrue2(self):
-        '''
-        Always true
-        '''
+        '''Always true'''
         assert True
     def testFail(self):
         '''
