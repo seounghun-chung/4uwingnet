@@ -9,10 +9,8 @@ class MyTestCase(TestCase):
         Always true
         '''
         assert True
-    def testTrue2(self):
-        '''
-        Always true
-        '''
+    def testTrue2(self):s
+        '''Always true'''
         assert True
     def testFail(self):
         '''
@@ -24,7 +22,7 @@ class MyTestCase(TestCase):
         time.sleep(1)
         print("sleepaaaa...")
         time.sleep(1)
-        print("sleep...")        
+        print("sleep..."     )
         assert True
    
 if __name__ == '__main__':    

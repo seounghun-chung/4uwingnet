@@ -142,17 +142,17 @@ class TestView(QWidget, form_class):
             print("there are not selected item")
             logger.debug("there are not selected item")
 
-#        print(report.failures)
-#        print(report.skipped)
-        
-#        runner = unittest.TextTestRunner(verbosity = 2)
-#        
-#        if suite.countTestCases() != 0:
-#            runner.run(suite)
-#        else:
-#            """ there are not selected item """
-#            print("there are not selected item")
-       
+    def __extract_exceptiontestunit(self, testsuite):
+        """ extract error from testsuite discover was used"""
+        if type(testsuite._tests[0]) == unittest.suite.TestSuite:
+            return self.__extract_exceptiontestunit(testsuite._tests[0])
+        else:
+            for ii in testsuite._tests:
+                if (hasattr(ii,"_exception")):
+                    return False, ii._exception
+                else:
+                    return True, ""
+
     def _btnAdd_clicked(self):
         selectedIndex = self.treeView.selectedIndexes()
         selectedItems = [self.model.filePath(ii) for ii in selectedIndex]
@@ -167,12 +167,22 @@ class TestView(QWidget, form_class):
             else:
                 try:
                     suite = testloader.discover(dirname(ii), pattern = basename(ii))
+
+                    # is unittest script correct except error ?
+                    ret,out = self.__extract_exceptiontestunit(suite)
+                    if ret is False:
+                        raise ImportError(out)
+                    else:
+                        pass
+                        
                 except ImportError as e:
-                    sys.stderr.write("don't duplicated unittest althought there are in other folder")
+#                    logger.error(e)
+                    sys.stderr.write("%s"%e)
                     return
                     
                 testunits = list()
                 self.__extract_testunit(suite,testunits)
+                
                 for testname in testunits:
                     child = QStandardItem(str(testname))
                     child.setData(testname)
