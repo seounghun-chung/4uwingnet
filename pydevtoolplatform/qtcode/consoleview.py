@@ -15,11 +15,11 @@ qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"consoleview.ui"))[0]
 
 logger = logging.getLogger("consoleview")
-logger.setLevel(logging.INFO)
-file_handler = logging.FileHandler("console_%s.log"%(datetime.datetime.now().strftime("%Y-%m-%d")))
-formatter = logging.Formatter('%(asctime)s:%(name)s:%(levelname)s:%(message)s')
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
+#logger.setLevel(logging.INFO)
+#file_handler = logging.FileHandler("console_%s.log"%(datetime.datetime.now().strftime("%Y-%m-%d")))
+#formatter = logging.Formatter('%(asctime)s:%(name)s:%(levelname)s:%(message)s')
+#file_handler.setFormatter(formatter)
+#logger.addHandler(file_handler)
 
 class StdoutRedirect(QObject):
     printOccur = pyqtSignal(str, str, name="print")
@@ -46,7 +46,6 @@ class StdoutRedirect(QObject):
                 logger.warning(s)
             else:
                 pass
-        sys.stdout.flush()
         self.printOccur.emit(s, color)
 
 

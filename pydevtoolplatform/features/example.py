@@ -1,8 +1,7 @@
-from features.consoleconnect import ConsoleConnect
 from threading import *
 import time
 
-class Example(ConsoleConnect):
+class Example():
     _running = False
     def func1(self):
         print("func1")

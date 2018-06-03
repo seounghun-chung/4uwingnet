@@ -26,7 +26,7 @@ logger = logging.getLogger("console.console")
 
 # it will be allocated in mainview.py from calling ConnectPytQtSignalBothCommandWithGui
 _PyQtSignalConnect = None
-_rigesteredClassObject = dict() # using RegisterObjectInConsole
+_registeredClassObject = dict() # using RegisterObjectInConsole
 
 class PyQtSignalConnect(QObject):
     consoleview_clear = pyqtSignal()
@@ -38,14 +38,23 @@ class PyQtSignalConnect(QObject):
 
 def RegisterObjectInConsole(object, name):
     """ for using class object as CONSOLE api """
-    global _rigesteredClassObject
-    if (name in _rigesteredClassObject) is True:
+    global _registeredClassObject
+    if (name in _registeredClassObject) is True:
         raise RuntimeError("don't register duplicated name")
     else:
-        _rigesteredClassObject.update({name : object})
-        c = compile(name + " = _rigesteredClassObject['"+ name +"']",  "<string>", "single")
+        _registeredClassObject.update({name : object})
+        c = compile(name + " = _registeredClassObject['"+ name +"']",  "<string>", "single")
         exec(c, globals())
 
+def DeleteObjectInConsole(name):
+    global _registeredClassObject
+    if (name in _registeredClassObject) is True:
+        del _registeredClassObject[name]
+        c = compile("del " + name,  "<string>", "single")
+        exec(c, globals())
+    else:
+        raise RuntimeError("don't find object name")
+        
 def cexec(arg1, isfile = False):
     """ it is used in consoleview """
     try:
@@ -96,7 +105,7 @@ def help(obj = None):
                 out = "  %s%s : %s" %(ii[0], inspect.formatargspec(*inspect.getfullargspec(ii[1])), ii[1].__doc__)
                 print(out)
 
-        for ii in _rigesteredClassObject:
+        for ii in _registeredClassObject:
             print(" %s : object , for getting more information help(%s)" % (ii, ii))
     else:
         func = inspect.getmembers(obj, predicate = inspect.ismethod)  
