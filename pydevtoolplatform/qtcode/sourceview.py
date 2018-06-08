@@ -68,7 +68,9 @@ class SourceView(QWidget, form_class):
         self.fontComboBox.currentFontChanged.connect(lambda x : self.plainTextEdit.setFont(x))
         self.plainTextEdit.keyPressEvent = self._plainTextEdit_keyPressEvent            
         self.plainTextEdit.wheelEvent = self._plainTextEdit_wheelEvent            
-
+        self.plainTextEdit.setAcceptDrops(True)
+        self.plainTextEdit.dropEvent = lambda e : self._open_script(e.mimeData().urls()[0].toLocalFile())
+        
         self._PyQtSignalConnect.script_run.connect(lambda : self.pushButton_5.animateClick())
 
         # private variable
