@@ -12,6 +12,7 @@ qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"sourceview.ui"))[0]
 
 def ismodified(fn):
+    """ if code view was changed, ask which the file save """
     def decorator(self, *args, **kwargs):
         if self.modfiedstate is True:
             msgBox = QMessageBox()
@@ -25,13 +26,13 @@ def ismodified(fn):
                 ret = self._save_script()
                 if ret != "":
                     return fn(self, *args, **kwargs)
-                else:
+                else:   # fail to save file
                     return
-            elif ret == QMessageBox.Discard:
+            elif ret == QMessageBox.Discard:    # not save
                 return fn(self, *args, **kwargs)
-            else:
+            else:   # cancle
                 return
-        else:
+        else:   # not modified, so then don't ask which file is saved.
             return fn(self, *args, **kwargs)
     return decorator
 

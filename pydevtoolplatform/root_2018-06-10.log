@@ -1,0 +1,529 @@
+2018-06-10 19:09:50,221:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:09:50,268:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:10:17,552:consoleview:INFO:b'\x04\x00\x00\x00'
+2018-06-10 19:11:31,294:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:11:31,321:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:13:34,153:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:13:34,182:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:13:39,666:consoleview:INFO:========== Console Command List ============
+2018-06-10 19:13:39,676:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 19:13:39,688:consoleview:INFO:  run() :  run script 
+2018-06-10 19:13:39,691:consoleview:INFO:  DeleteObjectInConsole(name) : None
+2018-06-10 19:13:39,695:consoleview:INFO: exampleview : object , for getting more information help(exampleview)
+2018-06-10 19:13:39,699:consoleview:INFO: example : object , for getting more information help(example)
+2018-06-10 19:13:39,701:consoleview:INFO: example2 : object , for getting more information help(example2)
+2018-06-10 19:27:00,972:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:27:01,003:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:27:03,907:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:27:03,921:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 65, in cexec
+    exec(c, globals())
+
+2018-06-10 19:27:03,933:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 19:27:03,936:consoleview:WARNING:NameError: name 'a' is not defined
+
+2018-06-10 19:27:06,730:consoleview:INFO:========== Console Command List ============
+2018-06-10 19:27:06,733:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 19:27:06,735:consoleview:INFO:  run() :  run script 
+2018-06-10 19:27:06,737:consoleview:INFO:  DeleteObjectInConsole(name) : None
+2018-06-10 19:27:06,741:consoleview:INFO: exampleview : object , for getting more information help(exampleview)
+2018-06-10 19:27:06,745:consoleview:INFO: example : object , for getting more information help(example)
+2018-06-10 19:27:06,749:consoleview:INFO: example2 : object , for getting more information help(example2)
+2018-06-10 19:28:48,908:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:28:48,936:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:29:34,433:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:29:34,463:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:29:38,088:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:29:38,099:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 65, in cexec
+    exec(c, globals())
+
+2018-06-10 19:29:38,112:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 19:29:38,115:consoleview:WARNING:NameError: name 'Example' is not defined
+
+2018-06-10 19:29:58,026:consoleview:INFO:<features.example.Example object at 0x035CEBF0>
+2018-06-10 19:29:59,975:consoleview:INFO:Class method = 
+2018-06-10 19:29:59,979:consoleview:INFO:  _thread(self) : None
+2018-06-10 19:29:59,982:consoleview:INFO:  func1(self) : None
+2018-06-10 19:29:59,984:consoleview:INFO:  run(self) : run thread
+2018-06-10 19:29:59,988:consoleview:INFO:  stop(self) :  stop thread 
+2018-06-10 19:31:18,938:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:31:18,940:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 65, in cexec
+    exec(c, globals())
+
+2018-06-10 19:31:18,942:consoleview:WARNING:  File "<string>", line 9, in <module>
+
+2018-06-10 19:31:18,945:consoleview:WARNING:NameError: name 'func1' is not defined
+
+2018-06-10 19:31:38,240:consoleview:INFO:func1
+2018-06-10 19:33:11,314:consoleview:INFO:func1
+2018-06-10 19:36:34,454:consoleview:INFO:func1
+2018-06-10 19:36:34,457:consoleview:INFO:func2
+2018-06-10 19:36:39,110:consoleview:INFO:func1
+2018-06-10 19:36:39,114:consoleview:INFO:func2
+2018-06-10 19:36:46,657:consoleview:INFO:{'__name__': 'console.console', '__doc__': '\n    console.py is used to connect GUI and FEATURE\n    It provides API for controlling GUI / FEATURE\n    Never uses multiple class because API function is only connected to\n    one class object (e.g. func1() is only callble on the one of class objects.\n    There no way of multiple class objects.\n        >>> a = Example(1)\n        >>> b = Example(2)\n        >>> a.func1()   # ok\n        1\n        >>> b.func1()   # ok\n        2\n        >>> func1()     # only can controll a.func1()\n        1\n', '__package__': 'console', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x031428B0>, '__spec__': ModuleSpec(name='console.console', loader=<_frozen_importlib_external.SourceFileLoader object at 0x031428B0>, origin='C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\console.py'), '__file__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\console.py', '__cached__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\__pycache__\\console.cpython-36.pyc', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'BufferError': <class 'BufferError'>, 'MemoryError': <class 'MemoryError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2017 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object., '_': None}, 'QObject': <class 'PyQt5.QtCore.QObject'>, 'pyqtSignal': <class 'PyQt5.QtCore.pyqtSignal'>, 'Qt': <class 'PyQt5.QtCore.Qt'>, 'QEventLoop': <class 'PyQt5.QtCore.QEventLoop'>, 'os': <module 'os' from 'C:\\Python36-32\\lib\\os.py'>, 'traceback': <module 'traceback' from 'C:\\Python36-32\\lib\\traceback.py'>, 'sys': <module 'sys' (built-in)>, 'inspect': <module 'inspect' from 'C:\\Python36-32\\lib\\inspect.py'>, 'logging': <module 'logging' from 'C:\\Python36-32\\lib\\logging\\__init__.py'>, 'logger': <Logger console.console (DEBUG)>, '_PyQtSignalConnect': <console.console.PyQtSignalConnect object at 0x03439F80>, '_registeredClassObject': {'exampleview': <qtcode.exampleview.ExampleView object at 0x0347CE90>, 'example': <features.example.Example object at 0x035C8270>, 'example2': <features.example2.Example2 object at 0x035C82B0>}, 'PyQtSignalConnect': <class 'console.console.PyQtSignalConnect'>, 'RegisterObjectInConsole': <function RegisterObjectInConsole at 0x031DC2B8>, 'DeleteObjectInConsole': <function DeleteObjectInConsole at 0x03369030>, 'cexec': <function cexec at 0x033B5B70>, 'ConnectPytQtSignalBothCommandWithGui': <function ConnectPytQtSignalBothCommandWithGui at 0x033B5BB8>, 'GetPyQtSignalFromConsole': <function GetPyQtSignalFromConsole at 0x033B5C00>, 'clear': <function clear at 0x033B5C48>, 'run': <function run at 0x033B5C90>, 'help': <function help at 0x033B5CD8>, 'exampleview': <qtcode.exampleview.ExampleView object at 0x0347CE90>, 'example': <features.example.Example object at 0x00551A30>, 'example2': <features.example2.Example2 object at 0x00551A50>, 'Example': <class 'features.example.Example'>, 'a': <features.example.Example object at 0x035CEBF0>, 'Example2': <class 'features.example2.Example2'>}
+2018-06-10 19:36:58,641:consoleview:INFO:func1
+2018-06-10 19:36:58,646:consoleview:INFO:func2
+2018-06-10 19:36:59,943:consoleview:INFO:func1
+2018-06-10 19:36:59,947:consoleview:INFO:func2
+2018-06-10 19:37:00,502:consoleview:INFO:func1
+2018-06-10 19:37:00,506:consoleview:INFO:func2
+2018-06-10 19:37:12,919:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:37:12,946:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:37:18,113:consoleview:INFO:test
+2018-06-10 19:37:18,119:consoleview:INFO:func1
+2018-06-10 19:37:18,124:consoleview:INFO:func2
+2018-06-10 19:37:20,349:consoleview:INFO:func1
+2018-06-10 19:37:20,350:consoleview:INFO:func2
+2018-06-10 19:43:39,686:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:43:39,712:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:43:45,471:consoleview:INFO:add1
+2018-06-10 19:43:45,477:consoleview:INFO:add2
+2018-06-10 19:43:45,478:consoleview:INFO:ok
+2018-06-10 19:43:45,480:consoleview:INFO:func1
+2018-06-10 19:43:45,482:consoleview:INFO:func2
+2018-06-10 19:44:01,815:consoleview:INFO:<features.example.Example object at 0x03325F10>
+2018-06-10 19:44:13,447:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:44:13,473:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:44:29,677:consoleview:INFO:<features.example.Example object at 0x03F981F0>
+2018-06-10 19:44:29,694:consoleview:INFO:add1
+2018-06-10 19:44:29,696:consoleview:INFO:add2
+2018-06-10 19:44:29,698:consoleview:INFO:ok
+2018-06-10 19:44:29,699:consoleview:INFO:func1
+2018-06-10 19:44:29,702:consoleview:INFO:func2
+2018-06-10 19:44:29,703:consoleview:INFO:<features.example.Example object at 0x03FAA3B0>
+2018-06-10 19:44:51,343:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:44:51,369:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:44:59,018:consoleview:INFO:{'__name__': 'console.directcall', '__doc__': None, '__package__': 'console', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x035A6FF0>, '__spec__': ModuleSpec(name='console.directcall', loader=<_frozen_importlib_external.SourceFileLoader object at 0x035A6FF0>, origin='C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\directcall.py'), '__file__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\directcall.py', '__cached__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\__pycache__\\directcall.cpython-36.pyc', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'BufferError': <class 'BufferError'>, 'MemoryError': <class 'MemoryError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2017 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}, 'Example': <class 'features.example.Example'>, 'Example2': <class 'features.example2.Example2'>, 'isExistGlobalVariable': <function <lambda> at 0x03438618>}
+2018-06-10 19:44:59,066:consoleview:INFO:add1
+2018-06-10 19:44:59,069:consoleview:INFO:add2
+2018-06-10 19:44:59,073:consoleview:INFO:ok
+2018-06-10 19:44:59,076:consoleview:INFO:func1
+2018-06-10 19:44:59,078:consoleview:INFO:func2
+2018-06-10 19:45:41,393:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:45:41,418:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:46:29,556:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:46:29,582:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:46:37,413:consoleview:INFO:<features.example.Example object at 0x03896790>
+2018-06-10 19:46:41,325:consoleview:INFO:<features.example.Example object at 0x03896790>
+2018-06-10 19:46:57,571:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:46:57,597:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:47:02,163:consoleview:INFO:<features.example.Example object at 0x03439310>
+2018-06-10 19:47:09,320:consoleview:INFO:<features.example2.Example2 object at 0x03439350>
+2018-06-10 19:47:18,925:consoleview:INFO:func1
+2018-06-10 19:47:18,927:consoleview:INFO:func2
+2018-06-10 19:47:21,111:consoleview:INFO:func1
+2018-06-10 19:47:21,112:consoleview:INFO:func2
+2018-06-10 19:47:21,703:consoleview:INFO:func1
+2018-06-10 19:47:21,704:consoleview:INFO:func2
+2018-06-10 19:47:27,707:consoleview:INFO:func1
+2018-06-10 19:47:27,709:consoleview:INFO:func2
+2018-06-10 19:47:27,921:consoleview:INFO:func1
+2018-06-10 19:47:27,923:consoleview:INFO:func2
+2018-06-10 19:47:28,110:consoleview:INFO:func1
+2018-06-10 19:47:28,112:consoleview:INFO:func2
+2018-06-10 19:47:29,176:consoleview:INFO:func1
+2018-06-10 19:47:29,178:consoleview:INFO:func2
+2018-06-10 19:51:06,874:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:51:06,900:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:53:08,321:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:53:08,345:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:53:11,846:consoleview:INFO:<features.example.Example object at 0x03B99A70>
+2018-06-10 19:53:15,486:consoleview:INFO:func1
+2018-06-10 19:53:22,471:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:53:22,474:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 65, in cexec
+    exec(c, globals())
+
+2018-06-10 19:53:22,482:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 19:53:22,483:consoleview:WARNING:ModuleNotFoundError: No module named 'console.directcall'
+
+2018-06-10 19:53:33,610:consoleview:INFO:func1
+2018-06-10 19:53:33,611:consoleview:INFO:func2
+2018-06-10 19:55:56,982:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:55:57,012:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:55:59,704:consoleview:INFO:func1
+2018-06-10 19:56:01,488:consoleview:INFO:func1
+2018-06-10 19:56:43,369:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:56:43,395:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:56:46,338:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:56:46,349:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 65, in cexec
+    exec(c, globals())
+
+2018-06-10 19:56:46,357:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 19:56:46,359:consoleview:WARNING:NameError: name 'example' is not defined
+
+2018-06-10 19:57:05,335:consoleview:INFO:<features.example.Example object at 0x03731090>
+2018-06-10 19:57:09,283:consoleview:INFO:func1
+2018-06-10 19:57:10,099:consoleview:INFO:func1
+2018-06-10 19:57:45,917:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 19:57:45,944:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 19:57:51,371:consoleview:INFO:<features.example.Example object at 0x03011D90>
+2018-06-10 19:57:54,641:consoleview:INFO:========== Console Command List ============
+2018-06-10 19:57:54,645:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 19:57:54,648:consoleview:INFO:  run() :  run script 
+2018-06-10 19:57:54,650:consoleview:INFO:  DeleteObjectInConsole(name) : None
+2018-06-10 19:57:59,123:consoleview:INFO:Class method = 
+2018-06-10 19:57:59,126:consoleview:INFO:  _thread(self) : None
+2018-06-10 19:57:59,128:consoleview:INFO:  func1(self) : None
+2018-06-10 19:57:59,129:consoleview:INFO:  run(self) : run thread
+2018-06-10 19:57:59,131:consoleview:INFO:  stop(self) :  stop thread 
+2018-06-10 19:58:01,602:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:58:01,606:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 66, in cexec
+    exec(c, globals())
+
+2018-06-10 19:58:01,613:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 19:58:01,614:consoleview:WARNING:  File "C:\Python36-32\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+
+2018-06-10 19:58:01,618:consoleview:WARNING:SystemExit: None
+
+2018-06-10 19:58:02,764:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 19:58:02,766:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 66, in cexec
+    exec(c, globals())
+
+2018-06-10 19:58:02,768:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 19:58:02,769:consoleview:WARNING:  File "C:\Python36-32\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+
+2018-06-10 19:58:02,771:consoleview:WARNING:SystemExit: None
+
+2018-06-10 20:00:48,191:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:00:48,218:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:00:51,409:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:00:51,420:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:00:51,427:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:00:51,429:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 71, in help
+    RegisterObjectInConsole.__doc__ = "private"
+
+2018-06-10 20:00:51,434:consoleview:WARNING:NameError: name 'RegisterObjectInConsole' is not defined
+
+2018-06-10 20:01:08,497:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:01:08,524:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:01:10,873:consoleview:INFO:========== Console Command List ============
+2018-06-10 20:01:10,882:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 20:01:10,886:consoleview:INFO:  run() :  run script 
+2018-06-10 20:01:17,958:consoleview:INFO:<features.example.Example object at 0x03720DF0>
+2018-06-10 20:01:20,759:consoleview:INFO:Class method = 
+2018-06-10 20:01:20,762:consoleview:INFO:  _thread(self) : None
+2018-06-10 20:01:20,765:consoleview:INFO:  func1(self) : None
+2018-06-10 20:01:20,768:consoleview:INFO:  run(self) : run thread
+2018-06-10 20:01:20,770:consoleview:INFO:  stop(self) :  stop thread 
+2018-06-10 20:01:25,717:consoleview:INFO:{'__name__': 'console.console', '__doc__': '\n    console.py is used to connect GUI and FEATURE\n    It provides API for controlling GUI / FEATURE\n    Never uses multiple class because API function is only connected to\n    one class object (e.g. func1() is only callble on the one of class objects.\n    There no way of multiple class objects.\n        >>> a = Example(1)\n        >>> b = Example(2)\n        >>> a.func1()   # ok\n        1\n        >>> b.func1()   # ok\n        2\n        >>> func1()     # only can controll a.func1()\n        1\n', '__package__': 'console', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x034F2950>, '__spec__': ModuleSpec(name='console.console', loader=<_frozen_importlib_external.SourceFileLoader object at 0x034F2950>, origin='C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\console.py'), '__file__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\console.py', '__cached__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\__pycache__\\console.cpython-36.pyc', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'BufferError': <class 'BufferError'>, 'MemoryError': <class 'MemoryError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2017 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object., '_': None}, 'QObject': <class 'PyQt5.QtCore.QObject'>, 'pyqtSignal': <class 'PyQt5.QtCore.pyqtSignal'>, 'Qt': <class 'PyQt5.QtCore.Qt'>, 'QEventLoop': <class 'PyQt5.QtCore.QEventLoop'>, 'Example': <class 'features.example.Example'>, 'Example2': <class 'features.example2.Example2'>, 'isExistGlobalVariable': <function <lambda> at 0x036CD540>, 'example': <features.example.Example object at 0x03720DF0>, 'example2': <features.example2.Example2 object at 0x03720E90>, 'os': <module 'os' from 'C:\\Python36-32\\lib\\os.py'>, 'traceback': <module 'traceback' from 'C:\\Python36-32\\lib\\traceback.py'>, 'sys': <module 'sys' (built-in)>, 'inspect': <module 'inspect' from 'C:\\Python36-32\\lib\\inspect.py'>, 'logging': <module 'logging' from 'C:\\Python36-32\\lib\\logging\\__init__.py'>, 'logger': <Logger console.console (DEBUG)>, '_PyQtSignalConnect': <console.console.PyQtSignalConnect object at 0x037EAE90>, 'PyQtSignalConnect': <class 'console.console.PyQtSignalConnect'>, 'cexec': <function cexec at 0x036CD588>, 'ConnectPytQtSignalBothCommandWithGui': <function ConnectPytQtSignalBothCommandWithGui at 0x037371E0>, 'GetPyQtSignalFromConsole': <function GetPyQtSignalFromConsole at 0x03764D20>, 'clear': <function clear at 0x03764D68>, 'run': <function run at 0x03764DB0>, 'help': <function help at 0x03764DF8>}
+2018-06-10 20:01:39,274:consoleview:INFO:{'__name__': 'console.console', '__doc__': '\n    console.py is used to connect GUI and FEATURE\n    It provides API for controlling GUI / FEATURE\n    Never uses multiple class because API function is only connected to\n    one class object (e.g. func1() is only callble on the one of class objects.\n    There no way of multiple class objects.\n        >>> a = Example(1)\n        >>> b = Example(2)\n        >>> a.func1()   # ok\n        1\n        >>> b.func1()   # ok\n        2\n        >>> func1()     # only can controll a.func1()\n        1\n', '__package__': 'console', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x034F2950>, '__spec__': ModuleSpec(name='console.console', loader=<_frozen_importlib_external.SourceFileLoader object at 0x034F2950>, origin='C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\console.py'), '__file__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\console.py', '__cached__': 'C:\\Users\\seoung\\workspace\\pytool\\pydevtoolplatform\\console\\__pycache__\\console.cpython-36.pyc', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'WindowsError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'BufferError': <class 'BufferError'>, 'MemoryError': <class 'MemoryError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-Z plus Return to exit, 'exit': Use exit() or Ctrl-Z plus Return to exit, 'copyright': Copyright (c) 2001-2017 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object., '_': None}, 'QObject': <class 'PyQt5.QtCore.QObject'>, 'pyqtSignal': <class 'PyQt5.QtCore.pyqtSignal'>, 'Qt': <class 'PyQt5.QtCore.Qt'>, 'QEventLoop': <class 'PyQt5.QtCore.QEventLoop'>, 'Example': <class 'features.example.Example'>, 'Example2': <class 'features.example2.Example2'>, 'isExistGlobalVariable': <function <lambda> at 0x036CD540>, 'example': <features.example.Example object at 0x03720DF0>, 'example2': <features.example2.Example2 object at 0x03720E90>, 'os': <module 'os' from 'C:\\Python36-32\\lib\\os.py'>, 'traceback': <module 'traceback' from 'C:\\Python36-32\\lib\\traceback.py'>, 'sys': <module 'sys' (built-in)>, 'inspect': <module 'inspect' from 'C:\\Python36-32\\lib\\inspect.py'>, 'logging': <module 'logging' from 'C:\\Python36-32\\lib\\logging\\__init__.py'>, 'logger': <Logger console.console (DEBUG)>, '_PyQtSignalConnect': <console.console.PyQtSignalConnect object at 0x037EAE90>, 'PyQtSignalConnect': <class 'console.console.PyQtSignalConnect'>, 'cexec': <function cexec at 0x036CD588>, 'ConnectPytQtSignalBothCommandWithGui': <function ConnectPytQtSignalBothCommandWithGui at 0x037371E0>, 'GetPyQtSignalFromConsole': <function GetPyQtSignalFromConsole at 0x03764D20>, 'clear': <function clear at 0x03764D68>, 'run': <function run at 0x03764DB0>, 'help': <function help at 0x03764DF8>}
+2018-06-10 20:02:37,672:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:02:37,676:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:02:37,680:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:02:37,683:consoleview:WARNING:NameError: name 'features' is not defined
+
+2018-06-10 20:02:52,454:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:02:52,458:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:02:52,460:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:02:52,463:consoleview:WARNING:NameError: name 'features' is not defined
+
+2018-06-10 20:03:32,666:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:03:32,691:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:03:35,072:consoleview:INFO:========== Console Command List ============
+2018-06-10 20:03:35,083:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 20:03:35,088:consoleview:INFO:  run() :  run script 
+2018-06-10 20:03:35,090:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:03:35,092:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:03:35,099:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:03:35,102:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 88, in help
+    print(dir(features.alloc))
+
+2018-06-10 20:03:35,105:consoleview:WARNING:NameError: name 'features' is not defined
+
+2018-06-10 20:03:55,785:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:03:55,810:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:03:57,699:consoleview:INFO:========== Console Command List ============
+2018-06-10 20:03:57,711:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 20:03:57,715:consoleview:INFO:  run() :  run script 
+2018-06-10 20:03:57,717:consoleview:INFO:['func', 'ii', 'obj', 'out']
+2018-06-10 20:04:53,282:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:04:53,285:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:04:53,291:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:04:53,294:consoleview:WARNING:TypeError: getattr expected at least 2 arguments, got 0
+
+2018-06-10 20:04:58,012:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:04:58,014:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:04:58,016:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:04:58,017:consoleview:WARNING:NameError: name 'features' is not defined
+
+2018-06-10 20:06:07,452:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:06:07,477:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:06:09,915:consoleview:INFO:========== Console Command List ============
+2018-06-10 20:06:09,927:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 20:06:09,933:consoleview:INFO:  run() :  run script 
+2018-06-10 20:06:09,936:consoleview:INFO:['Example', 'Example2', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'example', 'example2', 'isExistGlobalVariable']
+2018-06-10 20:06:27,204:consoleview:INFO:['Example', 'Example2', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'example', 'example2', 'isExistGlobalVariable']
+2018-06-10 20:08:22,314:consoleview:INFO:<features.example.Example object at 0x03670DB0>
+2018-06-10 20:08:24,293:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-10 20:08:24,297:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 46, in cexec
+    exec(c, globals())
+
+2018-06-10 20:08:24,304:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-10 20:08:24,307:consoleview:WARNING:NameError: name 'example' is not defined
+
+2018-06-10 20:08:56,530:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:08:56,555:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:09:00,687:consoleview:INFO:['ConnectPytQtSignalBothCommandWithGui', 'Example', 'Example2', 'GetPyQtSignalFromConsole', 'PyQtSignalConnect', 'QEventLoop', 'QObject', 'Qt', '_PyQtSignalConnect', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'cexec', 'clear', 'example', 'example2', 'help', 'inspect', 'isExistGlobalVariable', 'logger', 'logging', 'os', 'pyqtSignal', 'run', 'sys', 'traceback']
+2018-06-10 20:09:28,561:consoleview:INFO:False
+2018-06-10 20:09:32,989:consoleview:INFO:True
+2018-06-10 20:09:57,570:consoleview:INFO:False
+2018-06-10 20:10:00,264:consoleview:INFO:False
+2018-06-10 20:10:06,545:consoleview:INFO:True
+2018-06-10 20:11:42,589:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:11:42,614:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:11:45,089:consoleview:INFO:========== Console Command List ============
+2018-06-10 20:11:45,099:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 20:11:45,105:consoleview:INFO:  run() :  run script 
+2018-06-10 20:11:45,107:consoleview:INFO: example : object , for getting more information help(example)
+2018-06-10 20:11:45,113:consoleview:INFO: example2 : object , for getting more information help(example2)
+2018-06-10 20:11:48,343:consoleview:INFO:Class method = 
+2018-06-10 20:11:48,346:consoleview:INFO:  _thread(self) : None
+2018-06-10 20:11:48,349:consoleview:INFO:  func1(self) : None
+2018-06-10 20:11:48,352:consoleview:INFO:  run(self) : run thread
+2018-06-10 20:11:48,354:consoleview:INFO:  stop(self) :  stop thread 
+2018-06-10 20:11:51,939:consoleview:INFO:<features.example.Example object at 0x03420E30>
+2018-06-10 20:13:53,272:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:13:53,296:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:13:58,515:consoleview:INFO:func1
+2018-06-10 20:13:58,522:consoleview:INFO:func2
+2018-06-10 20:14:04,112:consoleview:INFO:func1
+2018-06-10 20:14:04,113:consoleview:INFO:func2
+2018-06-10 20:14:09,881:consoleview:INFO:<features.example.Example object at 0x0391B330>
+2018-06-10 20:14:09,919:consoleview:INFO:func1
+2018-06-10 20:14:09,921:consoleview:INFO:func2
+2018-06-10 20:14:12,894:consoleview:INFO:<features.example.Example object at 0x0391B330>
+2018-06-10 20:18:52,578:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:18:52,608:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:18:55,713:consoleview:INFO:========== Console Command List ============
+2018-06-10 20:18:55,725:consoleview:INFO:  clear() :  clear console view 
+2018-06-10 20:18:55,729:consoleview:INFO:  run() :  run script 
+2018-06-10 20:18:55,731:consoleview:INFO:  settext(s) : None
+2018-06-10 20:18:55,734:consoleview:INFO: example : object , for getting more information help(example)
+2018-06-10 20:18:55,739:consoleview:INFO: example2 : object , for getting more information help(example2)
+2018-06-10 20:21:07,953:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:21:07,978:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:28:21,566:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:28:21,591:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:28:23,801:consoleview:INFO:heelo
+2018-06-10 20:28:23,814:consoleview:INFO:True
+2018-06-10 20:28:28,648:consoleview:INFO:heelo
+2018-06-10 20:28:28,651:consoleview:INFO:True
+2018-06-10 20:28:29,918:consoleview:INFO:heelo
+2018-06-10 20:28:29,923:consoleview:INFO:True
+2018-06-10 20:28:31,690:consoleview:INFO:heelo
+2018-06-10 20:28:31,691:consoleview:INFO:True
+2018-06-10 20:28:33,249:consoleview:INFO:heelo
+2018-06-10 20:28:33,253:consoleview:INFO:True
+2018-06-10 20:28:34,971:consoleview:INFO:heelo
+2018-06-10 20:28:34,974:consoleview:INFO:True
+2018-06-10 20:28:37,388:consoleview:INFO:heelo
+2018-06-10 20:28:37,393:consoleview:INFO:True
+2018-06-10 20:28:44,850:consoleview:INFO:heelo
+2018-06-10 20:28:44,851:consoleview:INFO:True
+2018-06-10 20:28:45,299:consoleview:INFO:heelo
+2018-06-10 20:28:45,303:consoleview:INFO:True
+2018-06-10 20:32:18,992:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:32:19,022:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:34:15,233:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:34:15,257:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:36:57,887:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:36:57,911:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:39:20,190:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:39:20,215:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:40:36,133:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:40:36,159:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:41:20,786:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:41:20,812:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:41:34,968:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:41:34,993:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:41:42,020:consoleview:INFO:None
+2018-06-10 20:41:54,290:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:41:54,316:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:42:12,545:consoleview:INFO:None
+2018-06-10 20:42:57,640:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:42:57,664:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:47:15,835:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:47:15,865:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:47:19,666:consoleview:INFO:True
+2018-06-10 20:47:21,861:consoleview:INFO:True
+2018-06-10 20:47:23,269:consoleview:INFO:True
+2018-06-10 20:47:23,627:consoleview:INFO:True
+2018-06-10 20:47:24,111:consoleview:INFO:True
+2018-06-10 20:47:24,812:consoleview:INFO:True
+2018-06-10 20:47:24,830:consoleview:INFO:True
+2018-06-10 20:47:24,847:consoleview:INFO:False
+2018-06-10 20:47:27,926:consoleview:INFO:True
+2018-06-10 20:47:27,929:consoleview:INFO:True
+2018-06-10 20:47:27,931:consoleview:INFO:False
+2018-06-10 20:47:30,222:consoleview:INFO:True
+2018-06-10 20:47:30,226:consoleview:INFO:True
+2018-06-10 20:47:30,228:consoleview:INFO:False
+2018-06-10 20:47:31,805:consoleview:INFO:True
+2018-06-10 20:47:31,821:consoleview:INFO:True
+2018-06-10 20:47:31,831:consoleview:INFO:False
+2018-06-10 20:47:34,114:consoleview:INFO:True
+2018-06-10 20:48:11,233:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:48:11,257:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:48:13,350:consoleview:INFO:True
+2018-06-10 20:48:14,801:consoleview:INFO:True
+2018-06-10 20:48:14,803:consoleview:INFO:True
+2018-06-10 20:48:15,786:consoleview:INFO:True
+2018-06-10 20:48:15,788:consoleview:INFO:True
+2018-06-10 20:48:16,402:consoleview:INFO:True
+2018-06-10 20:48:16,404:consoleview:INFO:True
+2018-06-10 20:48:17,427:consoleview:INFO:True
+2018-06-10 20:48:17,439:consoleview:INFO:True
+2018-06-10 20:48:17,455:consoleview:INFO:False
+2018-06-10 20:48:43,573:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:48:43,598:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:48:46,064:consoleview:INFO:1
+2018-06-10 20:48:46,072:consoleview:INFO:True
+2018-06-10 20:48:46,076:consoleview:INFO:2
+2018-06-10 20:48:46,082:consoleview:INFO:True
+2018-06-10 20:48:46,097:consoleview:INFO:False
+2018-06-10 20:49:00,253:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:49:00,278:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:49:02,860:consoleview:INFO:1
+2018-06-10 20:49:02,874:consoleview:INFO:True
+2018-06-10 20:49:02,885:consoleview:INFO:2
+2018-06-10 20:49:02,891:consoleview:INFO:True
+2018-06-10 20:49:02,896:consoleview:INFO:False
+2018-06-10 20:49:02,900:consoleview:INFO:3
+2018-06-10 20:50:58,569:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:50:58,594:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:51:00,908:consoleview:INFO:True
+2018-06-10 20:51:00,927:consoleview:INFO:True
+2018-06-10 20:51:00,934:consoleview:INFO:False
+2018-06-10 20:51:02,183:consoleview:INFO:True
+2018-06-10 20:51:11,796:consoleview:INFO:True
+2018-06-10 20:51:11,801:consoleview:INFO:True
+2018-06-10 20:51:11,805:consoleview:INFO:False
+2018-06-10 20:51:13,492:consoleview:INFO:True
+2018-06-10 20:51:13,497:consoleview:INFO:True
+2018-06-10 20:51:13,499:consoleview:INFO:False
+2018-06-10 20:52:24,984:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:52:25,009:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:52:34,950:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:52:34,974:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:52:56,378:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:52:56,403:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:53:57,867:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:53:57,893:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:54:31,252:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 20:54:31,276:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 20:54:38,897:consoleview:INFO:func1
+2018-06-10 20:54:38,916:consoleview:INFO:func2
+2018-06-10 20:54:51,584:consoleview:INFO:func1
+2018-06-10 20:54:51,585:consoleview:INFO:func2
+2018-06-10 20:54:51,586:consoleview:INFO:func1
+2018-06-10 21:04:02,261:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 21:04:02,286:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 21:04:32,404:consoleview:INFO:0
+2018-06-10 21:04:32,720:consoleview:INFO:0
+2018-06-10 21:04:32,724:consoleview:INFO:1
+2018-06-10 21:04:33,026:consoleview:INFO:1
+2018-06-10 21:04:33,028:consoleview:INFO:2
+2018-06-10 21:04:33,332:consoleview:INFO:2
+2018-06-10 21:04:33,333:consoleview:INFO:3
+2018-06-10 21:04:33,635:consoleview:INFO:3
+2018-06-10 21:04:33,637:consoleview:INFO:4
+2018-06-10 21:04:33,939:consoleview:INFO:4
+2018-06-10 21:04:33,940:consoleview:INFO:5
+2018-06-10 21:04:34,243:consoleview:INFO:5
+2018-06-10 21:04:34,245:consoleview:INFO:6
+2018-06-10 21:04:34,547:consoleview:INFO:6
+2018-06-10 21:04:34,549:consoleview:INFO:7
+2018-06-10 21:04:34,852:consoleview:INFO:7
+2018-06-10 21:04:34,856:consoleview:INFO:8
+2018-06-10 21:04:35,160:consoleview:INFO:8
+2018-06-10 21:04:35,164:consoleview:INFO:9
+2018-06-10 21:04:35,469:consoleview:INFO:9
+2018-06-10 21:05:03,559:qtcode.testview:DEBUG:testFail (test4.MyTestCase) is added
+2018-06-10 21:05:03,559:qtcode.testview:DEBUG:testFail2 (test4.MyTestCase) is added
+2018-06-10 21:05:03,559:qtcode.testview:DEBUG:testFail3 (test4.MyTestCase) is added
+2018-06-10 21:05:03,559:qtcode.testview:DEBUG:testTrue (test4.MyTestCase) is added
+2018-06-10 21:05:03,560:qtcode.testview:DEBUG:testTrue2 (test4.MyTestCase) is added
