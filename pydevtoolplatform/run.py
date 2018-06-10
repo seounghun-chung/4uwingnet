@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5 import QtGui, QtCore
 from qtcode.sourceview import SourceView
 from qtcode.mainview import MainView
+from features.alloc import *
 
 import logging
 import datetime

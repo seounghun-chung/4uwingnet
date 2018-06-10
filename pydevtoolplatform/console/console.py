@@ -1,20 +1,11 @@
 """
     console.py is used to connect GUI and FEATURE
     It provides API for controlling GUI / FEATURE
-    Never uses multiple class because API function is only connected to
-    one class object (e.g. func1() is only callble on the one of class objects.
-    There no way of multiple class objects.
-        >>> a = Example(1)
-        >>> b = Example(2)
-        >>> a.func1()   # ok
-        1
-        >>> b.func1()   # ok
-        2
-        >>> func1()     # only can controll a.func1()
-        1
+    It can used class object through from features.alloc import *
 """
 
 from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop    
+from features.alloc import *
 
 import os
 import traceback
@@ -26,7 +17,6 @@ logger = logging.getLogger("console.console")
 
 # it will be allocated in mainview.py from calling ConnectPytQtSignalBothCommandWithGui
 _PyQtSignalConnect = None
-_registeredClassObject = dict() # using RegisterObjectInConsole
 
 class PyQtSignalConnect(QObject):
     consoleview_clear = pyqtSignal()
@@ -36,25 +26,6 @@ class PyQtSignalConnect(QObject):
     def __init__(self, *param):
         QObject.__init__(self, None)
 
-def RegisterObjectInConsole(object, name):
-    """ for using class object as CONSOLE api """
-    global _registeredClassObject
-    if (name in _registeredClassObject) is True:
-        raise RuntimeError("don't register duplicated name")
-    else:
-        _registeredClassObject.update({name : object})
-        c = compile(name + " = _registeredClassObject['"+ name +"']",  "<string>", "single")
-        exec(c, globals())
-
-def DeleteObjectInConsole(name):
-    global _registeredClassObject
-    if (name in _registeredClassObject) is True:
-        del _registeredClassObject[name]
-        c = compile("del " + name,  "<string>", "single")
-        exec(c, globals())
-    else:
-        raise RuntimeError("don't find object name")
-        
 def cexec(arg1, isfile = False):
     """ it is used in consoleview """
     try:
@@ -78,6 +49,9 @@ def GetPyQtSignalFromConsole():
     """ GUI components will connected it with here """    
     return _PyQtSignalConnect
 
+def settext(s):
+    _PyQtSignalConnect.exampleview.emit(s)
+    
 def clear():
     """ clear console view """
     _PyQtSignalConnect.consoleview_clear.emit()
@@ -87,7 +61,7 @@ def run():
     _PyQtSignalConnect.script_run.emit()
 
 def help(obj = None):
-    RegisterObjectInConsole.__doc__ = "private"
+#    RegisterObjectInConsole.__doc__ = "private"
     ConnectPytQtSignalBothCommandWithGui.__doc__ = "private"
     GetPyQtSignalFromConsole.__doc__ = "private"    
     cexec.__doc__ = "private"
@@ -105,7 +79,7 @@ def help(obj = None):
                 out = "  %s%s : %s" %(ii[0], inspect.formatargspec(*inspect.getfullargspec(ii[1])), ii[1].__doc__)
                 print(out)
 
-        for ii in _registeredClassObject:
+        for ii in listOfAllocatedClassObject:
             print(" %s : object , for getting more information help(%s)" % (ii, ii))
     else:
         func = inspect.getmembers(obj, predicate = inspect.ismethod)  

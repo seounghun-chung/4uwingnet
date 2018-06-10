@@ -11,12 +11,39 @@ import os
 qtdesignpath = "./qtdesign"
 form_class = uic.loadUiType(join(qtdesignpath,"sourceview.ui"))[0]
 
+def ismodified(fn):
+    def decorator(self, *args, **kwargs):
+        if self.modfiedstate is True:
+            msgBox = QMessageBox()
+            msgBox.setText("The document has been modified.");
+            msgBox.setInformativeText("Do you want to save your changes?");
+            msgBox.setStandardButtons(QMessageBox.Save | QMessageBox.Discard | QMessageBox.Cancel);
+            msgBox.setDefaultButton(QMessageBox.Save);        
+            ret = msgBox.exec()
+
+            if ret == QMessageBox.Save:
+                ret = self._save_script()
+                if ret != "":
+                    return fn(self, *args, **kwargs)
+                else:
+                    return
+            elif ret == QMessageBox.Discard:
+                return fn(self, *args, **kwargs)
+            else:
+                return
+        else:
+            return fn(self, *args, **kwargs)
+    return decorator
 
 class SourceView(QWidget, form_class):
     def __init__(self, parent=None):
         super(SourceView, self).__init__(parent)
         self.setupUi(self)
 
+        # private variable
+        self.__currentpath = ""
+        self.modfiedstate = False
+        
         self._leftdefaultsize = 200
         self.splitter.setSizes([self._leftdefaultsize,(self.size().width()) - self._leftdefaultsize])
         self._PyQtSignalConnect = console.GetPyQtSignalFromConsole()
@@ -70,12 +97,13 @@ class SourceView(QWidget, form_class):
         self.plainTextEdit.wheelEvent = self._plainTextEdit_wheelEvent            
         self.plainTextEdit.setAcceptDrops(True)
         self.plainTextEdit.dropEvent = lambda e : self._open_script(e.mimeData().urls()[0].toLocalFile())
-        
+        self.plainTextEdit.modificationChanged.connect(lambda x : self._change_modified_state(x))
         self._PyQtSignalConnect.script_run.connect(lambda : self.pushButton_5.animateClick())
 
-        # private variable
-        self.__currentpath = ""
 
+    def _change_modified_state(self, param):
+        self.modfiedstate = param
+        
     def _btnOpen_clicked(self):
         options = QFileDialog.Options()
         fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
@@ -84,15 +112,12 @@ class SourceView(QWidget, form_class):
             self._open_script(fileName)
         else:
             pass    
-        
+
+    @ismodified    
     def _new_script(self):    
-        reply = QMessageBox.question(self, 'Text clear', 
-                 'Text will be cleared.\n\nNever restore it.\n\nIs really clear?', QMessageBox.Yes, QMessageBox.No)    
-        if reply == QMessageBox.Yes:
-            self.plainTextEdit.clear()
-        else:
-            pass
-            
+        self.plainTextEdit.clear()
+        self._change_modified_state(False)
+        
     def _save_script(self):
         options = QFileDialog.Options()
         fileName, _ = QFileDialog.getSaveFileName(self, "QFileDialog.getSaveFileName()", self.__currentpath,
@@ -103,8 +128,10 @@ class SourceView(QWidget, form_class):
             with open(fileName,"w") as f:
                 f.write(self.plainTextEdit.toPlainText())
                 self.__currentpath = fileName    # when re save occurs, it will be used in default path
-            
+            self._change_modified_state(False)
+        return fileName
         
+    @ismodified
     def _open_script(self, path):
         try:
             with open(path) as f:

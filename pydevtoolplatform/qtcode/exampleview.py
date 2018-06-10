@@ -3,9 +3,9 @@ from PyQt5 import QtGui, QtCore
 from PyQt5 import uic
 from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop
 from os.path import join
-from console.console import RegisterObjectInConsole, GetPyQtSignalFromConsole
-from features.example import Example
-from features.example2 import Example2
+from console.console import GetPyQtSignalFromConsole
+from features import alloc
+
 import logging
 import sys
 import traceback
@@ -22,15 +22,11 @@ class ExampleView(QWidget, form_class):
         logger.debug("exampleview created")
         
         self._commandSignal = GetPyQtSignalFromConsole()
-        self.cExample = Example()
-        self.cExample2 = Example2()    
+        self.cExample = alloc.example
+        self.cExample2 = alloc.example2  
         
         self.pushButton.clicked.connect(lambda : self.cExample.func1())
         self._commandSignal.exampleview.connect(lambda x : self.lineEdit.setText(x))  
-        
-        RegisterObjectInConsole(self, "exampleview")
-        RegisterObjectInConsole(self.cExample, "example")
-        RegisterObjectInConsole(self.cExample2, "example2")
         
     def text(self, x):
         """set test"""
