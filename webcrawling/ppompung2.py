@@ -161,8 +161,8 @@ class ParseHistory(Login):
         return list(out.items())
         
 if __name__ == '__main__':
-    your_id = "mmysun88"
-    your_password = "gnswkd88**"        
+    your_id = "yourid"
+    your_password = "yourpassword"        
             
     # get your comment / post history
     parser = ParseHistory(id=your_id,password=your_password)
