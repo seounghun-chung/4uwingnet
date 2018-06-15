@@ -57,32 +57,60 @@ class DiaglogSample(Ui_Form):
         self.label_3.setText("%s_%s_%s_%s_%s" % (self.version, self.rev, self.desc, self.date,self.info))        
         self.lineEdit_3.setText(os.path.abspath(os.path.join(self.lineEdit_2.displayText(),'../',self.label_3.text())))
 
-    def __countfiles(self, src, exclude_dir):
-        files = []
-        exclude_dir = [os.path.join(src,x) for x in exclude_dir]
-        for path, dirs, filenames in os.walk(src):    
-            isignore = [path.find(exclude) >= 0 for exclude in exclude_dir]
-            if not(True in isignore):
-                files.extend(filenames)
-            else:
-                pass
-        return len(files)
-    
-    def __count(self, src, dst,follow_symlinks=True):
-        self.totalfiles += 1
-    
-    def __copy2(self,src, dst,follow_symlinks=True):
-        shutil.copy2(src,dst)
-        self.progressBar.setValue(self.progressBar.value()+1)   
-        QApplication.processEvents(QEventLoop.ExcludeUserInputEvents)
-        
     def _generate(self):
-        self.totalfiles = len([x for x in glob.iglob(os.path.join(self.lineEdit_2.displayText(),'**/*.*'),recursive=True)])
-        self.totalfiles = self.totalfiles - len([x for x in glob.iglob(os.path.join(self.lineEdit_2.displayText(),'.git/**/*.*'),recursive=True)])
+        exclude_path = ['.git', 'pydevtoolplatform/console']
         
-        self.progressBar.setRange(0,self.totalfiles)        
-        shutil.copytree(self.lineEdit_2.displayText(), self.lineEdit_3.displayText(),ignore=shutil.ignore_patterns('.git/**/*.*'),copy_function=self.__copy2)    
+        self.totalfiles = self.__count(self.lineEdit_2.displayText(),exclude_path=exclude_path)
+        self.progressBar.setRange(0,self.totalfiles)  
+        self.progressBar.setValue(0)
+        
+        self.__copytree(self.lineEdit_2.displayText(), self.lineEdit_3.displayText(),exclude_path=exclude_path)        
+        
+    def __isexclude(self, path, abs_exclude_path):
+        """ it must require abs path for checking which there are """
+        for e in abs_exclude_path:
+            if (path.find(e) == 0):
+                return True
+        return False
+        
+    def __count(self, root_src_dir, exclude_path = ['.git']):
+        """ the total count of files is used for progress bar """
+        _files = list()
+        for src_dir, dirs, files in os.walk(root_src_dir):
+            if self.__isexclude(src_dir, [os.path.abspath(os.path.join(root_src_dir,x)) for x in exclude_path]) is True:
+                continue
+            else:
+                _files.extend(files)
+        return len(_files)
+        
+    def __copytree(self, root_src_dir, root_target_dir, exclude_path = ['.git'], operation = 'copy'):
+        
+        # if the folder aready exists, remove it
+        if os.path.exists(root_target_dir):
+            shutil.rmtree(root_target_dir)
+            
+        for src_dir, dirs, files in os.walk(root_src_dir):
+            dst_dir = src_dir.replace(root_src_dir, root_target_dir)
+            
+            if self.__isexclude(src_dir, [os.path.abspath(os.path.join(root_src_dir,x)) for x in exclude_path]) is True:
+                continue
 
+            if not os.path.exists(dst_dir):
+                os.mkdir(dst_dir)
+                
+            for file_ in files:
+                src_file = os.path.join(src_dir, file_)
+                dst_file = os.path.join(dst_dir, file_)
+                    
+                # '\\\\?\\' is work around caused by windows bugs
+                if operation is 'copy':
+                    shutil.copy('\\\\?\\' + src_file, dst_dir)
+                elif operation is 'move':
+                    shutil.move('\\\\?\\' + src_file, dst_dir)
+                    
+                self.progressBar.setValue(self.progressBar.value()+1)   
+                QApplication.processEvents(QEventLoop.ExcludeUserInputEvents)
+                
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
