@@ -527,3 +527,8 @@ All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corpo
 2018-06-10 21:05:03,559:qtcode.testview:DEBUG:testFail3 (test4.MyTestCase) is added
 2018-06-10 21:05:03,559:qtcode.testview:DEBUG:testTrue (test4.MyTestCase) is added
 2018-06-10 21:05:03,560:qtcode.testview:DEBUG:testTrue2 (test4.MyTestCase) is added
+2018-06-10 21:09:13,734:qtcode.testview:DEBUG:testview is initialized
+2018-06-10 21:09:13,761:qtcode.exampleview:DEBUG:exampleview created
+2018-06-10 21:09:32,391:consoleview:INFO:func1
+2018-06-10 21:09:32,394:consoleview:INFO:func2
+2018-06-10 21:09:32,396:consoleview:INFO:func1

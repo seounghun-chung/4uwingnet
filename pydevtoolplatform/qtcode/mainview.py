@@ -3,6 +3,7 @@ from PyQt5 import QtGui, QtCore
 from PyQt5 import uic
 from os.path import join
 from console.console import *
+from PyQt5.QtCore import QSettings, QPoint, QSize
 
 import sys
 import os
@@ -20,6 +21,15 @@ class MainView(QMainWindow, form_class):
         super().__init__()
         self.setupUi(self)        
         self.dockWidget_2.visibilityChanged.connect(self._stdout_redirect)
+        
+        self.settings = QSettings( 'test.ini', QSettings.IniFormat)  
+        self.resize(self.settings.value("size", QSize(270, 225)))
+        self.move(self.settings.value("pos", QPoint(50, 50)))
+    
+    def closeEvent(self,e):
+        self.settings.setValue("pos", self.pos())
+        self.settings.setValue("size", self.size())        
+
         
     def _stdout_redirect(self, s):
         """ stdout redirection true / false """
