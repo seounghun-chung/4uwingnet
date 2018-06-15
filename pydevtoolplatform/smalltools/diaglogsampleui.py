@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'test2.ui'
+# Form implementation generated from reading ui file '.\diaglogsample.ui'
 #
 # Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt5 import QtCore, QtGui, QtWidgets, Qt
-from datetime import date
-import os  
+from PyQt5 import QtCore, QtGui, QtWidgets
+
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(447, 356)
+        font = QtGui.QFont()
+        font.setFamily("Consolas")
+        Form.setFont(font)
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(Form)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.formLayout = QtWidgets.QFormLayout()
@@ -36,9 +38,6 @@ class Ui_Form(object):
         self.label_2.setInputMethodHints(QtCore.Qt.ImhHiddenText)
         self.label_2.setObjectName("label_2")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_2)
-        self.lineEdit_2 = QtWidgets.QLineEdit(Form)
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.lineEdit_2)
         self.label = QtWidgets.QLabel(Form)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
@@ -91,14 +90,35 @@ class Ui_Form(object):
         self.label_4.setInputMethodHints(QtCore.Qt.ImhHiddenText)
         self.label_4.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_4.setObjectName("label_4")
-        self.formLayout.setWidget(6, QtWidgets.QFormLayout.LabelRole, self.label_4)
+        self.formLayout.setWidget(7, QtWidgets.QFormLayout.LabelRole, self.label_4)
         self.label_3 = QtWidgets.QLabel(Form)
         self.label_3.setObjectName("label_3")
-        self.formLayout.setWidget(6, QtWidgets.QFormLayout.FieldRole, self.label_3)
+        self.formLayout.setWidget(7, QtWidgets.QFormLayout.FieldRole, self.label_3)
+        self.label_6 = QtWidgets.QLabel(Form)
+        font = QtGui.QFont()
+        font.setFamily("Consolas")
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_6.setFont(font)
+        self.label_6.setObjectName("label_6")
+        self.formLayout.setWidget(6, QtWidgets.QFormLayout.LabelRole, self.label_6)
+        self.lineEdit_3 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_3.setReadOnly(True)
+        self.lineEdit_3.setObjectName("lineEdit_3")
+        self.formLayout.setWidget(6, QtWidgets.QFormLayout.FieldRole, self.lineEdit_3)
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        self.lineEdit_2 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.horizontalLayout_3.addWidget(self.lineEdit_2)
         self.label_5 = QtWidgets.QLabel(Form)
+        self.label_5.setMinimumSize(QtCore.QSize(80, 0))
+        self.label_5.setMaximumSize(QtCore.QSize(80, 16777215))
         self.label_5.setText("")
+        self.label_5.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_5.setObjectName("label_5")
-        self.formLayout.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.label_5)
+        self.horizontalLayout_3.addWidget(self.label_5)
+        self.formLayout.setLayout(2, QtWidgets.QFormLayout.FieldRole, self.horizontalLayout_3)
         self.verticalLayout_2.addLayout(self.formLayout)
         self.gridLayout = QtWidgets.QGridLayout()
         self.gridLayout.setObjectName("gridLayout")
@@ -147,50 +167,10 @@ class Ui_Form(object):
         self.comboBox_2.setItemText(2, _translate("Form", "H223"))
         self.label_4.setText(_translate("Form", "Name"))
         self.label_3.setText(_translate("Form", "TextLabel"))
+        self.label_6.setText(_translate("Form", "Dest"))
+        self.lineEdit_2.setText(_translate("Form", "C:\\Users\\seoung\\workspace\\pytool"))
         self.checkBox_2.setText(_translate("Form", "CheckBox"))
         self.checkBox.setText(_translate("Form", "CheckBox"))
         self.pushButton.setText(_translate("Form", "Gen"))
         self.pushButton_2.setText(_translate("Form", "Close"))
-
-      
-        self.comboBox.currentTextChanged.connect(lambda x : self._maketext(version = x))
-        self.comboBox_2.currentTextChanged.connect(lambda x : self._maketext(rev = x))
-        self.lineEdit.textChanged.connect(lambda x : self._maketext( desc = x ))
-        self.lineEdit_2.textChanged.connect(lambda x: self._findgitpath( x ) )
-        
-        self.version = self.comboBox.currentText()
-        self.rev = self.comboBox_2.currentText()
-        self.desc = "" 
-        self.date = ("%s%s%s" % (str(date.today().year)[2:], str(date.today().month).zfill(2) , str(date.today().day).zfill(2)))      
-        self.info = ""
-        self._maketext(version = self.version, rev = self.rev, desc = self.desc)
-        
-    def _findgitpath(self, path):
-        if (os.path.isdir(os.path.join(path,".git"))) is True:
-            self.label_5.setStyleSheet('color: lightgreen')                  
-            self.label_5.setText("Valid")
-            self._maketext(info = "11.12")
-            self.pushButton.setEnabled(True)            
-        else:
-            self.label_5.setStyleSheet('color: red')                  
-            self.label_5.setText("Not Valid")
-            self._maketext(info = "")
-            self.pushButton.setEnabled(False)
-                
-    def _maketext(self,**argv):        
-        self.version = argv.get('version') if argv.get('version') is not None else self.version
-        self.rev = argv.get('rev') if argv.get('rev') is not None else self.rev
-        self.desc = argv.get('desc') if argv.get('desc') is not None else self.desc
-        self.info = argv.get('info') if argv.get('info') is not None else self.info
-        
-        self.label_3.setText("%s_%s_%s_%s_%s" % (self.version, self.rev, self.desc, self.date,self.info))        
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QWidget()
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
-    sys.exit(app.exec_())
 

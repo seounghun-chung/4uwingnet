@@ -6,7 +6,6 @@ from PyQt5.QtCore import QSettings, QPoint, QSize
 from os.path import join
 from console.console import GetPyQtSignalFromConsole
 from features import alloc
-from qtdesign.testdiaglog import Ui_Dialog
 import logging
 import sys
 import traceback
@@ -27,7 +26,7 @@ class ExampleView(QWidget, form_class):
         self.cExample2 = alloc.example2  
         
         self.pushButton.clicked.connect(lambda : self.cExample.func1())
-        self.pushButton_2.clicked.connect(self._test1)
+#        self.pushButton_2.clicked.connect(self._test1)
         
         self._commandSignal.exampleview.connect(lambda x : self.lineEdit.setText(x))  
 
@@ -41,15 +40,6 @@ class ExampleView(QWidget, form_class):
         for ii in range(0,10):
             time.sleep(0.5)
             prog.setValue(ii)
-        
-    def _test1(self):
-        dialog = QtWidgets.QDialog()
-        ui_form = Ui_Dialog()        
-        ui_form.setupUi(dialog)
-
-        print("a")
-        if dialog.exec_():
-            print("test")
             
     def text(self, x):
         """set test"""
