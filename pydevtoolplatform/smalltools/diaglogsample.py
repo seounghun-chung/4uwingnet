@@ -12,6 +12,8 @@ from PyQt5.QtWidgets import QApplication
 
 from diaglogsampleui import Ui_Form
 from datetime import date
+from pathlib import Path
+
 import os  
 import shutil
 import glob
@@ -33,7 +35,7 @@ class DiaglogSample(Ui_Form):
         self.date = ("%s%s%s" % (str(date.today().year)[2:], str(date.today().month).zfill(2) , str(date.today().day).zfill(2)))      
         self.info = ""
         self._maketext(version = self.version, rev = self.rev, desc = self.desc)
-        
+        self._findgitpath(self.lineEdit_2.displayText())
         self.totalfiles = 0
         
     def _findgitpath(self, path):
@@ -46,7 +48,7 @@ class DiaglogSample(Ui_Form):
             self.label_5.setStyleSheet('color: red; font: bold')                  
             self.label_5.setText("Not Valid")
             self._maketext(info = "")
-#            self.pushButton.setEnabled(False)
+            self.pushButton.setEnabled(False)
                                 
     def _maketext(self,**argv):        
         self.version = argv.get('version') if argv.get('version') is not None else self.version
@@ -58,32 +60,38 @@ class DiaglogSample(Ui_Form):
         self.lineEdit_3.setText(os.path.abspath(os.path.join(self.lineEdit_2.displayText(),'../',self.label_3.text())))
 
     def _generate(self):
-        exclude_path = ['.git', 'pydevtoolplatform/console']
+        exclude_dir = ['.git', 'pydevtoolplatform/console','webcrawling']
         
-        self.totalfiles = self.__count(self.lineEdit_2.displayText(),exclude_path=exclude_path)
+        self.totalfiles = self.__count(self.lineEdit_2.displayText(),exclude_dir=exclude_dir)
         self.progressBar.setRange(0,self.totalfiles)  
         self.progressBar.setValue(0)
         
-        self.__copytree(self.lineEdit_2.displayText(), self.lineEdit_3.displayText(),exclude_path=exclude_path)        
+        self.__copytree(self.lineEdit_2.displayText(), self.lineEdit_3.displayText(),exclude_dir=exclude_dir)        
         
-    def __isexclude(self, path, abs_exclude_path):
+    def __isexclude(self, path, abs_exclude_dir):
         """ it must require abs path for checking which there are """
-        for e in abs_exclude_path:
-            if (path.find(e) == 0):
+        test_path = Path(path)
+        for e in abs_exclude_dir:
+            parent_path = Path(e)
+            if parent_path in test_path.parents:
                 return True
+            elif parent_path == test_path:       
+                return True
+            else:
+                pass
         return False
-        
-    def __count(self, root_src_dir, exclude_path = ['.git']):
+            
+    def __count(self, root_src_dir, exclude_dir = ['.git']):
         """ the total count of files is used for progress bar """
         _files = list()
         for src_dir, dirs, files in os.walk(root_src_dir):
-            if self.__isexclude(src_dir, [os.path.abspath(os.path.join(root_src_dir,x)) for x in exclude_path]) is True:
+            if self.__isexclude(src_dir, [os.path.abspath(os.path.join(root_src_dir,x)) for x in exclude_dir]) is True:
                 continue
             else:
                 _files.extend(files)
         return len(_files)
         
-    def __copytree(self, root_src_dir, root_target_dir, exclude_path = ['.git'], operation = 'copy'):
+    def __copytree(self, root_src_dir, root_target_dir, exclude_dir = ['.git'], operation = 'copy'):
         
         # if the folder aready exists, remove it
         if os.path.exists(root_target_dir):
@@ -92,7 +100,7 @@ class DiaglogSample(Ui_Form):
         for src_dir, dirs, files in os.walk(root_src_dir):
             dst_dir = src_dir.replace(root_src_dir, root_target_dir)
             
-            if self.__isexclude(src_dir, [os.path.abspath(os.path.join(root_src_dir,x)) for x in exclude_path]) is True:
+            if self.__isexclude(src_dir, [os.path.abspath(os.path.join(root_src_dir,x)) for x in exclude_dir]) is True:
                 continue
 
             if not os.path.exists(dst_dir):
@@ -111,6 +119,17 @@ class DiaglogSample(Ui_Form):
                 self.progressBar.setValue(self.progressBar.value()+1)   
                 QApplication.processEvents(QEventLoop.ExcludeUserInputEvents)
                 
+    def __copytree2(self, src, dest, exclude=[".git"]):
+        all_files_in_src = Path(src).resolve().glob("**/*")
+        all_exclude_files_in_src = list(Path(ex).resolve().glob("**/*") for ex in exclude)
+
+        for x in all_exclude_files_in_src:
+            all_files_in_src = set(all_files_in_src) - set(x)
+        return all_files_in_src
+#        copy_files_list_in_src = list(set(all_files_in_src) - set(*all_exclude_files_in_src))
+                
+        return copy_files_list_in_src
+        
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
