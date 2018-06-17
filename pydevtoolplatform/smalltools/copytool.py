@@ -39,6 +39,8 @@ class DiaglogSample(Ui_Form):
         config.read("default.ini")
         self.exclude_dir = config.get("default","exclude_dir").split('\n')
         self.exclude_pattern = config.get("default","exclude_pattern").split('\n')    
+        self.lineEdit.setText(config.get("default","default_src_dir"))
+        self.lineEdit_2.setText(config.get("default","default_dst_dir"))
         
         self.listWidget.addItems(self.exclude_dir)
         self.listWidget.addItems(self.exclude_pattern)
@@ -51,7 +53,9 @@ class DiaglogSample(Ui_Form):
             config.read(filename)
             self.exclude_dir = config.get("default","exclude_dir").split('\n')
             self.exclude_pattern = config.get("default","exclude_pattern").split('\n')    
-            
+            self.lineEdit.setText(config.get("default","default_src_dir"))
+            self.lineEdit_2.setText(config.get("default","default_dst_dir"))
+
             self.listWidget.addItems(self.exclude_dir)
             self.listWidget.addItems(self.exclude_pattern)
         else:
