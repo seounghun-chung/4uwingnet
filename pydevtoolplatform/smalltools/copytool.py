@@ -17,8 +17,12 @@ from pathlib import Path
 import os  
 import shutil
 import configparser
-import ast
+import stat
 
+def readonly_handler(func, path, execinfo): 
+    os.chmod(path, 128) #or os.chmod(path, stat.S_IWRITE) from "stat" module
+    func(path)
+        
 class DiaglogSample(Ui_Form):
     def __init__(self, *argv):
         super().setupUi(*argv)
@@ -27,6 +31,7 @@ class DiaglogSample(Ui_Form):
 #        self.comboBox_2.currentTextChanged.connect(lambda x : self._maketext(rev = x))
 #        self.lineEdit.textChanged.connect(lambda x : self._maketext( desc = x ))
 #        self.lineEdit_2.textChanged.connect(lambda x: self._findgitpath( x ) )
+        self.pushButton_6.clicked.connect(lambda : self._btn_checkversion())
         self.pushButton_4.clicked.connect(lambda : self._btn_copytree())
         self.pushButton_3.clicked.connect(lambda : self._btn_loadexcludeconfig())
         self.pushButton_2.clicked.connect(lambda : self.lineEdit_2.setText(QFileDialog.getExistingDirectory(None, "Set src directory")))
@@ -34,19 +39,17 @@ class DiaglogSample(Ui_Form):
 
         self.exclude_dir = list()
         self.exclude_pattern = list()   
+        self._btn_loadexcludeconfig(filename = "default.ini")
         
-        config = configparser.ConfigParser()
-        config.read("default.ini")
-        self.exclude_dir = config.get("default","exclude_dir").split('\n')
-        self.exclude_pattern = config.get("default","exclude_pattern").split('\n')    
-        self.lineEdit.setText(config.get("default","default_src_dir"))
-        self.lineEdit_2.setText(config.get("default","default_dst_dir"))
+    def _btn_checkversion(self):
+        currentday = ("%s%s%s" % (str(date.today().year)[2:], str(date.today().month).zfill(2) , str(date.today().day).zfill(2)))     
+        v = "%s" % (currentday)
+        self.label_4.setText(v)
         
-        self.listWidget.addItems(self.exclude_dir)
-        self.listWidget.addItems(self.exclude_pattern)
-        
-    def _btn_loadexcludeconfig(self):
-        filename, _filter = QtWidgets.QFileDialog.getOpenFileName(None, "Open exclude pattern ini", '.', "(*.ini)")
+    def _btn_loadexcludeconfig(self, filename = None):
+        if filename is None:
+            filename, _filter = QtWidgets.QFileDialog.getOpenFileName(None, "Open exclude pattern ini", '.', "(*.ini)")
+            
         if (os.path.isfile(filename) == True):
             self.listWidget.clear()
             config = configparser.ConfigParser()
@@ -105,7 +108,7 @@ class DiaglogSample(Ui_Form):
         if not os.path.exists(dest):
             os.mkdir(dest)
         else:
-            shutil.rmtree(dest)
+            shutil.rmtree(dest,onerror=readonly_handler)
             os.mkdir(dest)
             
         for path in dir:
@@ -117,7 +120,7 @@ class DiaglogSample(Ui_Form):
 
         for path in files:        
             dst = self.__changefilepath(src,dest,path)
-            shutil.copy(path, dst)
+            shutil.copy('\\\\?\\'+str(path), dst)
             count += 1                
             callback(count)            
             print("Success : ", path)
