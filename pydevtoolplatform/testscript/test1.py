@@ -1,7 +1,7 @@
 from unittest.case import TestCase
 import unittest
 import time
-
+from HTMLTestRunner import HTMLTestRunner
 
 class MyTestCase(TestCase):
     def testTrue(self):
@@ -26,11 +26,22 @@ class MyTestCase(TestCase):
         assert True
    
 if __name__ == '__main__':    
-    from pprint import pprint
-    runner = unittest.TextTestRunner()
-    result = runner.run(unittest.makeSuite(MyTestCase))
-    print (result.testsRun)
-    pprint(result.failures)
 
-    for ii in result.failures:
-        pprint(ii)
+    loader = unittest.TestLoader()
+    suite = unittest.makeSuite(MyTestCase)
+    outfile = open('Report.html', 'w')
+    runner = HTMLTestRunner(stream=outfile,
+                            verbosity=2,
+                            title='LinkedIn Report',
+                            description='This is a demo report')
+    runner.run(suite)
+    
+    
+#    from pprint import pprint
+#    runner = unittest.TextTestRunner()
+#    result = runner.run(unittest.makeSuite(MyTestCase))
+#    print (result.testsRun)
+#    pprint(result.failures)
+
+#    for ii in result.failures:
+#        pprint(ii)
