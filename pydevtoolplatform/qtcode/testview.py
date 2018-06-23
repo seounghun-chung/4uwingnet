@@ -4,7 +4,7 @@ from PyQt5 import uic
 from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop, QPoint 
 from os.path import join, basename, dirname
 from lib.HtmlTestRunner.runner import HTMLTestRunner    # https://github.com/oldani/HtmlTestRunner
-import sys
+import sys,os,platform
 import unittest
 import time
 import logging
@@ -123,7 +123,10 @@ class TestView(QWidget, form_class):
                 logger.error("bug")
 
         if suite.countTestCases() != 0:          
-            runner = HTMLTestRunner(output='testreports',combine_reports=True,report_name="report")
+            testinfo = {"Author" : os.getlogin(),
+                        "Windows" : platform.platform(),
+                        "Processor" : platform.processor() }
+            runner = HTMLTestRunner(output='testreports',combine_reports=True,report_name="report", template_args=testinfo)
             runner.run(suite)                  
     
         else:
