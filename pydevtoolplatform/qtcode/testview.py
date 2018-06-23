@@ -3,8 +3,7 @@ from PyQt5.QtGui import *
 from PyQt5 import uic
 from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop, QPoint 
 from os.path import join, basename, dirname
-from qtcode.HTMLTestRunner import HTMLTestRunner
-
+from lib.HtmlTestRunner.runner import HTMLTestRunner    # https://github.com/oldani/HtmlTestRunner
 import sys
 import unittest
 import time
@@ -124,25 +123,8 @@ class TestView(QWidget, form_class):
                 logger.error("bug")
 
         if suite.countTestCases() != 0:          
-#            report = TestResult()
-#            suite.run(report)
-
-            outfile = open('Report.html', 'w')
-            runner = HTMLTestRunner(stream=outfile,
-                                    verbosity=2,
-                                    title='LinkedIn Report',
-                                    description='This is a demo report')
-            runner.run(suite)            
-
-            
-#            for success in report.success:
-#                print("%s %d ms" %(success, report.executetime[success]))
-#                print(success._testMethodDoc)
-#                print(success.shortDescription())                  
-#            for failures in report.failures:
-#                print("%s %d ms" %(failures, report.executetime[failures[0]]))
-#                print(failures[0]._testMethodDoc)
-#                print(failures[0].shortDescription())              
+            runner = HTMLTestRunner(output='testreports',combine_reports=True,report_name="report")
+            runner.run(suite)                  
     
         else:
             """ there are not selected item """

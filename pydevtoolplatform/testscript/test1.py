@@ -1,23 +1,27 @@
 from unittest.case import TestCase
 import unittest
 import time
-from HTMLTestRunner import HTMLTestRunner
+#from HTMLTestRunner import HTMLTestRunner
 
 class MyTestCase(TestCase):
     def testTrue(self):
-        '''
-        Always true
-        '''
+        '''Always true'''
+        print("hello1")
         assert True
     def testTrue2(self):
-        '''Always true'''
-        assert True
-    def testFail(self):
         '''
-        Always fails
+        Always true
+        it is coneected
+        test method
+        '''
+        print("hello2")        
+        assert True
+    @unittest.skip("demonstrating skipping")
+    def testFail(self):
+        '''Always fails
         '''
         assert False   
-        
+    @unittest.skip("demonstrating skipping")    
     def testSleep(self):
         time.sleep(1)
         print("sleepaaaa...")
