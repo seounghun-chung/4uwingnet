@@ -125,10 +125,12 @@ class TestView(QWidget, form_class):
         if suite.countTestCases() != 0:          
             testinfo = {"Author" : os.getlogin(),
                         "Windows" : platform.platform(),
-                        "Processor" : platform.processor() }
-            runner = HTMLTestRunner(output='testreports',combine_reports=True,report_name="report", template_args=testinfo)
-            runner.run(suite)                  
-    
+                        "Processor" : platform.processor() }            
+            if (self.checkBox.checkState() == Qt.Unchecked):
+                runner = unittest.TextTestRunner(verbosity=2)    
+            else:        
+                runner = HTMLTestRunner(output='testreports',combine_reports=True,report_name="report", template_args=testinfo)                                
+            runner.run(suite)                      
         else:
             """ there are not selected item """
             print("there are not selected item")
@@ -178,5 +180,7 @@ class TestView(QWidget, form_class):
                 for testname in testunits:
                     child = QStandardItem(str(testname))
                     child.setData(testname)
+                    child.setToolTip(testname._testMethodDoc)
+#                    child.setFlags(Qt.ItemIsUserCheckable | child.flags())
                     self.testmodel.insertRow(0, child)
                     logger.debug("%s is added" % (testname))

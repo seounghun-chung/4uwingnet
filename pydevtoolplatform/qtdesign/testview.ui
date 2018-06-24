@@ -19,7 +19,7 @@
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="QLabel" name="label">
@@ -61,7 +61,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <widget class="QLabel" name="label_2">
@@ -77,6 +77,9 @@
          </property>
          <property name="selectionMode">
           <enum>QAbstractItemView::ExtendedSelection</enum>
+         </property>
+         <property name="selectionRectVisible">
+          <bool>false</bool>
          </property>
         </widget>
        </item>
@@ -94,6 +97,13 @@
             </size>
            </property>
           </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="text">
+            <string>Make Report</string>
+           </property>
+          </widget>
          </item>
          <item>
           <widget class="QPushButton" name="btnDel">
