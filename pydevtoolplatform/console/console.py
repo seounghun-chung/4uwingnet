@@ -22,6 +22,7 @@ class PyQtSignalConnect(QObject):
     consoleview_clear = pyqtSignal()
     script_run = pyqtSignal()
     exampleview = pyqtSignal(str)
+    consoleview_print = pyqtSignal(str, str)
     
     def __init__(self, *param):
         QObject.__init__(self, None)
@@ -60,6 +61,9 @@ def run():
     """ run script """
     _PyQtSignalConnect.script_run.emit()
 
+#def print(msg, color="black"):
+#    _PyQtSignalConnect.consoleview_print.emit(msg, color)    
+    
 def help(obj = None):
 #    RegisterObjectInConsole.__doc__ = "private"
     ConnectPytQtSignalBothCommandWithGui.__doc__ = "private"

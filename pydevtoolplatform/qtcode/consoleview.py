@@ -66,6 +66,7 @@ class ConsoleView(QWidget, form_class):
         self._stdout.printOccur.connect(lambda x, y: self._append_text(x, y)) # print redirection
         self.fontComboBox.currentFontChanged.connect(lambda x : self.textBrowser.setFont(x))
         self._PyQtSignalConnect.consoleview_clear.connect(lambda : self.clear()) # console.py is connected
+        self._PyQtSignalConnect.consoleview_print.connect(lambda x,y : self._append_text(x,y))
         self.comboBox.keyPressEvent = self._comboBox_keyPressEvent   
         self.comboBox.setCurrentText("")            
 #        self.comboBox.activated.connect(lambda x : print(x))

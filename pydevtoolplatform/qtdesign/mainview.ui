@@ -15,13 +15,28 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="tabShape">
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="TestView" name="tab">
        <attribute name="title">
@@ -58,7 +73,6 @@
    </widget>
    <addaction name="menuFile"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QDockWidget" name="dockWidget_2">
    <property name="windowTitle">
     <string>Console</string>
