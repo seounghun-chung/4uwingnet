@@ -1,0 +1,2109 @@
+2018-06-24 15:57:54,967:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 15:57:54,996:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 15:58:05,289:qtcode.testview:DEBUG:testFail (test41.MyTestCase) is added
+2018-06-24 15:58:05,290:qtcode.testview:DEBUG:testFail2 (test41.MyTestCase) is added
+2018-06-24 15:58:05,290:qtcode.testview:DEBUG:testFail3 (test41.MyTestCase) is added
+2018-06-24 15:58:05,290:qtcode.testview:DEBUG:testTrue (test41.MyTestCase) is added
+2018-06-24 15:58:05,290:qtcode.testview:DEBUG:testTrue2 (test41.MyTestCase) is added
+2018-06-24 15:58:05,293:qtcode.testview:DEBUG:testFail (test31.MyTestCase) is added
+2018-06-24 15:58:05,293:qtcode.testview:DEBUG:testFail2 (test31.MyTestCase) is added
+2018-06-24 15:58:05,293:qtcode.testview:DEBUG:testFail3 (test31.MyTestCase) is added
+2018-06-24 15:58:05,293:qtcode.testview:DEBUG:testSleep (test31.MyTestCase) is added
+2018-06-24 15:58:05,293:qtcode.testview:DEBUG:testSleep2 (test31.MyTestCase) is added
+2018-06-24 15:58:05,293:qtcode.testview:DEBUG:testTrue (test31.MyTestCase) is added
+2018-06-24 15:58:05,294:qtcode.testview:DEBUG:testTrue2 (test31.MyTestCase) is added
+2018-06-24 15:58:05,296:qtcode.testview:DEBUG:testFail (test21.MyTestCase) is added
+2018-06-24 15:58:05,296:qtcode.testview:DEBUG:testFail2 (test21.MyTestCase) is added
+2018-06-24 15:58:05,296:qtcode.testview:DEBUG:testFail3 (test21.MyTestCase) is added
+2018-06-24 15:58:05,297:qtcode.testview:DEBUG:testTrue (test21.MyTestCase) is added
+2018-06-24 15:58:05,297:qtcode.testview:DEBUG:testTrue2 (test21.MyTestCase) is added
+2018-06-24 15:58:05,299:qtcode.testview:DEBUG:testFail (test11.MyTestCase) is added
+2018-06-24 15:58:05,299:qtcode.testview:DEBUG:testSleep (test11.MyTestCase) is added
+2018-06-24 15:58:05,300:qtcode.testview:DEBUG:testTrue (test11.MyTestCase) is added
+2018-06-24 15:58:05,300:qtcode.testview:DEBUG:testTrue2 (test11.MyTestCase) is added
+2018-06-24 15:58:14,908:consoleview:WARNING:Running tests... 
+2018-06-24 15:58:14,916:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:14,919:consoleview:WARNING: testTrue2 (test11.MyTestCase)
+2018-06-24 15:58:14,924:consoleview:WARNING: ... 
+2018-06-24 15:58:14,925:consoleview:WARNING:OK (0.005984)s
+2018-06-24 15:58:14,930:consoleview:WARNING: testTrue (test11.MyTestCase)
+2018-06-24 15:58:14,931:consoleview:WARNING: ... 
+2018-06-24 15:58:14,931:consoleview:WARNING:OK (0.000997)s
+2018-06-24 15:58:14,935:consoleview:WARNING: testSleep (test11.MyTestCase)
+2018-06-24 15:58:14,937:consoleview:WARNING: ... 
+2018-06-24 15:58:16,939:consoleview:WARNING:OK (2.003640)s
+2018-06-24 15:58:16,942:consoleview:WARNING: testFail (test11.MyTestCase)
+2018-06-24 15:58:16,944:consoleview:WARNING: ... 
+2018-06-24 15:58:16,952:consoleview:WARNING:FAIL (0.009975)s
+2018-06-24 15:58:16,956:consoleview:WARNING: testTrue2 (test21.MyTestCase)
+2018-06-24 15:58:16,956:consoleview:WARNING: ... 
+2018-06-24 15:58:16,957:consoleview:WARNING:OK (0.001992)s
+2018-06-24 15:58:16,958:consoleview:WARNING: testTrue (test21.MyTestCase)
+2018-06-24 15:58:16,959:consoleview:WARNING: ... 
+2018-06-24 15:58:16,959:consoleview:WARNING:OK (0.000997)s
+2018-06-24 15:58:16,961:consoleview:WARNING: testFail3 (test21.MyTestCase)
+2018-06-24 15:58:16,962:consoleview:WARNING: ... 
+2018-06-24 15:58:16,964:consoleview:WARNING:FAIL (0.002992)s
+2018-06-24 15:58:16,967:consoleview:WARNING: testFail2 (test21.MyTestCase)
+2018-06-24 15:58:16,968:consoleview:WARNING: ... 
+2018-06-24 15:58:16,969:consoleview:WARNING:FAIL (0.002990)s
+2018-06-24 15:58:16,972:consoleview:WARNING: testFail (test21.MyTestCase)
+2018-06-24 15:58:16,973:consoleview:WARNING: ... 
+2018-06-24 15:58:16,974:consoleview:WARNING:FAIL (0.001995)s
+2018-06-24 15:58:16,977:consoleview:WARNING: testTrue2 (test31.MyTestCase)
+2018-06-24 15:58:16,978:consoleview:WARNING: ... 
+2018-06-24 15:58:16,979:consoleview:WARNING:OK (0.001997)s
+2018-06-24 15:58:16,981:consoleview:WARNING: testTrue (test31.MyTestCase)
+2018-06-24 15:58:16,982:consoleview:WARNING: ... 
+2018-06-24 15:58:16,983:consoleview:WARNING:OK (0.001993)s
+2018-06-24 15:58:16,986:consoleview:WARNING: testSleep2 (test31.MyTestCase)
+2018-06-24 15:58:16,987:consoleview:WARNING: ... 
+2018-06-24 15:58:18,989:consoleview:WARNING:OK (2.002642)s
+2018-06-24 15:58:18,991:consoleview:WARNING: testSleep (test31.MyTestCase)
+2018-06-24 15:58:18,992:consoleview:WARNING: ... 
+2018-06-24 15:58:20,994:consoleview:WARNING:OK (2.002796)s
+2018-06-24 15:58:20,998:consoleview:WARNING: testFail3 (test31.MyTestCase)
+2018-06-24 15:58:21,000:consoleview:WARNING: ... 
+2018-06-24 15:58:21,008:consoleview:WARNING:FAIL (0.009155)s
+2018-06-24 15:58:21,010:consoleview:WARNING: testFail2 (test31.MyTestCase)
+2018-06-24 15:58:21,011:consoleview:WARNING: ... 
+2018-06-24 15:58:21,012:consoleview:WARNING:FAIL (0.001996)s
+2018-06-24 15:58:21,014:consoleview:WARNING: testFail (test31.MyTestCase)
+2018-06-24 15:58:21,015:consoleview:WARNING: ... 
+2018-06-24 15:58:21,015:consoleview:WARNING:FAIL (0.000998)s
+2018-06-24 15:58:21,018:consoleview:WARNING: testTrue2 (test41.MyTestCase)
+2018-06-24 15:58:21,019:consoleview:WARNING: ... 
+2018-06-24 15:58:21,020:consoleview:WARNING:OK (0.001993)s
+2018-06-24 15:58:21,022:consoleview:WARNING: testTrue (test41.MyTestCase)
+2018-06-24 15:58:21,023:consoleview:WARNING: ... 
+2018-06-24 15:58:21,023:consoleview:WARNING:OK (0.000998)s
+2018-06-24 15:58:21,026:consoleview:WARNING: testFail3 (test41.MyTestCase)
+2018-06-24 15:58:21,027:consoleview:WARNING: ... 
+2018-06-24 15:58:21,028:consoleview:WARNING:FAIL (0.001993)s
+2018-06-24 15:58:21,030:consoleview:WARNING: testFail2 (test41.MyTestCase)
+2018-06-24 15:58:21,031:consoleview:WARNING: ... 
+2018-06-24 15:58:21,032:consoleview:WARNING:FAIL (0.001995)s
+2018-06-24 15:58:21,035:consoleview:WARNING: testFail (test41.MyTestCase)
+2018-06-24 15:58:21,036:consoleview:WARNING: ... 
+2018-06-24 15:58:21,037:consoleview:WARNING:FAIL (0.001995)s
+2018-06-24 15:58:21,041:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,044:consoleview:WARNING:FAIL [0.009975s]: 
+        Always fails
+        
+2018-06-24 15:58:21,052:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,055:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test11.py", line 21, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,064:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,066:consoleview:WARNING:FAIL [0.002992s]: 
+        Always fails
+        
+2018-06-24 15:58:21,069:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,071:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test21.py", line 29, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,073:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,075:consoleview:WARNING:FAIL [0.002990s]: 
+        Always fails
+        
+2018-06-24 15:58:21,078:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,080:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test21.py", line 24, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,082:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,085:consoleview:WARNING:FAIL [0.001995s]: 
+        Always fails
+        
+2018-06-24 15:58:21,088:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,090:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test21.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,092:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,095:consoleview:WARNING:FAIL [0.009155s]: 
+        Always fails
+        
+2018-06-24 15:58:21,097:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,099:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test31.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,102:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,104:consoleview:WARNING:FAIL [0.001996s]: 
+        Always fails
+        
+2018-06-24 15:58:21,107:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,109:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test31.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,112:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,114:consoleview:WARNING:FAIL [0.000998s]: 
+        Always fails
+        
+2018-06-24 15:58:21,117:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,119:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test31.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,122:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,124:consoleview:WARNING:FAIL [0.001993s]: 
+        Always fails
+        
+2018-06-24 15:58:21,126:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,129:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test41.py", line 29, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,131:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,133:consoleview:WARNING:FAIL [0.001995s]: 
+        Always fails
+        
+2018-06-24 15:58:21,136:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,138:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test41.py", line 24, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,141:consoleview:WARNING:======================================================================
+2018-06-24 15:58:21,144:consoleview:WARNING:FAIL [0.001995s]: 
+        Always fails
+        
+2018-06-24 15:58:21,147:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,149:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test41.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:21,153:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:21,156:consoleview:WARNING:Ran 21 tests in 0:00:06
+2018-06-24 15:58:21,159:consoleview:WARNING:FAILED
+2018-06-24 15:58:21,161:consoleview:WARNING: (Failures=10)
+2018-06-24 15:58:21,165:consoleview:WARNING:Generating HTML reports... 
+2018-06-24 15:58:21,195:consoleview:WARNING:testreports\report_2018-06-24_15-58-14.html
+2018-06-24 15:58:28,948:consoleview:WARNING:testTrue2 (test11.MyTestCase)
+2018-06-24 15:58:28,950:consoleview:WARNING: ... 
+2018-06-24 15:58:28,951:consoleview:WARNING:ok
+2018-06-24 15:58:28,953:consoleview:WARNING:testTrue (test11.MyTestCase)
+2018-06-24 15:58:28,954:consoleview:WARNING: ... 
+2018-06-24 15:58:28,955:consoleview:WARNING:ok
+2018-06-24 15:58:28,957:consoleview:WARNING:testSleep (test11.MyTestCase)
+2018-06-24 15:58:28,958:consoleview:WARNING: ... 
+2018-06-24 15:58:29,959:consoleview:INFO:sleepaaaa...
+2018-06-24 15:58:30,962:consoleview:INFO:sleep...
+2018-06-24 15:58:30,964:consoleview:WARNING:ok
+2018-06-24 15:58:30,966:consoleview:WARNING:testFail (test11.MyTestCase)
+2018-06-24 15:58:30,967:consoleview:WARNING: ... 
+2018-06-24 15:58:30,969:consoleview:WARNING:FAIL
+2018-06-24 15:58:30,971:consoleview:WARNING:testTrue2 (test21.MyTestCase)
+2018-06-24 15:58:30,972:consoleview:WARNING: ... 
+2018-06-24 15:58:30,973:consoleview:WARNING:ok
+2018-06-24 15:58:30,975:consoleview:WARNING:testTrue (test21.MyTestCase)
+2018-06-24 15:58:30,976:consoleview:WARNING: ... 
+2018-06-24 15:58:30,977:consoleview:WARNING:ok
+2018-06-24 15:58:30,979:consoleview:WARNING:testFail3 (test21.MyTestCase)
+2018-06-24 15:58:30,980:consoleview:WARNING: ... 
+2018-06-24 15:58:30,981:consoleview:WARNING:FAIL
+2018-06-24 15:58:30,983:consoleview:WARNING:testFail2 (test21.MyTestCase)
+2018-06-24 15:58:30,985:consoleview:WARNING: ... 
+2018-06-24 15:58:30,986:consoleview:WARNING:FAIL
+2018-06-24 15:58:30,988:consoleview:WARNING:testFail (test21.MyTestCase)
+2018-06-24 15:58:30,989:consoleview:WARNING: ... 
+2018-06-24 15:58:30,990:consoleview:WARNING:FAIL
+2018-06-24 15:58:30,992:consoleview:WARNING:testTrue2 (test31.MyTestCase)
+2018-06-24 15:58:30,993:consoleview:WARNING: ... 
+2018-06-24 15:58:30,993:consoleview:WARNING:ok
+2018-06-24 15:58:30,995:consoleview:WARNING:testTrue (test31.MyTestCase)
+2018-06-24 15:58:30,996:consoleview:WARNING: ... 
+2018-06-24 15:58:30,997:consoleview:WARNING:ok
+2018-06-24 15:58:30,999:consoleview:WARNING:testSleep2 (test31.MyTestCase)
+2018-06-24 15:58:31,000:consoleview:WARNING: ... 
+2018-06-24 15:58:32,002:consoleview:INFO:sleepaaaa...
+2018-06-24 15:58:33,004:consoleview:INFO:sleep...
+2018-06-24 15:58:33,006:consoleview:WARNING:ok
+2018-06-24 15:58:33,008:consoleview:WARNING:testSleep (test31.MyTestCase)
+2018-06-24 15:58:33,009:consoleview:WARNING: ... 
+2018-06-24 15:58:34,010:consoleview:INFO:sleepaaaa...
+2018-06-24 15:58:35,013:consoleview:INFO:sleep...
+2018-06-24 15:58:35,017:consoleview:WARNING:ok
+2018-06-24 15:58:35,021:consoleview:WARNING:testFail3 (test31.MyTestCase)
+2018-06-24 15:58:35,023:consoleview:WARNING: ... 
+2018-06-24 15:58:35,024:consoleview:WARNING:FAIL
+2018-06-24 15:58:35,028:consoleview:WARNING:testFail2 (test31.MyTestCase)
+2018-06-24 15:58:35,029:consoleview:WARNING: ... 
+2018-06-24 15:58:35,031:consoleview:WARNING:FAIL
+2018-06-24 15:58:35,034:consoleview:WARNING:testFail (test31.MyTestCase)
+2018-06-24 15:58:35,036:consoleview:WARNING: ... 
+2018-06-24 15:58:35,037:consoleview:WARNING:FAIL
+2018-06-24 15:58:35,039:consoleview:WARNING:testTrue2 (test41.MyTestCase)
+2018-06-24 15:58:35,040:consoleview:WARNING: ... 
+2018-06-24 15:58:35,041:consoleview:WARNING:ok
+2018-06-24 15:58:35,043:consoleview:WARNING:testTrue (test41.MyTestCase)
+2018-06-24 15:58:35,044:consoleview:WARNING: ... 
+2018-06-24 15:58:35,044:consoleview:WARNING:ok
+2018-06-24 15:58:35,046:consoleview:WARNING:testFail3 (test41.MyTestCase)
+2018-06-24 15:58:35,047:consoleview:WARNING: ... 
+2018-06-24 15:58:35,048:consoleview:WARNING:FAIL
+2018-06-24 15:58:35,048:consoleview:WARNING:testFail2 (test41.MyTestCase)
+2018-06-24 15:58:35,049:consoleview:WARNING: ... 
+2018-06-24 15:58:35,050:consoleview:WARNING:FAIL
+2018-06-24 15:58:35,053:consoleview:WARNING:testFail (test41.MyTestCase)
+2018-06-24 15:58:35,054:consoleview:WARNING: ... 
+2018-06-24 15:58:35,054:consoleview:WARNING:FAIL
+2018-06-24 15:58:35,057:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,060:consoleview:WARNING:FAIL: testFail (test11.MyTestCase)
+2018-06-24 15:58:35,062:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,064:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test11.py", line 21, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,067:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,069:consoleview:WARNING:FAIL: testFail3 (test21.MyTestCase)
+2018-06-24 15:58:35,072:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,074:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test21.py", line 29, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,077:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,079:consoleview:WARNING:FAIL: testFail2 (test21.MyTestCase)
+2018-06-24 15:58:35,081:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,083:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test21.py", line 24, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,086:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,088:consoleview:WARNING:FAIL: testFail (test21.MyTestCase)
+2018-06-24 15:58:35,090:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,093:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test21.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,096:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,098:consoleview:WARNING:FAIL: testFail3 (test31.MyTestCase)
+2018-06-24 15:58:35,100:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,103:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test31.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,106:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,107:consoleview:WARNING:FAIL: testFail2 (test31.MyTestCase)
+2018-06-24 15:58:35,110:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,112:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test31.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,115:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,118:consoleview:WARNING:FAIL: testFail (test31.MyTestCase)
+2018-06-24 15:58:35,120:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,122:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test31.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,125:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,127:consoleview:WARNING:FAIL: testFail3 (test41.MyTestCase)
+2018-06-24 15:58:35,129:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,131:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test41.py", line 29, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,134:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,137:consoleview:WARNING:FAIL: testFail2 (test41.MyTestCase)
+2018-06-24 15:58:35,139:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,141:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test41.py", line 24, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,143:consoleview:WARNING:======================================================================
+2018-06-24 15:58:35,146:consoleview:WARNING:FAIL: testFail (test41.MyTestCase)
+2018-06-24 15:58:35,148:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,150:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script1\test41.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-06-24 15:58:35,153:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 15:58:35,155:consoleview:WARNING:Ran 21 tests in 6.109s
+2018-06-24 15:58:35,159:consoleview:WARNING:FAILED
+2018-06-24 15:58:35,159:consoleview:WARNING: (failures=10)
+2018-06-24 18:05:40,258:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:05:40,274:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:05:43,921:qtcode.testview:DEBUG:testFail (test1.MyTestCase) is added
+2018-06-24 18:05:43,921:qtcode.testview:DEBUG:testSleep (test1.MyTestCase) is added
+2018-06-24 18:05:43,921:qtcode.testview:DEBUG:testTrue (test1.MyTestCase) is added
+2018-06-24 18:05:43,921:qtcode.testview:DEBUG:testTrue2 (test1.MyTestCase) is added
+2018-06-24 18:05:45,772:qtcode.testview:DEBUG:not python item is selected
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testFail (test23.MyTestCase) is added
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testFail2 (test23.MyTestCase) is added
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testFail3 (test23.MyTestCase) is added
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testSleep (test23.MyTestCase) is added
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testSleep2 (test23.MyTestCase) is added
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testTrue (test23.MyTestCase) is added
+2018-06-24 18:05:46,881:qtcode.testview:DEBUG:testTrue2 (test23.MyTestCase) is added
+2018-06-24 18:05:47,319:qtcode.testview:DEBUG:testFail (test24.MyTestCase) is added
+2018-06-24 18:05:47,319:qtcode.testview:DEBUG:testFail2 (test24.MyTestCase) is added
+2018-06-24 18:05:47,319:qtcode.testview:DEBUG:testFail3 (test24.MyTestCase) is added
+2018-06-24 18:05:47,319:qtcode.testview:DEBUG:testTrue (test24.MyTestCase) is added
+2018-06-24 18:05:47,319:qtcode.testview:DEBUG:testTrue2 (test24.MyTestCase) is added
+2018-06-24 18:05:50,032:consoleview:WARNING:testTrue2 (test24.MyTestCase)
+2018-06-24 18:05:50,044:consoleview:WARNING: ... 
+2018-06-24 18:05:50,045:consoleview:WARNING:ok
+2018-06-24 18:05:50,048:consoleview:WARNING:testTrue (test24.MyTestCase)
+2018-06-24 18:05:50,048:consoleview:WARNING: ... 
+2018-06-24 18:05:50,049:consoleview:WARNING:ok
+2018-06-24 18:05:50,050:consoleview:WARNING:testFail3 (test24.MyTestCase)
+2018-06-24 18:05:50,053:consoleview:WARNING: ... 
+2018-06-24 18:05:50,061:consoleview:WARNING:FAIL
+2018-06-24 18:05:50,065:consoleview:WARNING:testFail2 (test24.MyTestCase)
+2018-06-24 18:05:50,066:consoleview:WARNING: ... 
+2018-06-24 18:05:50,067:consoleview:WARNING:FAIL
+2018-06-24 18:05:50,068:consoleview:WARNING:testFail (test24.MyTestCase)
+2018-06-24 18:05:50,069:consoleview:WARNING: ... 
+2018-06-24 18:05:50,070:consoleview:WARNING:FAIL
+2018-06-24 18:05:50,071:consoleview:WARNING:testTrue2 (test23.MyTestCase)
+2018-06-24 18:05:50,072:consoleview:WARNING: ... 
+2018-06-24 18:05:50,073:consoleview:WARNING:ok
+2018-06-24 18:05:50,075:consoleview:WARNING:testTrue (test23.MyTestCase)
+2018-06-24 18:05:50,076:consoleview:WARNING: ... 
+2018-06-24 18:05:50,076:consoleview:WARNING:ok
+2018-06-24 18:05:50,078:consoleview:WARNING:testSleep2 (test23.MyTestCase)
+2018-06-24 18:05:50,080:consoleview:WARNING: ... 
+2018-06-24 18:05:51,082:consoleview:INFO:sleepaaaa...
+2018-06-24 18:05:52,084:consoleview:INFO:sleep...
+2018-06-24 18:05:52,084:consoleview:WARNING:ok
+2018-06-24 18:05:52,084:consoleview:WARNING:testSleep (test23.MyTestCase)
+2018-06-24 18:05:52,084:consoleview:WARNING: ... 
+2018-06-24 18:05:53,100:consoleview:INFO:sleepaaaa...
+2018-06-24 18:05:54,115:consoleview:INFO:sleep...
+2018-06-24 18:05:54,115:consoleview:WARNING:ok
+2018-06-24 18:05:54,115:consoleview:WARNING:testFail3 (test23.MyTestCase)
+2018-06-24 18:05:54,115:consoleview:WARNING: ... 
+2018-06-24 18:05:54,115:consoleview:WARNING:FAIL
+2018-06-24 18:05:54,115:consoleview:WARNING:testFail2 (test23.MyTestCase)
+2018-06-24 18:05:54,115:consoleview:WARNING: ... 
+2018-06-24 18:05:54,115:consoleview:WARNING:FAIL
+2018-06-24 18:05:54,115:consoleview:WARNING:testFail (test23.MyTestCase)
+2018-06-24 18:05:54,131:consoleview:WARNING: ... 
+2018-06-24 18:05:54,131:consoleview:WARNING:FAIL
+2018-06-24 18:05:54,131:consoleview:WARNING:testTrue2 (test1.MyTestCase)
+2018-06-24 18:05:54,131:consoleview:WARNING: ... 
+2018-06-24 18:05:54,131:consoleview:INFO:hello2
+2018-06-24 18:05:54,131:consoleview:WARNING:ok
+2018-06-24 18:05:54,131:consoleview:WARNING:testTrue (test1.MyTestCase)
+Always true
+2018-06-24 18:05:54,131:consoleview:WARNING: ... 
+2018-06-24 18:05:54,146:consoleview:INFO:hello1
+2018-06-24 18:05:54,146:consoleview:WARNING:ok
+2018-06-24 18:05:54,146:consoleview:WARNING:testSleep (test1.MyTestCase)
+2018-06-24 18:05:54,146:consoleview:WARNING: ... 
+2018-06-24 18:05:54,146:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-06-24 18:05:54,146:consoleview:WARNING:testFail (test1.MyTestCase)
+Always fails
+2018-06-24 18:05:54,146:consoleview:WARNING: ... 
+2018-06-24 18:05:54,146:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-06-24 18:05:54,162:consoleview:WARNING:======================================================================
+2018-06-24 18:05:54,162:consoleview:WARNING:FAIL: testFail3 (test24.MyTestCase)
+2018-06-24 18:05:54,162:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,162:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test24.py", line 29, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 18:05:54,178:consoleview:WARNING:======================================================================
+2018-06-24 18:05:54,178:consoleview:WARNING:FAIL: testFail2 (test24.MyTestCase)
+2018-06-24 18:05:54,178:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,193:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test24.py", line 24, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 18:05:54,193:consoleview:WARNING:======================================================================
+2018-06-24 18:05:54,193:consoleview:WARNING:FAIL: testFail (test24.MyTestCase)
+2018-06-24 18:05:54,193:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,209:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test24.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-06-24 18:05:54,209:consoleview:WARNING:======================================================================
+2018-06-24 18:05:54,209:consoleview:WARNING:FAIL: testFail3 (test23.MyTestCase)
+2018-06-24 18:05:54,209:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,209:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test23.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 18:05:54,225:consoleview:WARNING:======================================================================
+2018-06-24 18:05:54,225:consoleview:WARNING:FAIL: testFail2 (test23.MyTestCase)
+2018-06-24 18:05:54,225:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,225:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test23.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 18:05:54,240:consoleview:WARNING:======================================================================
+2018-06-24 18:05:54,240:consoleview:WARNING:FAIL: testFail (test23.MyTestCase)
+2018-06-24 18:05:54,240:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,240:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test23.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-06-24 18:05:54,240:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:54,256:consoleview:WARNING:Ran 16 tests in 4.130s
+2018-06-24 18:05:54,256:consoleview:WARNING:FAILED
+2018-06-24 18:05:54,256:consoleview:WARNING: (failures=6, skipped=2)
+2018-06-24 18:05:57,994:consoleview:WARNING:Running tests... 
+2018-06-24 18:05:57,997:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:05:58,000:consoleview:WARNING: testTrue2 (test24.MyTestCase)
+2018-06-24 18:05:58,002:consoleview:WARNING: ... 
+2018-06-24 18:05:58,002:consoleview:WARNING:OK (0.001995)s
+2018-06-24 18:05:58,005:consoleview:WARNING: testTrue (test24.MyTestCase)
+2018-06-24 18:05:58,007:consoleview:WARNING: ... 
+2018-06-24 18:05:58,008:consoleview:WARNING:OK (0.002995)s
+2018-06-24 18:05:58,010:consoleview:WARNING: testFail3 (test24.MyTestCase)
+2018-06-24 18:05:58,012:consoleview:WARNING: ... 
+2018-06-24 18:05:58,013:consoleview:WARNING:FAIL (0.002993)s
+2018-06-24 18:05:58,016:consoleview:WARNING: testFail2 (test24.MyTestCase)
+2018-06-24 18:05:58,017:consoleview:WARNING: ... 
+2018-06-24 18:05:58,018:consoleview:WARNING:FAIL (0.002992)s
+2018-06-24 18:05:58,021:consoleview:WARNING: testFail (test24.MyTestCase)
+2018-06-24 18:05:58,022:consoleview:WARNING: ... 
+2018-06-24 18:05:58,024:consoleview:WARNING:FAIL (0.002991)s
+2018-06-24 18:05:58,026:consoleview:WARNING: testTrue2 (test23.MyTestCase)
+2018-06-24 18:05:58,027:consoleview:WARNING: ... 
+2018-06-24 18:05:58,029:consoleview:WARNING:OK (0.002994)s
+2018-06-24 18:05:58,032:consoleview:WARNING: testTrue (test23.MyTestCase)
+2018-06-24 18:05:58,033:consoleview:WARNING: ... 
+2018-06-24 18:05:58,034:consoleview:WARNING:OK (0.001996)s
+2018-06-24 18:05:58,037:consoleview:WARNING: testSleep2 (test23.MyTestCase)
+2018-06-24 18:05:58,038:consoleview:WARNING: ... 
+2018-06-24 18:06:00,039:consoleview:WARNING:OK (2.001928)s
+2018-06-24 18:06:00,042:consoleview:WARNING: testSleep (test23.MyTestCase)
+2018-06-24 18:06:00,044:consoleview:WARNING: ... 
+2018-06-24 18:06:02,075:consoleview:WARNING:OK (2.032391)s
+2018-06-24 18:06:02,075:consoleview:WARNING: testFail3 (test23.MyTestCase)
+2018-06-24 18:06:02,075:consoleview:WARNING: ... 
+2018-06-24 18:06:02,075:consoleview:WARNING:FAIL (0.000000)s
+2018-06-24 18:06:02,075:consoleview:WARNING: testFail2 (test23.MyTestCase)
+2018-06-24 18:06:02,075:consoleview:WARNING: ... 
+2018-06-24 18:06:02,075:consoleview:WARNING:FAIL (0.000000)s
+2018-06-24 18:06:02,075:consoleview:WARNING: testFail (test23.MyTestCase)
+2018-06-24 18:06:02,090:consoleview:WARNING: ... 
+2018-06-24 18:06:02,090:consoleview:WARNING:FAIL (0.015532)s
+2018-06-24 18:06:02,090:consoleview:WARNING: testTrue2 (test1.MyTestCase)
+2018-06-24 18:06:02,090:consoleview:WARNING: ... 
+2018-06-24 18:06:02,090:consoleview:WARNING:OK (0.000000)s
+2018-06-24 18:06:02,090:consoleview:WARNING: testTrue (test1.MyTestCase)
+2018-06-24 18:06:02,090:consoleview:WARNING: ... 
+2018-06-24 18:06:02,090:consoleview:WARNING:OK (0.000000)s
+2018-06-24 18:06:02,090:consoleview:WARNING: testSleep (test1.MyTestCase)
+2018-06-24 18:06:02,090:consoleview:WARNING: ... 
+2018-06-24 18:06:02,090:consoleview:WARNING:SKIP (0.000000)s
+2018-06-24 18:06:02,090:consoleview:WARNING: testFail (test1.MyTestCase)
+2018-06-24 18:06:02,106:consoleview:WARNING: ... 
+2018-06-24 18:06:02,106:consoleview:WARNING:SKIP (0.015622)s
+2018-06-24 18:06:02,106:consoleview:WARNING:======================================================================
+2018-06-24 18:06:02,106:consoleview:WARNING:FAIL [0.002993s]: 
+        Always fails
+        
+2018-06-24 18:06:02,106:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,106:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test24.py", line 29, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 18:06:02,121:consoleview:WARNING:======================================================================
+2018-06-24 18:06:02,121:consoleview:WARNING:FAIL [0.002992s]: 
+        Always fails
+        
+2018-06-24 18:06:02,121:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,121:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test24.py", line 24, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 18:06:02,121:consoleview:WARNING:======================================================================
+2018-06-24 18:06:02,121:consoleview:WARNING:FAIL [0.002991s]: 
+        Always fails
+        
+2018-06-24 18:06:02,121:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,137:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test24.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-06-24 18:06:02,137:consoleview:WARNING:======================================================================
+2018-06-24 18:06:02,137:consoleview:WARNING:FAIL [0.000000s]: 
+        Always fails
+        
+2018-06-24 18:06:02,137:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,137:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test23.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-06-24 18:06:02,137:consoleview:WARNING:======================================================================
+2018-06-24 18:06:02,153:consoleview:WARNING:FAIL [0.000000s]: 
+        Always fails
+        
+2018-06-24 18:06:02,153:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,153:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test23.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-06-24 18:06:02,153:consoleview:WARNING:======================================================================
+2018-06-24 18:06:02,153:consoleview:WARNING:FAIL [0.015532s]: 
+        Always fails
+        
+2018-06-24 18:06:02,153:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,153:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\script2\test23.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-06-24 18:06:02,168:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-24 18:06:02,168:consoleview:WARNING:Ran 16 tests in 0:00:04
+2018-06-24 18:06:02,168:consoleview:WARNING:FAILED
+2018-06-24 18:06:02,168:consoleview:WARNING: (Failures=6, Skipped=2)
+2018-06-24 18:06:02,168:consoleview:WARNING:Generating HTML reports... 
+2018-06-24 18:06:02,199:consoleview:WARNING:testreports\report_2018-06-24_18-05-57.html
+2018-06-24 18:08:28,672:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:08:28,703:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:09:21,119:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:09:21,150:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:10:21,529:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:10:21,560:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:11:21,219:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:11:21,250:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:11:59,146:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:11:59,177:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:12:22,098:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,098:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,113:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,113:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,113:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,113:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,113:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,113:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,113:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,129:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,129:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,129:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,129:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,129:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,129:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,129:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,145:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,145:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,145:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,145:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,145:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,145:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,145:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,160:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,160:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,160:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,160:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,160:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,160:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,176:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,176:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,176:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,176:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,176:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,176:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,192:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,192:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,192:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,192:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,192:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,207:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,207:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,207:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,207:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,207:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,223:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,223:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,223:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,223:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,223:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,238:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,238:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,238:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,238:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,238:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,254:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,254:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,254:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,254:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,254:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,270:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,270:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,270:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,270:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,270:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,270:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,285:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,285:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,285:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,285:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,285:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,285:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,301:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,301:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,301:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,301:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,301:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,301:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,301:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,316:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,316:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,316:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,316:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,316:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,316:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,332:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,332:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,332:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,332:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,332:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,332:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,348:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,348:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,348:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,348:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,348:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,348:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,363:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,363:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,363:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,363:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,363:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,363:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,379:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,379:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,379:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,379:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,379:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,395:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,395:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,395:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,395:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,395:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,395:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,410:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,410:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,410:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,410:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,410:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,410:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,426:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,426:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,426:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,426:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,426:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,441:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,441:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,441:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,441:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,441:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,457:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,457:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,457:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,457:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,457:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,457:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,473:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,473:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,473:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,473:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,488:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,488:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,488:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,488:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,488:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,504:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,504:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,504:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,504:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,504:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,520:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,520:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,520:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,520:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,520:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,535:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,535:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,535:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,535:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,551:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,551:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,551:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,551:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,566:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,566:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,566:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,566:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,582:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,582:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,582:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,582:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,598:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,598:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,598:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,598:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,613:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,613:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,613:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,613:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,613:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,629:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,629:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,629:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,629:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,629:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,645:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,645:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,645:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,645:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,645:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,660:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,660:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,660:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,660:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,676:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,676:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,676:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,676:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,691:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,691:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,691:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,691:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,691:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,707:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,707:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,707:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,707:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,723:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,723:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,723:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,723:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,738:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,738:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,738:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,738:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,754:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:22,754:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:22,754:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:22,754:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:22,754:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:33,173:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:12:33,205:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:12:38,531:consoleview:INFO:7
+2018-06-24 18:12:44,452:consoleview:INFO:æ»≥Á
+2018-06-24 18:12:46,670:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:46,670:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:46,686:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:46,686:consoleview:WARNING:NameError: name '«œ¿Ãø‰' is not defined
+
+2018-06-24 18:12:48,654:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,654:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,654:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,654:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,654:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,670:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,670:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,670:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,670:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,670:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,670:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,685:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,685:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,685:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,685:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,685:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,685:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,685:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,701:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,701:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,701:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,701:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,701:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,701:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,701:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,716:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,716:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,716:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,716:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,716:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,716:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,716:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,732:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,732:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,732:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,732:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,732:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,732:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,748:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,748:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,748:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,748:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,748:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,748:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,748:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,763:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,763:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,763:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,763:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,763:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,763:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,779:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,779:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,779:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,779:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,779:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,779:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,779:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,795:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,795:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,795:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,795:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,795:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,795:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,810:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,810:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,810:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,810:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,810:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,810:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,826:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,826:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,826:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,826:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,826:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,826:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,841:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,841:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,841:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,841:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,841:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,841:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,857:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,857:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,857:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,857:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,857:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,857:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,873:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,873:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,873:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,873:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,873:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,873:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,873:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,888:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,888:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,888:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,888:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,888:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,904:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,904:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,904:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,904:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,904:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,904:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,920:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,920:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,920:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,920:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,920:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,920:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,935:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,935:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,935:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,935:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,951:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,951:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,951:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,951:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,951:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,966:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,966:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,966:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,966:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,966:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,966:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,982:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,982:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,982:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,982:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,982:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,998:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,998:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:48,998:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:48,998:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:48,998:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:48,998:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,013:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,013:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,013:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,013:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,013:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,013:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,029:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,029:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,029:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,029:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,029:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,045:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,045:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,045:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,045:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,045:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,060:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,060:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,060:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,060:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,060:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,060:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,076:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,076:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,076:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,076:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,076:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,091:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,091:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,091:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,091:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,091:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,107:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,107:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,107:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,107:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,107:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,107:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,123:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,123:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,123:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,123:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,138:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,138:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,138:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,138:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,138:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,138:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,154:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,154:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,154:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,154:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,154:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,170:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,170:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,170:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,170:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,170:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,185:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,185:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,185:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,185:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,185:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,201:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,201:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,201:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,201:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,201:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,216:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,216:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,216:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,216:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,216:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,216:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,232:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,232:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,232:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,232:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:49,248:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:12:49,248:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:12:49,248:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:12:49,248:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:12:59,511:qtcode.testview:DEBUG:testview is initialized
+2018-06-24 18:12:59,542:qtcode.exampleview:DEBUG:exampleview created
+2018-06-24 18:13:01,838:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:01,838:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:01,854:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:01,854:consoleview:WARNING:NameError: name 'a' is not defined
+
+2018-06-24 18:13:03,697:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,697:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,697:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,697:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,697:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,713:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,713:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,713:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,713:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,713:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,713:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,713:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,729:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,729:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,729:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,729:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,729:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,729:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,729:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,744:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,744:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,744:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,744:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,744:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,760:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,760:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,760:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,760:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,760:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,760:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,775:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,775:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,775:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,775:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,775:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,775:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,791:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,791:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,791:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,791:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,791:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,791:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,791:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,807:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,807:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,807:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,807:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,807:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,807:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,807:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,822:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,822:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,822:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,822:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,822:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,838:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,838:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,838:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,838:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,838:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,838:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,838:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,854:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,854:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,854:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,854:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,854:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,854:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,869:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,869:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,869:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,869:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,869:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,869:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,885:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,885:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,885:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,885:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,885:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,900:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,900:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,900:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,900:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,900:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,900:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,916:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,916:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,916:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,916:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,916:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,916:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,916:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,932:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,932:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,932:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,932:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,932:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,947:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,947:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,947:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,947:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,947:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,963:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,963:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,963:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,963:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,979:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,979:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,979:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,979:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,979:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,994:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:03,994:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:03,994:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:03,994:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:03,994:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,010:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,010:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,010:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,010:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,010:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,025:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,025:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,025:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,025:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,025:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,025:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,041:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,041:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,041:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,041:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,041:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,057:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,057:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,057:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,057:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,057:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,057:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,072:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,072:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,072:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,072:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,072:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,088:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,088:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,088:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,088:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,088:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,103:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,103:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,103:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,103:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,103:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,119:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,119:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,119:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,119:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,135:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,135:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,135:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,135:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,135:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,150:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,150:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,150:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,150:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,166:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,166:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,166:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,166:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,166:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,182:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,182:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,182:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,182:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,182:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,197:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,197:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,197:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,197:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,197:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,213:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,213:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,213:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,213:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,228:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,228:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,228:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,228:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,228:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,228:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,244:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,244:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,244:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,244:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,244:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,260:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,260:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,260:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,260:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,275:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,275:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,275:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,275:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,275:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,291:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,291:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,291:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,291:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,291:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,307:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,307:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,307:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,307:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,307:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,322:consoleview:WARNING:--- Logging error ---
+
+2018-06-24 18:13:04,322:consoleview:WARNING:Traceback (most recent call last):
+
+2018-06-24 18:13:04,322:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 36, in cexec
+    exec(c, globals())
+
+2018-06-24 18:13:04,322:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-06-24 18:13:04,322:consoleview:WARNING:--- Logging error ---
+

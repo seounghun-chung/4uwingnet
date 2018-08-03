@@ -6,7 +6,7 @@ import traceback
 from unittest import TestResult, TextTestResult
 from unittest.result import failfast
 
-from jinja2 import Template
+from lib.jinja2 import Template
 
 DEFAULT_TEMPLATE = os.path.join(os.path.dirname(__file__), "template",
                                 "report_template.html")

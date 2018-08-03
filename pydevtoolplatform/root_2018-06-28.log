@@ -1,0 +1,28 @@
+2018-06-28 22:47:58,086:qtcode.testview:DEBUG:testview is initialized
+2018-06-28 22:47:58,133:qtcode.exampleview:DEBUG:exampleview created
+2018-06-28 22:55:12,664:qtcode.testview:DEBUG:testview is initialized
+2018-06-28 22:55:12,698:qtcode.exampleview:DEBUG:exampleview created
+2018-06-28 22:55:19,218:qtcode.testview:DEBUG:testFail (test1.MyTestCase) is added
+2018-06-28 22:55:19,218:qtcode.testview:DEBUG:testSleep (test1.MyTestCase) is added
+2018-06-28 22:55:19,218:qtcode.testview:DEBUG:testTrue (test1.MyTestCase) is added
+2018-06-28 22:55:19,218:qtcode.testview:DEBUG:testTrue2 (test1.MyTestCase) is added
+2018-06-28 22:55:22,057:consoleview:WARNING:Running tests... 
+2018-06-28 22:55:22,066:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-28 22:55:22,068:consoleview:WARNING: testTrue2 (test1.MyTestCase)
+2018-06-28 22:55:22,074:consoleview:WARNING: ... 
+2018-06-28 22:55:22,074:consoleview:WARNING:OK (0.005983)s
+2018-06-28 22:55:22,079:consoleview:WARNING: testTrue (test1.MyTestCase)
+2018-06-28 22:55:22,079:consoleview:WARNING: ... 
+2018-06-28 22:55:22,080:consoleview:WARNING:OK (0.000998)s
+2018-06-28 22:55:22,081:consoleview:WARNING: testSleep (test1.MyTestCase)
+2018-06-28 22:55:22,083:consoleview:WARNING: ... 
+2018-06-28 22:55:22,084:consoleview:WARNING:SKIP (0.003023)s
+2018-06-28 22:55:22,087:consoleview:WARNING: testFail (test1.MyTestCase)
+2018-06-28 22:55:22,089:consoleview:WARNING: ... 
+2018-06-28 22:55:22,089:consoleview:WARNING:SKIP (0.001999)s
+2018-06-28 22:55:22,092:consoleview:WARNING:----------------------------------------------------------------------
+2018-06-28 22:55:22,094:consoleview:WARNING:Ran 4 tests in 0:00:00
+2018-06-28 22:55:22,098:consoleview:WARNING:OK
+2018-06-28 22:55:22,100:consoleview:WARNING: (Skipped=2)
+2018-06-28 22:55:22,107:consoleview:WARNING:Generating HTML reports... 
+2018-06-28 22:55:22,144:consoleview:WARNING:testreports\report_2018-06-28_22-55-22.html

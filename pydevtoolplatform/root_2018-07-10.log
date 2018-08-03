@@ -1,0 +1,427 @@
+2018-07-10 23:13:17,469:qtcode.testview:DEBUG:testview is initialized
+2018-07-10 23:13:17,515:qtcode.exampleview:DEBUG:exampleview created
+2018-07-10 23:13:53,740:consoleview:INFO:(1128, 297)
+2018-07-10 23:13:53,882:consoleview:INFO:(1128, 297)
+2018-07-10 23:13:53,984:consoleview:INFO:(1128, 297)
+2018-07-10 23:13:54,087:consoleview:INFO:(1128, 297)
+2018-07-10 23:13:54,192:consoleview:INFO:(1017, 317)
+2018-07-10 23:13:54,305:consoleview:INFO:(824, 363)
+2018-07-10 23:13:54,418:consoleview:INFO:(711, 385)
+2018-07-10 23:13:54,534:consoleview:INFO:(626, 387)
+2018-07-10 23:13:54,638:consoleview:INFO:(581, 373)
+2018-07-10 23:13:54,748:consoleview:INFO:(521, 358)
+2018-07-10 23:13:54,850:consoleview:INFO:(456, 348)
+2018-07-10 23:13:54,954:consoleview:INFO:(417, 386)
+2018-07-10 23:13:55,058:consoleview:INFO:(403, 453)
+2018-07-10 23:13:55,162:consoleview:INFO:(400, 511)
+2018-07-10 23:13:55,266:consoleview:INFO:(405, 558)
+2018-07-10 23:13:55,372:consoleview:INFO:(431, 612)
+2018-07-10 23:13:55,476:consoleview:INFO:(493, 651)
+2018-07-10 23:13:55,580:consoleview:INFO:(544, 617)
+2018-07-10 23:13:55,684:consoleview:INFO:(551, 482)
+2018-07-10 23:13:55,787:consoleview:INFO:(516, 370)
+2018-07-10 23:13:55,890:consoleview:INFO:(473, 303)
+2018-07-10 23:13:55,992:consoleview:INFO:(416, 258)
+2018-07-10 23:13:56,096:consoleview:INFO:(376, 255)
+2018-07-10 23:13:56,202:consoleview:INFO:(373, 256)
+2018-07-10 23:13:56,307:consoleview:INFO:(386, 193)
+2018-07-10 23:13:56,410:consoleview:INFO:(394, 226)
+2018-07-10 23:13:56,514:consoleview:INFO:(262, 375)
+2018-07-10 23:13:56,618:consoleview:INFO:(337, 501)
+2018-07-10 23:13:56,723:consoleview:INFO:(477, 534)
+2018-07-10 23:13:56,833:consoleview:INFO:(527, 497)
+2018-07-10 23:13:56,943:consoleview:INFO:(669, 447)
+2018-07-10 23:13:57,051:consoleview:INFO:(881, 431)
+2018-07-10 23:13:57,163:consoleview:INFO:(1066, 420)
+2018-07-10 23:13:57,268:consoleview:INFO:(1185, 457)
+2018-07-10 23:13:57,376:consoleview:INFO:(1293, 540)
+2018-07-10 23:13:57,481:consoleview:INFO:(1424, 617)
+2018-07-10 23:13:57,589:consoleview:INFO:(1503, 641)
+2018-07-10 23:13:57,697:consoleview:INFO:(1569, 630)
+2018-07-10 23:13:57,805:consoleview:INFO:(1620, 564)
+2018-07-10 23:13:57,912:consoleview:INFO:(1646, 510)
+2018-07-10 23:13:58,015:consoleview:INFO:(1663, 470)
+2018-07-10 23:13:58,123:consoleview:INFO:(1669, 435)
+2018-07-10 23:13:58,230:consoleview:INFO:(1714, 366)
+2018-07-10 23:13:58,339:consoleview:INFO:(1703, 332)
+2018-07-10 23:13:58,448:consoleview:INFO:(1611, 274)
+2018-07-10 23:13:58,556:consoleview:INFO:(1533, 265)
+2018-07-10 23:13:58,664:consoleview:INFO:(1421, 291)
+2018-07-10 23:13:58,767:consoleview:INFO:(1081, 364)
+2018-07-10 23:13:58,871:consoleview:INFO:(756, 425)
+2018-07-10 23:13:58,973:consoleview:INFO:(662, 473)
+2018-07-10 23:13:59,081:consoleview:INFO:(612, 543)
+2018-07-10 23:13:59,188:consoleview:INFO:(537, 608)
+2018-07-10 23:13:59,295:consoleview:INFO:(453, 675)
+2018-07-10 23:13:59,402:consoleview:INFO:(440, 768)
+2018-07-10 23:13:59,504:consoleview:INFO:(442, 787)
+2018-07-10 23:13:59,613:consoleview:INFO:(493, 819)
+2018-07-10 23:13:59,718:consoleview:INFO:(693, 836)
+2018-07-10 23:13:59,821:consoleview:INFO:(839, 830)
+2018-07-10 23:13:59,926:consoleview:INFO:(868, 822)
+2018-07-10 23:14:00,029:consoleview:INFO:(911, 809)
+2018-07-10 23:14:00,136:consoleview:INFO:(925, 830)
+2018-07-10 23:14:00,241:consoleview:INFO:(941, 945)
+2018-07-10 23:14:00,349:consoleview:INFO:(1003, 1002)
+2018-07-10 23:14:00,459:consoleview:INFO:(1071, 975)
+2018-07-10 23:14:00,568:consoleview:INFO:(1178, 955)
+2018-07-10 23:14:00,677:consoleview:INFO:(1267, 941)
+2018-07-10 23:14:00,785:consoleview:INFO:(1385, 927)
+2018-07-10 23:14:00,895:consoleview:INFO:(1475, 930)
+2018-07-10 23:14:00,999:consoleview:INFO:(1629, 938)
+2018-07-10 23:14:01,105:consoleview:INFO:(1711, 951)
+2018-07-10 23:14:01,215:consoleview:INFO:(1726, 934)
+2018-07-10 23:14:01,317:consoleview:INFO:(1741, 842)
+2018-07-10 23:14:01,424:consoleview:INFO:(1737, 827)
+2018-07-10 23:14:01,528:consoleview:INFO:(1737, 815)
+2018-07-10 23:14:01,635:consoleview:INFO:(1739, 769)
+2018-07-10 23:14:01,742:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:01,848:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:01,956:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,062:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,168:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,271:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,375:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,478:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,581:consoleview:INFO:(1739, 768)
+2018-07-10 23:14:02,686:consoleview:INFO:(1740, 736)
+2018-07-10 23:14:02,790:consoleview:INFO:(1740, 735)
+2018-07-10 23:14:02,893:consoleview:INFO:(1740, 735)
+2018-07-10 23:14:02,997:consoleview:INFO:(1740, 735)
+2018-07-10 23:14:03,100:consoleview:INFO:(1736, 708)
+2018-07-10 23:14:03,205:consoleview:INFO:(1734, 626)
+2018-07-10 23:14:03,312:consoleview:INFO:(1734, 586)
+2018-07-10 23:14:03,417:consoleview:INFO:(1717, 524)
+2018-07-10 23:14:03,525:consoleview:INFO:(1706, 496)
+2018-07-10 23:14:03,631:consoleview:INFO:(1555, 470)
+2018-07-10 23:14:03,738:consoleview:INFO:(1320, 470)
+2018-07-10 23:14:03,846:consoleview:INFO:(1138, 470)
+2018-07-10 23:14:03,955:consoleview:INFO:(945, 513)
+2018-07-10 23:14:04,063:consoleview:INFO:(719, 576)
+2018-07-10 23:14:04,175:consoleview:INFO:(623, 594)
+2018-07-10 23:14:04,284:consoleview:INFO:(546, 526)
+2018-07-10 23:14:17,798:consoleview:INFO:(469, 465)
+2018-07-10 23:14:17,902:consoleview:INFO:(469, 465)
+2018-07-10 23:14:18,004:consoleview:INFO:(469, 465)
+2018-07-10 23:14:18,111:consoleview:INFO:(465, 464)
+2018-07-10 23:14:18,219:consoleview:INFO:(451, 451)
+2018-07-10 23:14:18,323:consoleview:INFO:(451, 451)
+2018-07-10 23:14:18,431:consoleview:INFO:(451, 451)
+2018-07-10 23:14:18,540:consoleview:INFO:(451, 451)
+2018-07-10 23:14:18,642:consoleview:INFO:(381, 448)
+2018-07-10 23:14:18,749:consoleview:INFO:(257, 545)
+2018-07-10 23:14:18,853:consoleview:INFO:(292, 642)
+2018-07-10 23:14:18,958:consoleview:INFO:(399, 615)
+2018-07-10 23:14:19,063:consoleview:INFO:(348, 248)
+2018-07-10 23:14:19,167:consoleview:INFO:(332, 263)
+2018-07-10 23:14:19,276:consoleview:INFO:(552, 613)
+2018-07-10 23:14:19,385:consoleview:INFO:(629, 619)
+2018-07-10 23:14:19,492:consoleview:INFO:(600, 613)
+2018-07-10 23:14:19,602:consoleview:INFO:(509, 735)
+2018-07-10 23:14:19,709:consoleview:INFO:(617, 863)
+2018-07-10 23:14:19,818:consoleview:INFO:(622, 863)
+2018-07-10 23:14:19,926:consoleview:INFO:(622, 863)
+2018-07-10 23:14:20,030:consoleview:INFO:(629, 928)
+2018-07-10 23:14:20,137:consoleview:INFO:(672, 948)
+2018-07-10 23:14:20,245:consoleview:INFO:(713, 960)
+2018-07-10 23:14:20,352:consoleview:INFO:(923, 998)
+2018-07-10 23:14:20,462:consoleview:INFO:(1091, 998)
+2018-07-10 23:14:20,567:consoleview:INFO:(1102, 998)
+2018-07-10 23:14:20,675:consoleview:INFO:(765, 895)
+2018-07-10 23:14:20,783:consoleview:INFO:(433, 723)
+2018-07-10 23:14:20,892:consoleview:INFO:(450, 612)
+2018-07-10 23:14:21,002:consoleview:INFO:(450, 612)
+2018-07-10 23:14:21,106:consoleview:INFO:(450, 568)
+2018-07-10 23:14:21,213:consoleview:INFO:(481, 513)
+2018-07-10 23:14:21,321:consoleview:INFO:(481, 513)
+2018-07-10 23:14:21,429:consoleview:INFO:(480, 535)
+2018-07-10 23:14:21,536:consoleview:INFO:(480, 535)
+2018-07-10 23:14:21,668:consoleview:INFO:(480, 535)
+2018-07-10 23:14:21,772:consoleview:INFO:(480, 535)
+2018-07-10 23:14:21,874:consoleview:INFO:(480, 535)
+2018-07-10 23:14:21,983:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,090:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,197:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,306:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,411:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,520:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,625:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,735:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,851:consoleview:INFO:(480, 535)
+2018-07-10 23:14:22,959:consoleview:INFO:(480, 535)
+2018-07-10 23:14:23,064:consoleview:INFO:(480, 535)
+2018-07-10 23:14:23,174:consoleview:INFO:(480, 535)
+2018-07-10 23:14:23,282:consoleview:INFO:(480, 535)
+2018-07-10 23:14:23,392:consoleview:INFO:(480, 535)
+2018-07-10 23:14:23,498:consoleview:INFO:(480, 535)
+2018-07-10 23:14:23,603:consoleview:INFO:(464, 561)
+2018-07-10 23:14:23,708:consoleview:INFO:(497, 674)
+2018-07-10 23:14:23,812:consoleview:INFO:(595, 767)
+2018-07-10 23:14:23,915:consoleview:INFO:(603, 772)
+2018-07-10 23:14:24,020:consoleview:INFO:(599, 772)
+2018-07-10 23:14:24,123:consoleview:INFO:(599, 772)
+2018-07-10 23:14:24,226:consoleview:INFO:(599, 772)
+2018-07-10 23:14:24,330:consoleview:INFO:(608, 797)
+2018-07-10 23:14:24,433:consoleview:INFO:(642, 900)
+2018-07-10 23:14:24,535:consoleview:INFO:(743, 940)
+2018-07-10 23:14:24,638:consoleview:INFO:(876, 908)
+2018-07-10 23:14:24,744:consoleview:INFO:(915, 888)
+2018-07-10 23:14:24,851:consoleview:INFO:(1012, 984)
+2018-07-10 23:14:24,960:consoleview:INFO:(1195, 1062)
+2018-07-10 23:14:25,065:consoleview:INFO:(1431, 930)
+2018-07-10 23:14:25,170:consoleview:INFO:(1467, 822)
+2018-07-10 23:14:25,275:consoleview:INFO:(1611, 735)
+2018-07-10 23:14:25,381:consoleview:INFO:(1689, 668)
+2018-07-10 23:14:25,486:consoleview:INFO:(1667, 607)
+2018-07-10 23:14:25,594:consoleview:INFO:(1595, 537)
+2018-07-10 23:14:25,699:consoleview:INFO:(1458, 469)
+2018-07-10 23:14:25,807:consoleview:INFO:(1255, 458)
+2018-07-10 23:14:25,916:consoleview:INFO:(929, 440)
+2018-07-10 23:14:26,020:consoleview:INFO:(780, 435)
+2018-07-10 23:14:26,124:consoleview:INFO:(669, 444)
+2018-07-10 23:14:26,233:consoleview:INFO:(504, 452)
+2018-07-10 23:14:26,337:consoleview:INFO:(414, 408)
+2018-07-10 23:14:26,440:consoleview:INFO:(388, 319)
+2018-07-10 23:14:26,544:consoleview:INFO:(418, 222)
+2018-07-10 23:14:26,648:consoleview:INFO:(448, 176)
+2018-07-10 23:14:26,753:consoleview:INFO:(465, 148)
+2018-07-10 23:14:26,858:consoleview:INFO:(475, 130)
+2018-07-10 23:14:26,963:consoleview:INFO:(487, 120)
+2018-07-10 23:14:27,068:consoleview:INFO:(373, 117)
+2018-07-10 23:14:27,172:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,276:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,383:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,490:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,596:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,700:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,807:consoleview:INFO:(352, 117)
+2018-07-10 23:14:27,915:consoleview:INFO:(352, 117)
+2018-07-10 23:14:28,018:consoleview:INFO:(352, 117)
+2018-07-10 23:14:28,126:consoleview:INFO:(352, 117)
+2018-07-10 23:14:28,229:consoleview:INFO:(352, 117)
+2018-07-10 23:14:28,333:consoleview:INFO:(352, 117)
+2018-07-10 23:14:55,809:consoleview:WARNING:Traceback (most recent call last):
+
+2018-07-10 23:14:55,824:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 37, in cexec
+    exec(c, globals())
+
+2018-07-10 23:14:55,837:consoleview:WARNING:  File "<string>", line 2, in <module>
+
+2018-07-10 23:14:55,841:consoleview:WARNING:ModuleNotFoundError: No module named 'pywinauto'
+
+2018-07-10 23:15:56,655:qtcode.testview:DEBUG:testview is initialized
+2018-07-10 23:15:56,696:qtcode.exampleview:DEBUG:exampleview created
+2018-07-10 23:16:13,635:consoleview:WARNING:C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\__init__.py:64: UserWarning: Revert to STA COM threading mode
+  warnings.warn("Revert to STA COM threading mode", UserWarning)
+
+2018-07-10 23:16:15,395:consoleview:INFO:(1137, 429)
+2018-07-10 23:16:15,506:consoleview:INFO:(1137, 429)
+2018-07-10 23:16:15,609:consoleview:INFO:(1137, 429)
+2018-07-10 23:16:15,713:consoleview:INFO:(1137, 429)
+2018-07-10 23:16:15,819:consoleview:INFO:(1137, 429)
+2018-07-10 23:16:15,923:consoleview:INFO:(1137, 429)
+2018-07-10 23:16:16,030:consoleview:INFO:(870, 487)
+2018-07-10 23:16:16,148:consoleview:INFO:(834, 487)
+2018-07-10 23:16:16,256:consoleview:INFO:(834, 487)
+2018-07-10 23:16:16,362:consoleview:INFO:(834, 487)
+2018-07-10 23:16:16,466:consoleview:INFO:(810, 492)
+2018-07-10 23:16:16,573:consoleview:INFO:(768, 420)
+2018-07-10 23:16:16,680:consoleview:INFO:(651, 165)
+2018-07-10 23:16:16,785:consoleview:INFO:(651, 159)
+2018-07-10 23:16:16,888:consoleview:INFO:(672, 156)
+2018-07-10 23:16:16,991:consoleview:INFO:(711, 137)
+2018-07-10 23:16:17,095:consoleview:INFO:(711, 137)
+2018-07-10 23:16:17,536:consoleview:INFO:(438, 160)
+2018-07-10 23:16:17,639:consoleview:INFO:(457, 217)
+2018-07-10 23:16:17,742:consoleview:INFO:(608, 593)
+2018-07-10 23:16:17,845:consoleview:INFO:(662, 685)
+2018-07-10 23:16:17,950:consoleview:INFO:(751, 738)
+2018-07-10 23:16:18,053:consoleview:INFO:(808, 755)
+2018-07-10 23:16:18,160:consoleview:INFO:(830, 716)
+2018-07-10 23:16:18,267:consoleview:INFO:(830, 716)
+2018-07-10 23:16:18,374:consoleview:INFO:(938, 810)
+2018-07-10 23:16:18,478:consoleview:INFO:(979, 821)
+2018-07-10 23:16:18,583:consoleview:INFO:(979, 821)
+2018-07-10 23:16:18,688:consoleview:INFO:(979, 821)
+2018-07-10 23:16:18,795:consoleview:INFO:(979, 821)
+2018-07-10 23:16:18,903:consoleview:INFO:(979, 821)
+2018-07-10 23:16:19,011:consoleview:INFO:(979, 821)
+2018-07-10 23:16:19,119:consoleview:INFO:(979, 821)
+2018-07-10 23:16:19,227:consoleview:INFO:(979, 821)
+2018-07-10 23:16:19,335:consoleview:INFO:(979, 821)
+2018-07-10 23:16:19,444:consoleview:INFO:(979, 821)
+2018-07-10 23:16:19,551:consoleview:INFO:(986, 821)
+2018-07-10 23:16:19,659:consoleview:INFO:(1097, 833)
+2018-07-10 23:16:19,766:consoleview:INFO:(1156, 845)
+2018-07-10 23:16:19,875:consoleview:INFO:(1186, 855)
+2018-07-10 23:16:19,982:consoleview:INFO:(1213, 857)
+2018-07-10 23:16:20,086:consoleview:INFO:(1226, 857)
+2018-07-10 23:16:20,194:consoleview:INFO:(1233, 857)
+2018-07-10 23:16:20,301:consoleview:INFO:(1235, 857)
+2018-07-10 23:16:20,408:consoleview:INFO:(1237, 857)
+2018-07-10 23:16:20,511:consoleview:INFO:(1237, 857)
+2018-07-10 23:16:20,619:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:20,724:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:20,831:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:20,938:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,042:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,148:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,255:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,362:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,469:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,575:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,682:consoleview:INFO:(1243, 857)
+2018-07-10 23:16:21,788:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:21,895:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,001:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,105:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,211:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,317:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,424:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,531:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,639:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,746:consoleview:INFO:(1243, 862)
+2018-07-10 23:16:22,853:consoleview:INFO:(1252, 799)
+2018-07-10 23:16:22,961:consoleview:INFO:(1255, 763)
+2018-07-10 23:16:23,066:consoleview:INFO:(1256, 739)
+2018-07-10 23:16:23,174:consoleview:INFO:(1256, 711)
+2018-07-10 23:16:23,284:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:23,391:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:23,498:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:23,604:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:23,711:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:23,814:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:23,918:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:24,021:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:24,124:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:24,228:consoleview:INFO:(1256, 704)
+2018-07-10 23:16:24,331:consoleview:INFO:(1162, 672)
+2018-07-10 23:16:24,435:consoleview:INFO:(1042, 638)
+2018-07-10 23:16:24,538:consoleview:INFO:(1036, 651)
+2018-07-10 23:16:24,641:consoleview:INFO:(1152, 646)
+2018-07-10 23:16:24,746:consoleview:INFO:(1361, 511)
+2018-07-10 23:16:24,850:consoleview:INFO:(1367, 438)
+2018-07-10 23:16:24,955:consoleview:INFO:(1376, 215)
+2018-07-10 23:16:25,057:consoleview:INFO:(1355, 185)
+2018-07-10 23:16:25,163:consoleview:INFO:(1355, 184)
+2018-07-10 23:16:25,270:consoleview:INFO:(1388, 134)
+2018-07-10 23:16:25,377:consoleview:INFO:(1400, 95)
+2018-07-10 23:16:25,482:consoleview:INFO:(1401, 94)
+2018-07-10 23:16:25,589:consoleview:INFO:(1403, 82)
+2018-07-10 23:16:25,695:consoleview:INFO:(1273, 169)
+2018-07-10 23:16:25,804:consoleview:INFO:(609, 604)
+2018-07-10 23:16:25,912:consoleview:INFO:(593, 833)
+2018-07-10 23:16:26,021:consoleview:INFO:(691, 909)
+2018-07-10 23:16:26,126:consoleview:INFO:(773, 735)
+2018-07-10 23:16:26,234:consoleview:INFO:(333, 435)
+2018-07-10 23:16:55,888:consoleview:WARNING:Traceback (most recent call last):
+
+2018-07-10 23:16:55,899:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 37, in cexec
+    exec(c, globals())
+
+2018-07-10 23:16:55,906:consoleview:WARNING:  File "<string>", line 5, in <module>
+
+2018-07-10 23:16:55,922:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\hwndwrapper.py", line 1059, in menu_select
+    self.menu_item(path, exact=exact).select()
+
+2018-07-10 23:16:55,926:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\hwndwrapper.py", line 1002, in menu_item
+    return self.menu().get_menu_path(path, appdata = menu_appdata, exact=exact)[-1]
+
+2018-07-10 23:16:55,931:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\menuwrapper.py", line 109, in check
+    return method(instance, *args, **kwargs)
+
+2018-07-10 23:16:55,937:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\menuwrapper.py", line 570, in get_menu_path
+    self.items())
+
+2018-07-10 23:16:55,942:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\findbestmatch.py", line 133, in find_best_match
+    raise MatchError(items = text_item_map.keys(), tofind = search_text)
+
+2018-07-10 23:16:55,945:consoleview:WARNING:pywinauto.findbestmatch.MatchError: Could not find 'Help' in 'dict_keys(['파일(&F)', '편집(&E)', '서식(&O)', '보기(&V)', '도움말(&H)'])'
+
+2018-07-10 23:17:17,851:consoleview:WARNING:Traceback (most recent call last):
+
+2018-07-10 23:17:17,859:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 37, in cexec
+    exec(c, globals())
+
+2018-07-10 23:17:17,863:consoleview:WARNING:  File "<string>", line 5, in <module>
+
+2018-07-10 23:17:17,876:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\hwndwrapper.py", line 1059, in menu_select
+    self.menu_item(path, exact=exact).select()
+
+2018-07-10 23:17:17,880:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\hwndwrapper.py", line 1002, in menu_item
+    return self.menu().get_menu_path(path, appdata = menu_appdata, exact=exact)[-1]
+
+2018-07-10 23:17:17,883:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\menuwrapper.py", line 109, in check
+    return method(instance, *args, **kwargs)
+
+2018-07-10 23:17:17,885:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\menuwrapper.py", line 583, in get_menu_path
+    exact=exact)
+
+2018-07-10 23:17:17,888:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\menuwrapper.py", line 109, in check
+    return method(instance, *args, **kwargs)
+
+2018-07-10 23:17:17,891:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\controls\menuwrapper.py", line 570, in get_menu_path
+    self.items())
+
+2018-07-10 23:17:17,894:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\findbestmatch.py", line 133, in find_best_match
+    raise MatchError(items = text_item_map.keys(), tofind = search_text)
+
+2018-07-10 23:17:17,897:consoleview:WARNING:pywinauto.findbestmatch.MatchError: Could not find 'About Notepad' in 'dict_keys(['도움말 보기(&H)', '', '메모장 정보(&A)'])'
+
+2018-07-10 23:17:35,068:consoleview:INFO:(1060, 449)
+2018-07-10 23:17:35,172:consoleview:INFO:(1060, 449)
+2018-07-10 23:17:35,276:consoleview:INFO:(1060, 449)
+2018-07-10 23:17:35,381:consoleview:INFO:(1364, 521)
+2018-07-10 23:17:35,485:consoleview:INFO:(1364, 606)
+2018-07-10 23:17:35,588:consoleview:INFO:(1374, 713)
+2018-07-10 23:17:35,694:consoleview:INFO:(1378, 718)
+2018-07-10 23:17:35,799:consoleview:INFO:(1378, 718)
+2018-07-10 23:17:35,908:consoleview:INFO:(1378, 718)
+2018-07-10 23:17:36,016:consoleview:INFO:(1403, 738)
+2018-07-10 23:18:02,928:consoleview:INFO:<pywinauto.application.Application object at 0x09F69290>
+2018-07-10 23:18:40,423:consoleview:INFO:<pywinauto.application.Application object at 0x09F69390>
+2018-07-10 23:18:55,364:consoleview:INFO:<pywinauto.application.Application object at 0x09F690D0>
+2018-07-10 23:19:00,378:consoleview:WARNING:Traceback (most recent call last):
+
+2018-07-10 23:19:00,386:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\application.py", line 245, in __resolve_control
+    criteria)
+
+2018-07-10 23:19:00,392:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\timings.py", line 449, in wait_until_passes
+    raise err
+
+2018-07-10 23:19:00,405:consoleview:WARNING:pywinauto.timings.TimeoutError
+
+2018-07-10 23:19:00,408:consoleview:WARNING:
+During handling of the above exception, another exception occurred:
+
+
+2018-07-10 23:19:00,410:consoleview:WARNING:Traceback (most recent call last):
+
+2018-07-10 23:19:00,412:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 37, in cexec
+    exec(c, globals())
+
+2018-07-10 23:19:00,415:consoleview:WARNING:  File "<string>", line 6, in <module>
+
+2018-07-10 23:19:00,417:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\application.py", line 367, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+
+2018-07-10 23:19:00,420:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\application.py", line 248, in __resolve_control
+    raise e.original_exception
+
+2018-07-10 23:19:00,424:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\timings.py", line 427, in wait_until_passes
+    func_val = func(*args)
+
+2018-07-10 23:19:00,427:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\application.py", line 190, in __get_ctrl
+    dialog = self.backend.generic_wrapper_class(findwindows.find_element(**criteria[0]))
+
+2018-07-10 23:19:00,431:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+
+2018-07-10 23:19:00,434:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\findwindows.py", line 300, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+
+2018-07-10 23:19:00,437:consoleview:WARNING:  File "C:\Users\seoung\AppData\Roaming\Python\Python36\site-packages\pywinauto\findbestmatch.py", line 533, in find_best_control_matches
+    raise MatchError(items = name_control_map.keys(), tofind = search_text)
+
+2018-07-10 23:19:00,440:consoleview:WARNING:pywinauto.findbestmatch.MatchError: Could not find 'Calc' in 'dict_keys([])'
+

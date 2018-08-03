@@ -25,7 +25,7 @@ class ExampleView(QWidget, form_class):
         self.cExample = alloc.example
         self.cExample2 = alloc.example2  
         
-        self.pushButton.clicked.connect(lambda : self.cExample.func1())
+        self.pushButton.clicked.connect(lambda : self._test1())
 #        self.pushButton_2.clicked.connect(self._test1)
         
         self._commandSignal.exampleview.connect(lambda x : self.lineEdit.setText(x))  
@@ -33,6 +33,9 @@ class ExampleView(QWidget, form_class):
         self.settings = QSettings('test.ini', QSettings.IniFormat)  
         self.groupBox.setChecked(True if self.settings.value("checkbox1", True) == "true" else False)
         self.groupBox.clicked.connect(lambda : self.settings.setValue("checkbox1", self.groupBox.isChecked()))
+
+    def _test1(self):
+        b
 
     def _test2(self, prog):
         import time

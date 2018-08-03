@@ -8,6 +8,12 @@ from features.alloc import *
 import logging
 import datetime
 
+def my_exception_hook(exctype, value, traceback):
+    # Print the error and traceback
+    print(exctype, value, traceback)
+    # Call the normal Exception hook after
+    sys._excepthook(exctype, value, traceback)
+
 if sys.executable.endswith("pythonw.exe"):
   sys.stdout = open(os.devnull, "w");
   sys.stderr = open(os.path.join(os.getenv("TEMP"), "stderr-"+os.path.basename(sys.argv[0])), "w")
@@ -20,7 +26,11 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 if __name__ == '__main__':
+    sys._excepthook = sys.excepthook
+
+    # Set the exception hook to our wrapping function
+    sys.excepthook = my_exception_hook
     app = QApplication(sys.argv)
     Main = MainView()
-    Main.show()
+    Main.show()    
     app.exec_()

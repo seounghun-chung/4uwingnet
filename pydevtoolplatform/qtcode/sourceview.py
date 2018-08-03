@@ -171,6 +171,7 @@ class SourceView(QWidget, form_class):
                 
                 
     def _run_script(self):
+        self.pushButton_5.setEnabled(False)
         console.cexec(self.plainTextEdit.toPlainText(), isfile = True)
-
+        self.pushButton_5.setEnabled(True)
     

@@ -4,7 +4,7 @@
     It can used class object through from features.alloc import *
 """
 
-from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop    
+from PyQt5.QtCore import QObject, pyqtSignal, Qt, QEventLoop, QTimer   
 from features.alloc import *
 
 import os
@@ -63,6 +63,11 @@ def run():
 
 #def print(msg, color="black"):
 #    _PyQtSignalConnect.consoleview_print.emit(msg, color)    
+    
+def msleep(t):
+    loop = QEventLoop()
+    QTimer.singleShot(t, loop.quit)
+    loop.exec_()
     
 def help(obj = None):
 #    RegisterObjectInConsole.__doc__ = "private"

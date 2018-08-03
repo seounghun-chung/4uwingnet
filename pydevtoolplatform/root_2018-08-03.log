@@ -1,0 +1,142 @@
+2018-08-03 20:49:38,074:qtcode.testview:DEBUG:testview is initialized
+2018-08-03 20:49:38,115:qtcode.exampleview:DEBUG:exampleview created
+2018-08-03 20:51:41,889:consoleview:INFO:9
+2018-08-03 20:51:41,921:consoleview:INFO:0
+2018-08-03 20:51:41,930:consoleview:INFO:test!
+2018-08-03 20:51:41,942:consoleview:INFO:1
+2018-08-03 20:51:41,948:consoleview:INFO:test!
+2018-08-03 20:51:41,951:consoleview:INFO:2
+2018-08-03 20:51:41,955:consoleview:INFO:test!
+2018-08-03 20:51:41,958:consoleview:INFO:3
+2018-08-03 20:51:41,963:consoleview:INFO:test!
+2018-08-03 20:51:41,966:consoleview:INFO:4
+2018-08-03 20:51:41,970:consoleview:INFO:test!
+2018-08-03 20:51:41,971:consoleview:INFO:5
+2018-08-03 20:51:41,974:consoleview:INFO:test!
+2018-08-03 20:51:41,975:consoleview:INFO:6
+2018-08-03 20:51:41,978:consoleview:INFO:test!
+2018-08-03 20:51:41,979:consoleview:INFO:7
+2018-08-03 20:51:41,981:consoleview:INFO:test!
+2018-08-03 20:51:41,982:consoleview:INFO:8
+2018-08-03 20:51:41,984:consoleview:INFO:test!
+2018-08-03 20:51:41,987:consoleview:INFO:9
+2018-08-03 20:51:41,987:consoleview:INFO:test!
+2018-08-03 20:52:02,062:consoleview:INFO:a+b=9
+2018-08-03 20:52:02,074:consoleview:INFO:0
+2018-08-03 20:52:02,076:consoleview:INFO:test!
+2018-08-03 20:52:02,081:consoleview:INFO:1
+2018-08-03 20:52:02,083:consoleview:INFO:test!
+2018-08-03 20:52:02,086:consoleview:INFO:2
+2018-08-03 20:52:02,087:consoleview:INFO:test!
+2018-08-03 20:52:02,089:consoleview:INFO:3
+2018-08-03 20:52:02,090:consoleview:INFO:test!
+2018-08-03 20:52:02,092:consoleview:INFO:4
+2018-08-03 20:52:02,093:consoleview:INFO:test!
+2018-08-03 20:52:02,094:consoleview:INFO:5
+2018-08-03 20:52:02,095:consoleview:INFO:test!
+2018-08-03 20:52:02,097:consoleview:INFO:6
+2018-08-03 20:52:02,099:consoleview:INFO:test!
+2018-08-03 20:52:02,100:consoleview:INFO:7
+2018-08-03 20:52:02,101:consoleview:INFO:test!
+2018-08-03 20:52:02,103:consoleview:INFO:8
+2018-08-03 20:52:02,104:consoleview:INFO:test!
+2018-08-03 20:52:02,107:consoleview:INFO:9
+2018-08-03 20:52:02,110:consoleview:INFO:test!
+2018-08-03 21:00:09,391:qtcode.testview:DEBUG:testview is initialized
+2018-08-03 21:00:09,426:qtcode.exampleview:DEBUG:exampleview created
+2018-08-03 21:00:11,270:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:00:11,284:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 37, in cexec
+    exec(c, globals())
+
+2018-08-03 21:00:11,293:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-08-03 21:00:11,296:consoleview:WARNING:NameError: name 'sdfasd' is not defined
+
+2018-08-03 21:00:17,236:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:00:17,238:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 37, in cexec
+    exec(c, globals())
+
+2018-08-03 21:00:17,240:consoleview:WARNING:  File "<string>", line 1, in <module>
+
+2018-08-03 21:00:17,242:consoleview:WARNING:NameError: name 'aa' is not defined
+
+2018-08-03 21:00:44,292:consoleview:INFO:func1
+2018-08-03 21:00:48,164:consoleview:INFO:func1
+2018-08-03 21:01:31,988:qtcode.testview:DEBUG:testview is initialized
+2018-08-03 21:01:32,021:qtcode.exampleview:DEBUG:exampleview created
+2018-08-03 21:01:34,660:consoleview:INFO:<class 'NameError'>
+2018-08-03 21:01:34,672:consoleview:INFO:name 'b' is not defined
+2018-08-03 21:01:34,676:consoleview:INFO:<traceback object at 0x038BD530>
+2018-08-03 21:01:34,681:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:01:34,684:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 28, in <lambda>
+
+2018-08-03 21:01:34,693:consoleview:WARNING:self.pushButton.clicked.connect(lambda : self._test1())
+2018-08-03 21:01:34,696:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 38, in _test1
+
+2018-08-03 21:01:34,698:consoleview:WARNING:b
+2018-08-03 21:01:34,700:consoleview:WARNING:NameError
+2018-08-03 21:01:34,700:consoleview:WARNING:: 
+2018-08-03 21:01:34,700:consoleview:WARNING:name 'b' is not defined
+2018-08-03 21:01:46,257:qtcode.testview:DEBUG:testview is initialized
+2018-08-03 21:01:46,288:qtcode.exampleview:DEBUG:exampleview created
+2018-08-03 21:01:48,452:consoleview:INFO:<class 'NameError'>
+2018-08-03 21:01:48,466:consoleview:INFO:name 'b' is not defined
+2018-08-03 21:01:48,472:consoleview:INFO:<traceback object at 0x038BD468>
+2018-08-03 21:01:48,479:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:01:48,482:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 28, in <lambda>
+
+2018-08-03 21:01:48,492:consoleview:WARNING:self.pushButton.clicked.connect(lambda : self._test1())
+2018-08-03 21:01:48,495:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 38, in _test1
+
+2018-08-03 21:01:48,497:consoleview:WARNING:b
+2018-08-03 21:01:48,499:consoleview:WARNING:NameError
+2018-08-03 21:01:48,500:consoleview:WARNING:: 
+2018-08-03 21:01:48,500:consoleview:WARNING:name 'b' is not defined
+2018-08-03 21:01:57,067:consoleview:INFO:<class 'NameError'>
+2018-08-03 21:01:57,068:consoleview:INFO:name 'b' is not defined
+2018-08-03 21:01:57,070:consoleview:INFO:<traceback object at 0x038BF350>
+2018-08-03 21:01:57,074:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:01:57,076:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 28, in <lambda>
+
+2018-08-03 21:01:57,081:consoleview:WARNING:self.pushButton.clicked.connect(lambda : self._test1())
+2018-08-03 21:01:57,084:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 38, in _test1
+
+2018-08-03 21:01:57,089:consoleview:WARNING:b
+2018-08-03 21:01:57,091:consoleview:WARNING:NameError
+2018-08-03 21:01:57,092:consoleview:WARNING:: 
+2018-08-03 21:01:57,093:consoleview:WARNING:name 'b' is not defined
+2018-08-03 21:02:08,739:consoleview:INFO:10
+2018-08-03 21:02:12,237:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:02:12,239:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\console\console.py", line 34, in cexec
+    c = compile(arg1, "<string>", "single")
+
+2018-08-03 21:02:12,243:consoleview:WARNING:  File "<string>", line 0
+
+2018-08-03 21:02:12,247:consoleview:WARNING:    ^
+
+2018-08-03 21:02:12,250:consoleview:WARNING:SyntaxError: unexpected EOF while parsing
+
+2018-08-03 21:02:16,825:consoleview:INFO:test
+2018-08-03 21:02:22,459:consoleview:INFO:447
+2018-08-03 21:02:23,675:consoleview:INFO:7
+2018-08-03 21:02:26,775:consoleview:INFO:154
+2018-08-03 21:02:30,500:consoleview:INFO:<class 'NameError'>
+2018-08-03 21:02:30,501:consoleview:INFO:name 'b' is not defined
+2018-08-03 21:02:30,502:consoleview:INFO:<traceback object at 0x03B83918>
+2018-08-03 21:02:30,505:consoleview:WARNING:Traceback (most recent call last):
+
+2018-08-03 21:02:30,507:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 28, in <lambda>
+
+2018-08-03 21:02:30,510:consoleview:WARNING:self.pushButton.clicked.connect(lambda : self._test1())
+2018-08-03 21:02:30,513:consoleview:WARNING:  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\qtcode\exampleview.py", line 38, in _test1
+
+2018-08-03 21:02:30,517:consoleview:WARNING:b
+2018-08-03 21:02:30,520:consoleview:WARNING:NameError
+2018-08-03 21:02:30,521:consoleview:WARNING:: 
+2018-08-03 21:02:30,522:consoleview:WARNING:name 'b' is not defined

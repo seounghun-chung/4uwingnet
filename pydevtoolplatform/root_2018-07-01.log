@@ -1,0 +1,820 @@
+2018-07-01 23:31:57,876:qtcode.testview:DEBUG:testview is initialized
+2018-07-01 23:31:57,906:qtcode.exampleview:DEBUG:exampleview created
+2018-07-01 23:32:36,959:qtcode.testview:DEBUG:testview is initialized
+2018-07-01 23:32:36,990:qtcode.exampleview:DEBUG:exampleview created
+2018-07-01 23:32:38,739:consoleview:INFO:there are not selected item
+2018-07-01 23:32:38,752:qtcode.testview:DEBUG:there are not selected item
+2018-07-01 23:32:41,763:qtcode.testview:DEBUG:testFail (test3.MyTestCase) is added
+2018-07-01 23:32:41,763:qtcode.testview:DEBUG:testFail2 (test3.MyTestCase) is added
+2018-07-01 23:32:41,763:qtcode.testview:DEBUG:testFail3 (test3.MyTestCase) is added
+2018-07-01 23:32:41,763:qtcode.testview:DEBUG:testSleep (test3.MyTestCase) is added
+2018-07-01 23:32:41,763:qtcode.testview:DEBUG:testSleep2 (test3.MyTestCase) is added
+2018-07-01 23:32:41,763:qtcode.testview:DEBUG:testTrue (test3.MyTestCase) is added
+2018-07-01 23:32:41,764:qtcode.testview:DEBUG:testTrue2 (test3.MyTestCase) is added
+2018-07-01 23:32:41,767:qtcode.testview:DEBUG:testFail (test2.MyTestCase) is added
+2018-07-01 23:32:41,767:qtcode.testview:DEBUG:testFail2 (test2.MyTestCase) is added
+2018-07-01 23:32:41,767:qtcode.testview:DEBUG:testFail3 (test2.MyTestCase) is added
+2018-07-01 23:32:41,767:qtcode.testview:DEBUG:testTrue (test2.MyTestCase) is added
+2018-07-01 23:32:41,767:qtcode.testview:DEBUG:testTrue2 (test2.MyTestCase) is added
+2018-07-01 23:32:41,770:qtcode.testview:DEBUG:testFail (test1.MyTestCase) is added
+2018-07-01 23:32:41,771:qtcode.testview:DEBUG:testSleep (test1.MyTestCase) is added
+2018-07-01 23:32:41,771:qtcode.testview:DEBUG:testTrue (test1.MyTestCase) is added
+2018-07-01 23:32:41,771:qtcode.testview:DEBUG:testTrue2 (test1.MyTestCase) is added
+2018-07-01 23:32:43,437:consoleview:WARNING:testTrue2 (test1.MyTestCase)
+2018-07-01 23:32:43,446:consoleview:WARNING: ... 
+2018-07-01 23:32:43,447:consoleview:INFO:hello2
+2018-07-01 23:32:43,449:consoleview:WARNING:ok
+2018-07-01 23:32:43,452:consoleview:WARNING:testTrue (test1.MyTestCase)
+Always true
+2018-07-01 23:32:43,454:consoleview:WARNING: ... 
+2018-07-01 23:32:43,455:consoleview:INFO:hello1
+2018-07-01 23:32:43,456:consoleview:WARNING:ok
+2018-07-01 23:32:43,457:consoleview:WARNING:testSleep (test1.MyTestCase)
+2018-07-01 23:32:43,459:consoleview:WARNING: ... 
+2018-07-01 23:32:43,460:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:32:43,463:consoleview:WARNING:testFail (test1.MyTestCase)
+Always fails
+2018-07-01 23:32:43,465:consoleview:WARNING: ... 
+2018-07-01 23:32:43,466:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:32:43,467:consoleview:WARNING:testTrue2 (test2.MyTestCase)
+2018-07-01 23:32:43,468:consoleview:WARNING: ... 
+2018-07-01 23:32:43,468:consoleview:INFO:teadown class....
+2018-07-01 23:32:43,471:consoleview:WARNING:ok
+2018-07-01 23:32:43,473:consoleview:WARNING:testTrue (test2.MyTestCase)
+Always true
+2018-07-01 23:32:43,474:consoleview:WARNING: ... 
+2018-07-01 23:32:43,475:consoleview:INFO:teadown class....
+2018-07-01 23:32:43,477:consoleview:WARNING:ok
+2018-07-01 23:32:43,479:consoleview:WARNING:testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:43,482:consoleview:WARNING: ... 
+2018-07-01 23:32:43,483:consoleview:INFO:teadown class....
+2018-07-01 23:32:43,485:consoleview:WARNING:FAIL
+2018-07-01 23:32:43,489:consoleview:WARNING:testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:43,490:consoleview:WARNING: ... 
+2018-07-01 23:32:43,491:consoleview:INFO:teadown class....
+2018-07-01 23:32:43,493:consoleview:WARNING:FAIL
+2018-07-01 23:32:43,496:consoleview:WARNING:testFail (test2.MyTestCase)
+2018-07-01 23:32:43,497:consoleview:WARNING: ... 
+2018-07-01 23:32:43,497:consoleview:INFO:teadown class....
+2018-07-01 23:32:43,499:consoleview:WARNING:FAIL
+2018-07-01 23:32:43,504:consoleview:WARNING:testTrue2 (test3.MyTestCase)
+2018-07-01 23:32:43,505:consoleview:WARNING: ... 
+2018-07-01 23:32:43,505:consoleview:WARNING:ok
+2018-07-01 23:32:43,507:consoleview:WARNING:testTrue (test3.MyTestCase)
+2018-07-01 23:32:43,508:consoleview:WARNING: ... 
+2018-07-01 23:32:43,509:consoleview:WARNING:ok
+2018-07-01 23:32:43,511:consoleview:WARNING:testSleep2 (test3.MyTestCase)
+2018-07-01 23:32:43,511:consoleview:WARNING: ... 
+2018-07-01 23:32:44,512:consoleview:INFO:sleepaaaa...
+2018-07-01 23:32:45,521:consoleview:INFO:sleep...
+2018-07-01 23:32:45,530:consoleview:WARNING:ok
+2018-07-01 23:32:45,532:consoleview:WARNING:testSleep (test3.MyTestCase)
+2018-07-01 23:32:45,533:consoleview:WARNING: ... 
+2018-07-01 23:32:46,533:consoleview:INFO:sleepaaaa...
+2018-07-01 23:32:47,541:consoleview:INFO:sleep...
+2018-07-01 23:32:47,552:consoleview:WARNING:ok
+2018-07-01 23:32:47,555:consoleview:WARNING:testFail3 (test3.MyTestCase)
+2018-07-01 23:32:47,556:consoleview:WARNING: ... 
+2018-07-01 23:32:47,557:consoleview:WARNING:FAIL
+2018-07-01 23:32:47,559:consoleview:WARNING:testFail2 (test3.MyTestCase)
+2018-07-01 23:32:47,560:consoleview:WARNING: ... 
+2018-07-01 23:32:47,560:consoleview:WARNING:FAIL
+2018-07-01 23:32:47,562:consoleview:WARNING:testFail (test3.MyTestCase)
+2018-07-01 23:32:47,563:consoleview:WARNING: ... 
+2018-07-01 23:32:47,564:consoleview:WARNING:FAIL
+2018-07-01 23:32:47,567:consoleview:WARNING:======================================================================
+2018-07-01 23:32:47,571:consoleview:WARNING:FAIL: testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:47,575:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,578:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 25, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:32:47,587:consoleview:WARNING:======================================================================
+2018-07-01 23:32:47,589:consoleview:WARNING:FAIL: testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:47,592:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,594:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 22, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:32:47,597:consoleview:WARNING:======================================================================
+2018-07-01 23:32:47,599:consoleview:WARNING:FAIL: testFail (test2.MyTestCase)
+2018-07-01 23:32:47,602:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,605:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:32:47,609:consoleview:WARNING:======================================================================
+2018-07-01 23:32:47,611:consoleview:WARNING:FAIL: testFail3 (test3.MyTestCase)
+2018-07-01 23:32:47,613:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,616:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:32:47,621:consoleview:WARNING:======================================================================
+2018-07-01 23:32:47,623:consoleview:WARNING:FAIL: testFail2 (test3.MyTestCase)
+2018-07-01 23:32:47,626:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,628:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:32:47,631:consoleview:WARNING:======================================================================
+2018-07-01 23:32:47,633:consoleview:WARNING:FAIL: testFail (test3.MyTestCase)
+2018-07-01 23:32:47,636:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,639:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:32:47,643:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:47,645:consoleview:WARNING:Ran 16 tests in 4.129s
+2018-07-01 23:32:47,650:consoleview:WARNING:FAILED
+2018-07-01 23:32:47,652:consoleview:WARNING: (failures=6, skipped=2)
+2018-07-01 23:32:47,788:consoleview:WARNING:testTrue2 (test1.MyTestCase)
+2018-07-01 23:32:47,792:consoleview:WARNING: ... 
+2018-07-01 23:32:47,795:consoleview:INFO:hello2
+2018-07-01 23:32:47,797:consoleview:WARNING:ok
+2018-07-01 23:32:47,799:consoleview:WARNING:testTrue (test1.MyTestCase)
+Always true
+2018-07-01 23:32:47,800:consoleview:WARNING: ... 
+2018-07-01 23:32:47,801:consoleview:INFO:hello1
+2018-07-01 23:32:47,803:consoleview:WARNING:ok
+2018-07-01 23:32:47,806:consoleview:WARNING:testSleep (test1.MyTestCase)
+2018-07-01 23:32:47,806:consoleview:WARNING: ... 
+2018-07-01 23:32:47,807:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:32:47,809:consoleview:WARNING:testFail (test1.MyTestCase)
+Always fails
+2018-07-01 23:32:47,810:consoleview:WARNING: ... 
+2018-07-01 23:32:47,811:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:32:47,813:consoleview:WARNING:testTrue2 (test2.MyTestCase)
+2018-07-01 23:32:47,813:consoleview:WARNING: ... 
+2018-07-01 23:32:47,814:consoleview:INFO:teadown class....
+2018-07-01 23:32:47,816:consoleview:WARNING:ok
+2018-07-01 23:32:47,818:consoleview:WARNING:testTrue (test2.MyTestCase)
+Always true
+2018-07-01 23:32:47,820:consoleview:WARNING: ... 
+2018-07-01 23:32:47,821:consoleview:INFO:teadown class....
+2018-07-01 23:32:47,823:consoleview:WARNING:ok
+2018-07-01 23:32:47,825:consoleview:WARNING:testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:47,826:consoleview:WARNING: ... 
+2018-07-01 23:32:47,827:consoleview:INFO:teadown class....
+2018-07-01 23:32:47,830:consoleview:WARNING:FAIL
+2018-07-01 23:32:47,832:consoleview:WARNING:testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:47,833:consoleview:WARNING: ... 
+2018-07-01 23:32:47,834:consoleview:INFO:teadown class....
+2018-07-01 23:32:47,836:consoleview:WARNING:FAIL
+2018-07-01 23:32:47,838:consoleview:WARNING:testFail (test2.MyTestCase)
+2018-07-01 23:32:47,839:consoleview:WARNING: ... 
+2018-07-01 23:32:47,840:consoleview:INFO:teadown class....
+2018-07-01 23:32:47,842:consoleview:WARNING:FAIL
+2018-07-01 23:32:47,846:consoleview:WARNING:testTrue2 (test3.MyTestCase)
+2018-07-01 23:32:47,847:consoleview:WARNING: ... 
+2018-07-01 23:32:47,847:consoleview:WARNING:ok
+2018-07-01 23:32:47,850:consoleview:WARNING:testTrue (test3.MyTestCase)
+2018-07-01 23:32:47,850:consoleview:WARNING: ... 
+2018-07-01 23:32:47,851:consoleview:WARNING:ok
+2018-07-01 23:32:47,853:consoleview:WARNING:testSleep2 (test3.MyTestCase)
+2018-07-01 23:32:47,854:consoleview:WARNING: ... 
+2018-07-01 23:32:48,855:consoleview:INFO:sleepaaaa...
+2018-07-01 23:32:49,865:consoleview:INFO:sleep...
+2018-07-01 23:32:49,872:consoleview:WARNING:ok
+2018-07-01 23:32:49,878:consoleview:WARNING:testSleep (test3.MyTestCase)
+2018-07-01 23:32:49,880:consoleview:WARNING: ... 
+2018-07-01 23:32:50,883:consoleview:INFO:sleepaaaa...
+2018-07-01 23:32:51,891:consoleview:INFO:sleep...
+2018-07-01 23:32:51,897:consoleview:WARNING:ok
+2018-07-01 23:32:51,902:consoleview:WARNING:testFail3 (test3.MyTestCase)
+2018-07-01 23:32:51,904:consoleview:WARNING: ... 
+2018-07-01 23:32:51,907:consoleview:WARNING:FAIL
+2018-07-01 23:32:51,911:consoleview:WARNING:testFail2 (test3.MyTestCase)
+2018-07-01 23:32:51,912:consoleview:WARNING: ... 
+2018-07-01 23:32:51,914:consoleview:WARNING:FAIL
+2018-07-01 23:32:51,917:consoleview:WARNING:testFail (test3.MyTestCase)
+2018-07-01 23:32:51,918:consoleview:WARNING: ... 
+2018-07-01 23:32:51,920:consoleview:WARNING:FAIL
+2018-07-01 23:32:51,924:consoleview:WARNING:======================================================================
+2018-07-01 23:32:51,926:consoleview:WARNING:FAIL: testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:51,928:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,931:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 25, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:32:51,934:consoleview:WARNING:======================================================================
+2018-07-01 23:32:51,936:consoleview:WARNING:FAIL: testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:51,939:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,941:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 22, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:32:51,944:consoleview:WARNING:======================================================================
+2018-07-01 23:32:51,947:consoleview:WARNING:FAIL: testFail (test2.MyTestCase)
+2018-07-01 23:32:51,949:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,951:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:32:51,955:consoleview:WARNING:======================================================================
+2018-07-01 23:32:51,957:consoleview:WARNING:FAIL: testFail3 (test3.MyTestCase)
+2018-07-01 23:32:51,959:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,961:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:32:51,964:consoleview:WARNING:======================================================================
+2018-07-01 23:32:51,967:consoleview:WARNING:FAIL: testFail2 (test3.MyTestCase)
+2018-07-01 23:32:51,969:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,972:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:32:51,975:consoleview:WARNING:======================================================================
+2018-07-01 23:32:51,977:consoleview:WARNING:FAIL: testFail (test3.MyTestCase)
+2018-07-01 23:32:51,979:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,981:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:32:51,985:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:51,987:consoleview:WARNING:Ran 16 tests in 4.134s
+2018-07-01 23:32:51,991:consoleview:WARNING:FAILED
+2018-07-01 23:32:51,991:consoleview:WARNING: (failures=6, skipped=2)
+2018-07-01 23:32:54,422:consoleview:WARNING:testTrue2 (test1.MyTestCase)
+2018-07-01 23:32:54,426:consoleview:WARNING: ... 
+2018-07-01 23:32:54,426:consoleview:INFO:hello2
+2018-07-01 23:32:54,430:consoleview:WARNING:ok
+2018-07-01 23:32:54,433:consoleview:WARNING:testTrue (test1.MyTestCase)
+Always true
+2018-07-01 23:32:54,434:consoleview:WARNING: ... 
+2018-07-01 23:32:54,437:consoleview:INFO:hello1
+2018-07-01 23:32:54,438:consoleview:WARNING:ok
+2018-07-01 23:32:54,440:consoleview:WARNING:testSleep (test1.MyTestCase)
+2018-07-01 23:32:54,441:consoleview:WARNING: ... 
+2018-07-01 23:32:54,442:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:32:54,444:consoleview:WARNING:testFail (test1.MyTestCase)
+Always fails
+2018-07-01 23:32:54,445:consoleview:WARNING: ... 
+2018-07-01 23:32:54,445:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:32:54,448:consoleview:WARNING:testTrue2 (test2.MyTestCase)
+2018-07-01 23:32:54,449:consoleview:WARNING: ... 
+2018-07-01 23:32:54,449:consoleview:INFO:teadown class....
+2018-07-01 23:32:54,451:consoleview:WARNING:ok
+2018-07-01 23:32:54,454:consoleview:WARNING:testTrue (test2.MyTestCase)
+Always true
+2018-07-01 23:32:54,455:consoleview:WARNING: ... 
+2018-07-01 23:32:54,456:consoleview:INFO:teadown class....
+2018-07-01 23:32:54,458:consoleview:WARNING:ok
+2018-07-01 23:32:54,460:consoleview:WARNING:testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:54,461:consoleview:WARNING: ... 
+2018-07-01 23:32:54,462:consoleview:INFO:teadown class....
+2018-07-01 23:32:54,465:consoleview:WARNING:FAIL
+2018-07-01 23:32:54,467:consoleview:WARNING:testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:54,468:consoleview:WARNING: ... 
+2018-07-01 23:32:54,470:consoleview:INFO:teadown class....
+2018-07-01 23:32:54,472:consoleview:WARNING:FAIL
+2018-07-01 23:32:54,474:consoleview:WARNING:testFail (test2.MyTestCase)
+2018-07-01 23:32:54,475:consoleview:WARNING: ... 
+2018-07-01 23:32:54,476:consoleview:INFO:teadown class....
+2018-07-01 23:32:54,478:consoleview:WARNING:FAIL
+2018-07-01 23:32:54,482:consoleview:WARNING:testTrue2 (test3.MyTestCase)
+2018-07-01 23:32:54,483:consoleview:WARNING: ... 
+2018-07-01 23:32:54,484:consoleview:WARNING:ok
+2018-07-01 23:32:54,486:consoleview:WARNING:testTrue (test3.MyTestCase)
+2018-07-01 23:32:54,487:consoleview:WARNING: ... 
+2018-07-01 23:32:54,488:consoleview:WARNING:ok
+2018-07-01 23:32:54,489:consoleview:WARNING:testSleep2 (test3.MyTestCase)
+2018-07-01 23:32:54,490:consoleview:WARNING: ... 
+2018-07-01 23:32:55,492:consoleview:INFO:sleepaaaa...
+2018-07-01 23:32:56,498:consoleview:INFO:sleep...
+2018-07-01 23:32:56,503:consoleview:WARNING:ok
+2018-07-01 23:32:56,506:consoleview:WARNING:testSleep (test3.MyTestCase)
+2018-07-01 23:32:56,507:consoleview:WARNING: ... 
+2018-07-01 23:32:57,508:consoleview:INFO:sleepaaaa...
+2018-07-01 23:32:58,516:consoleview:INFO:sleep...
+2018-07-01 23:32:58,522:consoleview:WARNING:ok
+2018-07-01 23:32:58,528:consoleview:WARNING:testFail3 (test3.MyTestCase)
+2018-07-01 23:32:58,530:consoleview:WARNING: ... 
+2018-07-01 23:32:58,532:consoleview:WARNING:FAIL
+2018-07-01 23:32:58,537:consoleview:WARNING:testFail2 (test3.MyTestCase)
+2018-07-01 23:32:58,539:consoleview:WARNING: ... 
+2018-07-01 23:32:58,540:consoleview:WARNING:FAIL
+2018-07-01 23:32:58,543:consoleview:WARNING:testFail (test3.MyTestCase)
+2018-07-01 23:32:58,544:consoleview:WARNING: ... 
+2018-07-01 23:32:58,545:consoleview:WARNING:FAIL
+2018-07-01 23:32:58,550:consoleview:WARNING:======================================================================
+2018-07-01 23:32:58,553:consoleview:WARNING:FAIL: testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:58,556:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,558:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 25, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:32:58,561:consoleview:WARNING:======================================================================
+2018-07-01 23:32:58,563:consoleview:WARNING:FAIL: testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:32:58,566:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,568:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 22, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:32:58,572:consoleview:WARNING:======================================================================
+2018-07-01 23:32:58,575:consoleview:WARNING:FAIL: testFail (test2.MyTestCase)
+2018-07-01 23:32:58,577:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,579:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:32:58,582:consoleview:WARNING:======================================================================
+2018-07-01 23:32:58,585:consoleview:WARNING:FAIL: testFail3 (test3.MyTestCase)
+2018-07-01 23:32:58,588:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,591:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:32:58,594:consoleview:WARNING:======================================================================
+2018-07-01 23:32:58,596:consoleview:WARNING:FAIL: testFail2 (test3.MyTestCase)
+2018-07-01 23:32:58,598:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,600:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:32:58,604:consoleview:WARNING:======================================================================
+2018-07-01 23:32:58,607:consoleview:WARNING:FAIL: testFail (test3.MyTestCase)
+2018-07-01 23:32:58,609:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,611:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:32:58,614:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:32:58,616:consoleview:WARNING:Ran 16 tests in 4.126s
+2018-07-01 23:32:58,620:consoleview:WARNING:FAILED
+2018-07-01 23:32:58,620:consoleview:WARNING: (failures=6, skipped=2)
+2018-07-01 23:33:02,039:consoleview:WARNING:testTrue2 (test1.MyTestCase)
+2018-07-01 23:33:02,043:consoleview:WARNING: ... 
+2018-07-01 23:33:02,044:consoleview:INFO:hello2
+2018-07-01 23:33:02,048:consoleview:WARNING:ok
+2018-07-01 23:33:02,050:consoleview:WARNING:testTrue (test1.MyTestCase)
+Always true
+2018-07-01 23:33:02,051:consoleview:WARNING: ... 
+2018-07-01 23:33:02,052:consoleview:INFO:hello1
+2018-07-01 23:33:02,054:consoleview:WARNING:ok
+2018-07-01 23:33:02,056:consoleview:WARNING:testSleep (test1.MyTestCase)
+2018-07-01 23:33:02,057:consoleview:WARNING: ... 
+2018-07-01 23:33:02,058:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:33:02,060:consoleview:WARNING:testFail (test1.MyTestCase)
+Always fails
+2018-07-01 23:33:02,061:consoleview:WARNING: ... 
+2018-07-01 23:33:02,062:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:33:02,063:consoleview:WARNING:testTrue2 (test2.MyTestCase)
+2018-07-01 23:33:02,064:consoleview:WARNING: ... 
+2018-07-01 23:33:02,065:consoleview:INFO:teadown class....
+2018-07-01 23:33:02,067:consoleview:WARNING:ok
+2018-07-01 23:33:02,069:consoleview:WARNING:testTrue (test2.MyTestCase)
+Always true
+2018-07-01 23:33:02,071:consoleview:WARNING: ... 
+2018-07-01 23:33:02,071:consoleview:INFO:teadown class....
+2018-07-01 23:33:02,074:consoleview:WARNING:ok
+2018-07-01 23:33:02,076:consoleview:WARNING:testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:02,077:consoleview:WARNING: ... 
+2018-07-01 23:33:02,078:consoleview:INFO:teadown class....
+2018-07-01 23:33:02,080:consoleview:WARNING:FAIL
+2018-07-01 23:33:02,082:consoleview:WARNING:testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:02,083:consoleview:WARNING: ... 
+2018-07-01 23:33:02,084:consoleview:INFO:teadown class....
+2018-07-01 23:33:02,087:consoleview:WARNING:FAIL
+2018-07-01 23:33:02,089:consoleview:WARNING:testFail (test2.MyTestCase)
+2018-07-01 23:33:02,090:consoleview:WARNING: ... 
+2018-07-01 23:33:02,090:consoleview:INFO:teadown class....
+2018-07-01 23:33:02,093:consoleview:WARNING:FAIL
+2018-07-01 23:33:02,095:consoleview:WARNING:testTrue2 (test3.MyTestCase)
+2018-07-01 23:33:02,095:consoleview:WARNING: ... 
+2018-07-01 23:33:02,096:consoleview:WARNING:ok
+2018-07-01 23:33:02,098:consoleview:WARNING:testTrue (test3.MyTestCase)
+2018-07-01 23:33:02,099:consoleview:WARNING: ... 
+2018-07-01 23:33:02,099:consoleview:WARNING:ok
+2018-07-01 23:33:02,101:consoleview:WARNING:testSleep2 (test3.MyTestCase)
+2018-07-01 23:33:02,102:consoleview:WARNING: ... 
+2018-07-01 23:33:03,104:consoleview:INFO:sleepaaaa...
+2018-07-01 23:33:04,119:consoleview:INFO:sleep...
+2018-07-01 23:33:04,125:consoleview:WARNING:ok
+2018-07-01 23:33:04,131:consoleview:WARNING:testSleep (test3.MyTestCase)
+2018-07-01 23:33:04,131:consoleview:WARNING: ... 
+2018-07-01 23:33:05,132:consoleview:INFO:sleepaaaa...
+2018-07-01 23:33:06,143:consoleview:INFO:sleep...
+2018-07-01 23:33:06,151:consoleview:WARNING:ok
+2018-07-01 23:33:06,158:consoleview:WARNING:testFail3 (test3.MyTestCase)
+2018-07-01 23:33:06,160:consoleview:WARNING: ... 
+2018-07-01 23:33:06,161:consoleview:WARNING:FAIL
+2018-07-01 23:33:06,165:consoleview:WARNING:testFail2 (test3.MyTestCase)
+2018-07-01 23:33:06,166:consoleview:WARNING: ... 
+2018-07-01 23:33:06,167:consoleview:WARNING:FAIL
+2018-07-01 23:33:06,170:consoleview:WARNING:testFail (test3.MyTestCase)
+2018-07-01 23:33:06,172:consoleview:WARNING: ... 
+2018-07-01 23:33:06,173:consoleview:WARNING:FAIL
+2018-07-01 23:33:06,176:consoleview:WARNING:======================================================================
+2018-07-01 23:33:06,179:consoleview:WARNING:FAIL: testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:06,181:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,183:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 25, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:33:06,187:consoleview:WARNING:======================================================================
+2018-07-01 23:33:06,189:consoleview:WARNING:FAIL: testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:06,191:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,194:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 22, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:33:06,197:consoleview:WARNING:======================================================================
+2018-07-01 23:33:06,199:consoleview:WARNING:FAIL: testFail (test2.MyTestCase)
+2018-07-01 23:33:06,201:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,204:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:33:06,207:consoleview:WARNING:======================================================================
+2018-07-01 23:33:06,209:consoleview:WARNING:FAIL: testFail3 (test3.MyTestCase)
+2018-07-01 23:33:06,211:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,214:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:33:06,217:consoleview:WARNING:======================================================================
+2018-07-01 23:33:06,219:consoleview:WARNING:FAIL: testFail2 (test3.MyTestCase)
+2018-07-01 23:33:06,222:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,224:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:33:06,227:consoleview:WARNING:======================================================================
+2018-07-01 23:33:06,229:consoleview:WARNING:FAIL: testFail (test3.MyTestCase)
+2018-07-01 23:33:06,232:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,234:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:33:06,238:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:06,240:consoleview:WARNING:Ran 16 tests in 4.136s
+2018-07-01 23:33:06,243:consoleview:WARNING:FAILED
+2018-07-01 23:33:06,251:consoleview:WARNING: (failures=6, skipped=2)
+2018-07-01 23:33:12,472:consoleview:WARNING:testTrue2 (test1.MyTestCase)
+2018-07-01 23:33:12,476:consoleview:WARNING: ... 
+2018-07-01 23:33:12,478:consoleview:INFO:hello2
+2018-07-01 23:33:12,480:consoleview:WARNING:ok
+2018-07-01 23:33:12,483:consoleview:WARNING:testTrue (test1.MyTestCase)
+Always true
+2018-07-01 23:33:12,484:consoleview:WARNING: ... 
+2018-07-01 23:33:12,485:consoleview:INFO:hello1
+2018-07-01 23:33:12,487:consoleview:WARNING:ok
+2018-07-01 23:33:12,489:consoleview:WARNING:testSleep (test1.MyTestCase)
+2018-07-01 23:33:12,490:consoleview:WARNING: ... 
+2018-07-01 23:33:12,491:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:33:12,493:consoleview:WARNING:testFail (test1.MyTestCase)
+Always fails
+2018-07-01 23:33:12,494:consoleview:WARNING: ... 
+2018-07-01 23:33:12,495:consoleview:WARNING:skipped 'demonstrating skipping'
+2018-07-01 23:33:12,496:consoleview:WARNING:testTrue2 (test2.MyTestCase)
+2018-07-01 23:33:12,497:consoleview:WARNING: ... 
+2018-07-01 23:33:12,498:consoleview:INFO:teadown class....
+2018-07-01 23:33:12,500:consoleview:WARNING:ok
+2018-07-01 23:33:12,503:consoleview:WARNING:testTrue (test2.MyTestCase)
+Always true
+2018-07-01 23:33:12,504:consoleview:WARNING: ... 
+2018-07-01 23:33:12,505:consoleview:INFO:teadown class....
+2018-07-01 23:33:12,507:consoleview:WARNING:ok
+2018-07-01 23:33:12,509:consoleview:WARNING:testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:12,510:consoleview:WARNING: ... 
+2018-07-01 23:33:12,511:consoleview:INFO:teadown class....
+2018-07-01 23:33:12,513:consoleview:WARNING:FAIL
+2018-07-01 23:33:12,515:consoleview:WARNING:testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:12,516:consoleview:WARNING: ... 
+2018-07-01 23:33:12,517:consoleview:INFO:teadown class....
+2018-07-01 23:33:12,520:consoleview:WARNING:FAIL
+2018-07-01 23:33:12,522:consoleview:WARNING:testFail (test2.MyTestCase)
+2018-07-01 23:33:12,523:consoleview:WARNING: ... 
+2018-07-01 23:33:12,524:consoleview:INFO:teadown class....
+2018-07-01 23:33:12,526:consoleview:WARNING:FAIL
+2018-07-01 23:33:12,528:consoleview:WARNING:testTrue2 (test3.MyTestCase)
+2018-07-01 23:33:12,529:consoleview:WARNING: ... 
+2018-07-01 23:33:12,531:consoleview:WARNING:ok
+2018-07-01 23:33:12,533:consoleview:WARNING:testTrue (test3.MyTestCase)
+2018-07-01 23:33:12,534:consoleview:WARNING: ... 
+2018-07-01 23:33:12,535:consoleview:WARNING:ok
+2018-07-01 23:33:12,537:consoleview:WARNING:testSleep2 (test3.MyTestCase)
+2018-07-01 23:33:12,538:consoleview:WARNING: ... 
+2018-07-01 23:33:13,538:consoleview:INFO:sleepaaaa...
+2018-07-01 23:33:14,545:consoleview:INFO:sleep...
+2018-07-01 23:33:14,551:consoleview:WARNING:ok
+2018-07-01 23:33:14,557:consoleview:WARNING:testSleep (test3.MyTestCase)
+2018-07-01 23:33:14,559:consoleview:WARNING: ... 
+2018-07-01 23:33:15,560:consoleview:INFO:sleepaaaa...
+2018-07-01 23:33:16,568:consoleview:INFO:sleep...
+2018-07-01 23:33:16,571:consoleview:WARNING:ok
+2018-07-01 23:33:16,573:consoleview:WARNING:testFail3 (test3.MyTestCase)
+2018-07-01 23:33:16,573:consoleview:WARNING: ... 
+2018-07-01 23:33:16,574:consoleview:WARNING:FAIL
+2018-07-01 23:33:16,576:consoleview:WARNING:testFail2 (test3.MyTestCase)
+2018-07-01 23:33:16,577:consoleview:WARNING: ... 
+2018-07-01 23:33:16,578:consoleview:WARNING:FAIL
+2018-07-01 23:33:16,579:consoleview:WARNING:testFail (test3.MyTestCase)
+2018-07-01 23:33:16,580:consoleview:WARNING: ... 
+2018-07-01 23:33:16,581:consoleview:WARNING:FAIL
+2018-07-01 23:33:16,585:consoleview:WARNING:======================================================================
+2018-07-01 23:33:16,587:consoleview:WARNING:FAIL: testFail3 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:16,590:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,592:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 25, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:33:16,595:consoleview:WARNING:======================================================================
+2018-07-01 23:33:16,598:consoleview:WARNING:FAIL: testFail2 (test2.MyTestCase)
+Always fails
+2018-07-01 23:33:16,601:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,603:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 22, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:33:16,607:consoleview:WARNING:======================================================================
+2018-07-01 23:33:16,610:consoleview:WARNING:FAIL: testFail (test2.MyTestCase)
+2018-07-01 23:33:16,612:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,615:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test2.py", line 19, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:33:16,619:consoleview:WARNING:======================================================================
+2018-07-01 23:33:16,623:consoleview:WARNING:FAIL: testFail3 (test3.MyTestCase)
+2018-07-01 23:33:16,626:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,628:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 45, in testFail3
+    assert False
+AssertionError
+
+2018-07-01 23:33:16,631:consoleview:WARNING:======================================================================
+2018-07-01 23:33:16,634:consoleview:WARNING:FAIL: testFail2 (test3.MyTestCase)
+2018-07-01 23:33:16,637:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,639:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 33, in testFail2
+    assert False
+AssertionError
+
+2018-07-01 23:33:16,642:consoleview:WARNING:======================================================================
+2018-07-01 23:33:16,645:consoleview:WARNING:FAIL: testFail (test3.MyTestCase)
+2018-07-01 23:33:16,647:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,649:consoleview:WARNING:Traceback (most recent call last):
+  File "C:\Users\seoung\workspace\pytool\pydevtoolplatform\testscript\test3.py", line 20, in testFail
+    assert False
+AssertionError
+
+2018-07-01 23:33:16,653:consoleview:WARNING:----------------------------------------------------------------------
+2018-07-01 23:33:16,655:consoleview:WARNING:Ran 16 tests in 4.111s
+2018-07-01 23:33:16,659:consoleview:WARNING:FAILED
+2018-07-01 23:33:16,660:consoleview:WARNING: (failures=6, skipped=2)
+2018-07-01 23:34:09,852:qtcode.testview:DEBUG:testview is initialized
+2018-07-01 23:34:09,885:qtcode.exampleview:DEBUG:exampleview created
+2018-07-01 23:34:27,111:qtcode.testview:DEBUG:testview is initialized
+2018-07-01 23:34:27,142:qtcode.exampleview:DEBUG:exampleview created
+2018-07-01 23:34:32,467:consoleview:INFO:test
+2018-07-01 23:34:52,671:consoleview:INFO:test
+2018-07-01 23:34:52,678:consoleview:INFO:0
+2018-07-01 23:34:53,684:consoleview:INFO:test
+2018-07-01 23:34:53,688:consoleview:INFO:1
+2018-07-01 23:34:54,690:consoleview:INFO:test
+2018-07-01 23:34:54,692:consoleview:INFO:2
+2018-07-01 23:34:55,695:consoleview:INFO:test
+2018-07-01 23:34:55,697:consoleview:INFO:3
+2018-07-01 23:34:56,700:consoleview:INFO:test
+2018-07-01 23:34:56,717:consoleview:INFO:4
+2018-07-01 23:34:57,721:consoleview:INFO:test
+2018-07-01 23:34:57,731:consoleview:INFO:5
+2018-07-01 23:34:58,735:consoleview:INFO:test
+2018-07-01 23:34:58,738:consoleview:INFO:6
+2018-07-01 23:34:59,741:consoleview:INFO:test
+2018-07-01 23:34:59,747:consoleview:INFO:7
+2018-07-01 23:35:00,755:consoleview:INFO:test
+2018-07-01 23:35:00,760:consoleview:INFO:8
+2018-07-01 23:35:01,766:consoleview:INFO:test
+2018-07-01 23:35:01,772:consoleview:INFO:9
+2018-07-01 23:37:18,789:qtcode.testview:DEBUG:testview is initialized
+2018-07-01 23:37:18,820:qtcode.exampleview:DEBUG:exampleview created
+2018-07-01 23:37:35,108:consoleview:INFO:0
+2018-07-01 23:37:35,125:consoleview:INFO:test
+2018-07-01 23:37:35,134:consoleview:INFO:1
+2018-07-01 23:37:35,137:consoleview:INFO:test
+2018-07-01 23:37:35,139:consoleview:INFO:2
+2018-07-01 23:37:35,141:consoleview:INFO:test
+2018-07-01 23:37:35,142:consoleview:INFO:3
+2018-07-01 23:37:35,145:consoleview:INFO:test
+2018-07-01 23:37:35,149:consoleview:INFO:4
+2018-07-01 23:37:35,150:consoleview:INFO:test
+2018-07-01 23:37:35,151:consoleview:INFO:5
+2018-07-01 23:37:35,153:consoleview:INFO:test
+2018-07-01 23:37:35,154:consoleview:INFO:6
+2018-07-01 23:37:35,156:consoleview:INFO:test
+2018-07-01 23:37:35,157:consoleview:INFO:7
+2018-07-01 23:37:35,159:consoleview:INFO:test
+2018-07-01 23:37:35,159:consoleview:INFO:8
+2018-07-01 23:37:35,161:consoleview:INFO:test
+2018-07-01 23:37:35,162:consoleview:INFO:9
+2018-07-01 23:37:35,164:consoleview:INFO:test
+2018-07-01 23:37:41,825:consoleview:INFO:0
+2018-07-01 23:37:41,827:consoleview:INFO:test
+2018-07-01 23:37:41,828:consoleview:INFO:1
+2018-07-01 23:37:41,829:consoleview:INFO:test
+2018-07-01 23:37:41,832:consoleview:INFO:2
+2018-07-01 23:37:41,833:consoleview:INFO:test
+2018-07-01 23:37:41,834:consoleview:INFO:3
+2018-07-01 23:37:41,835:consoleview:INFO:test
+2018-07-01 23:37:41,837:consoleview:INFO:4
+2018-07-01 23:37:41,838:consoleview:INFO:test
+2018-07-01 23:37:41,839:consoleview:INFO:5
+2018-07-01 23:37:41,840:consoleview:INFO:test
+2018-07-01 23:37:41,841:consoleview:INFO:6
+2018-07-01 23:37:41,842:consoleview:INFO:test
+2018-07-01 23:37:41,844:consoleview:INFO:7
+2018-07-01 23:37:41,845:consoleview:INFO:test
+2018-07-01 23:37:41,846:consoleview:INFO:8
+2018-07-01 23:37:41,847:consoleview:INFO:test
+2018-07-01 23:37:41,849:consoleview:INFO:9
+2018-07-01 23:37:41,850:consoleview:INFO:test
+2018-07-01 23:37:53,121:consoleview:INFO:parameter (t) : None
+2018-07-01 23:37:57,485:consoleview:INFO:========== Console Command List ============
+2018-07-01 23:37:57,492:consoleview:INFO:  clear() :  clear console view 
+2018-07-01 23:37:57,497:consoleview:INFO:  run() :  run script 
+2018-07-01 23:37:57,501:consoleview:INFO:  msleep(t) : None
+2018-07-01 23:37:57,503:consoleview:INFO:  settext(s) : None
+2018-07-01 23:37:57,506:consoleview:INFO: example : object , for getting more information help(example)
+2018-07-01 23:37:57,513:consoleview:INFO: example2 : object , for getting more information help(example2)
+2018-07-01 23:38:09,516:consoleview:INFO:0
+2018-07-01 23:38:09,520:consoleview:INFO:test
+2018-07-01 23:38:09,525:consoleview:INFO:1
+2018-07-01 23:38:09,528:consoleview:INFO:test
+2018-07-01 23:38:09,535:consoleview:INFO:2
+2018-07-01 23:38:09,537:consoleview:INFO:test
+2018-07-01 23:38:09,540:consoleview:INFO:3
+2018-07-01 23:38:09,542:consoleview:INFO:test
+2018-07-01 23:38:09,544:consoleview:INFO:4
+2018-07-01 23:38:09,546:consoleview:INFO:test
+2018-07-01 23:38:09,548:consoleview:INFO:5
+2018-07-01 23:38:09,550:consoleview:INFO:test
+2018-07-01 23:38:09,551:consoleview:INFO:6
+2018-07-01 23:38:09,553:consoleview:INFO:test
+2018-07-01 23:38:09,554:consoleview:INFO:7
+2018-07-01 23:38:09,555:consoleview:INFO:test
+2018-07-01 23:38:09,556:consoleview:INFO:8
+2018-07-01 23:38:09,557:consoleview:INFO:test
+2018-07-01 23:38:09,559:consoleview:INFO:9
+2018-07-01 23:38:09,560:consoleview:INFO:test
+2018-07-01 23:38:32,946:qtcode.testview:DEBUG:testview is initialized
+2018-07-01 23:38:32,977:qtcode.exampleview:DEBUG:exampleview created
+2018-07-01 23:38:46,503:consoleview:INFO:0
+2018-07-01 23:38:47,509:consoleview:INFO:1
+2018-07-01 23:38:48,514:consoleview:INFO:2
+2018-07-01 23:38:49,516:consoleview:INFO:3
+2018-07-01 23:38:50,521:consoleview:INFO:4
+2018-07-01 23:38:51,524:consoleview:INFO:5
+2018-07-01 23:38:52,528:consoleview:INFO:6
+2018-07-01 23:38:53,531:consoleview:INFO:7
+2018-07-01 23:38:54,535:consoleview:INFO:8
+2018-07-01 23:38:55,537:consoleview:INFO:9
+2018-07-01 23:38:57,973:consoleview:INFO:0
+2018-07-01 23:38:58,977:consoleview:INFO:1
+2018-07-01 23:38:59,981:consoleview:INFO:2
+2018-07-01 23:39:00,986:consoleview:INFO:3
+2018-07-01 23:39:01,988:consoleview:INFO:4
+2018-07-01 23:39:02,994:consoleview:INFO:5
+2018-07-01 23:39:04,000:consoleview:INFO:6
+2018-07-01 23:39:05,006:consoleview:INFO:7
+2018-07-01 23:39:06,010:consoleview:INFO:8
+2018-07-01 23:39:07,014:consoleview:INFO:9
+2018-07-01 23:40:47,282:consoleview:INFO:0
+2018-07-01 23:40:47,283:consoleview:INFO:20180
+2018-07-01 23:40:48,285:consoleview:INFO:1
+2018-07-01 23:40:48,288:consoleview:INFO:20180
+2018-07-01 23:40:49,293:consoleview:INFO:2
+2018-07-01 23:40:49,296:consoleview:INFO:20180
+2018-07-01 23:40:50,300:consoleview:INFO:3
+2018-07-01 23:40:50,303:consoleview:INFO:20180
+2018-07-01 23:40:51,306:consoleview:INFO:4
+2018-07-01 23:40:51,309:consoleview:INFO:20180
+2018-07-01 23:40:52,311:consoleview:INFO:5
+2018-07-01 23:40:52,314:consoleview:INFO:20180
+2018-07-01 23:40:53,317:consoleview:INFO:6
+2018-07-01 23:40:53,320:consoleview:INFO:20180
+2018-07-01 23:40:54,069:consoleview:INFO:20180
+2018-07-01 23:40:54,324:consoleview:INFO:7
+2018-07-01 23:40:54,326:consoleview:INFO:20180
+2018-07-01 23:40:55,329:consoleview:INFO:8
+2018-07-01 23:40:55,332:consoleview:INFO:20180
+2018-07-01 23:40:56,336:consoleview:INFO:9
+2018-07-01 23:40:56,339:consoleview:INFO:20180
+2018-07-01 23:43:06,672:consoleview:INFO:0
+2018-07-01 23:43:06,677:consoleview:INFO:20180
+2018-07-01 23:43:07,682:consoleview:INFO:1
+2018-07-01 23:43:07,685:consoleview:INFO:20180
+2018-07-01 23:43:08,687:consoleview:INFO:2
+2018-07-01 23:43:08,691:consoleview:INFO:20180
+2018-07-01 23:43:09,697:consoleview:INFO:3
+2018-07-01 23:43:09,699:consoleview:INFO:20180
+2018-07-01 23:43:10,702:consoleview:INFO:4
+2018-07-01 23:43:10,703:consoleview:INFO:20180
+2018-07-01 23:43:11,704:consoleview:INFO:5
+2018-07-01 23:43:11,705:consoleview:INFO:20180
+2018-07-01 23:43:12,707:consoleview:INFO:6
+2018-07-01 23:43:12,709:consoleview:INFO:20180
+2018-07-01 23:43:13,712:consoleview:INFO:7
+2018-07-01 23:43:13,712:consoleview:INFO:20180
+2018-07-01 23:43:14,714:consoleview:INFO:8
+2018-07-01 23:43:14,716:consoleview:INFO:20180
+2018-07-01 23:43:15,718:consoleview:INFO:9
+2018-07-01 23:43:15,719:consoleview:INFO:20180
+2018-07-01 23:43:21,975:consoleview:INFO:0
+2018-07-01 23:43:21,978:consoleview:INFO:20180
+2018-07-01 23:43:22,983:consoleview:INFO:1
+2018-07-01 23:43:22,985:consoleview:INFO:20180
+2018-07-01 23:43:23,988:consoleview:INFO:2
+2018-07-01 23:43:23,990:consoleview:INFO:20180
+2018-07-01 23:43:24,994:consoleview:INFO:3
+2018-07-01 23:43:24,998:consoleview:INFO:20180
+2018-07-01 23:43:26,003:consoleview:INFO:4
+2018-07-01 23:43:26,006:consoleview:INFO:20180
+2018-07-01 23:43:27,010:consoleview:INFO:5
+2018-07-01 23:43:27,013:consoleview:INFO:20180
+2018-07-01 23:43:28,016:consoleview:INFO:6
+2018-07-01 23:43:28,019:consoleview:INFO:20180
+2018-07-01 23:43:29,021:consoleview:INFO:7
+2018-07-01 23:43:29,023:consoleview:INFO:20180
+2018-07-01 23:43:30,025:consoleview:INFO:8
+2018-07-01 23:43:30,028:consoleview:INFO:20180
+2018-07-01 23:43:31,032:consoleview:INFO:9
+2018-07-01 23:43:31,035:consoleview:INFO:20180
+2018-07-01 23:43:33,402:consoleview:INFO:0
+2018-07-01 23:43:33,402:consoleview:INFO:20180
+2018-07-01 23:43:34,404:consoleview:INFO:1
+2018-07-01 23:43:34,407:consoleview:INFO:20180
+2018-07-01 23:43:35,411:consoleview:INFO:2
+2018-07-01 23:43:35,414:consoleview:INFO:20180
+2018-07-01 23:43:40,872:consoleview:INFO:0
+2018-07-01 23:43:40,874:consoleview:INFO:20180
+2018-07-01 23:43:41,878:consoleview:INFO:1
+2018-07-01 23:43:41,880:consoleview:INFO:20180
+2018-07-01 23:43:42,883:consoleview:INFO:2
+2018-07-01 23:43:42,885:consoleview:INFO:20180
+2018-07-01 23:43:46,610:consoleview:INFO:0
+2018-07-01 23:43:46,612:consoleview:INFO:20180
+2018-07-01 23:43:47,615:consoleview:INFO:1
+2018-07-01 23:43:47,616:consoleview:INFO:20180
+2018-07-01 23:43:48,617:consoleview:INFO:2
+2018-07-01 23:43:48,619:consoleview:INFO:20180
+2018-07-01 23:43:55,958:consoleview:INFO:0
+2018-07-01 23:43:55,961:consoleview:INFO:20180
+2018-07-01 23:43:56,964:consoleview:INFO:1
+2018-07-01 23:43:56,966:consoleview:INFO:20180
+2018-07-01 23:43:57,970:consoleview:INFO:2
+2018-07-01 23:43:57,971:consoleview:INFO:20180
+2018-07-01 23:44:01,742:consoleview:INFO:0
+2018-07-01 23:44:01,743:consoleview:INFO:20180
+2018-07-01 23:44:02,745:consoleview:INFO:1
+2018-07-01 23:44:02,746:consoleview:INFO:20180
+2018-07-01 23:44:03,748:consoleview:INFO:2
+2018-07-01 23:44:03,750:consoleview:INFO:20180

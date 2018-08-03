@@ -95,7 +95,7 @@ class ConsoleView(QWidget, form_class):
         self.textBrowser.mergeCurrentCharFormat(self._fmt); 
         self.textBrowser.insertPlainText(msg)
         # refresh textedit show, refer) https://doc.qt.io/qt-5/qeventloop.html#ProcessEventsFlag-enum
-        QApplication.processEvents(QEventLoop.ExcludeUserInputEvents)
+        QApplication.processEvents(QEventLoop.AllEvents)
         
     def clear(self):
         self.textBrowser.clear()

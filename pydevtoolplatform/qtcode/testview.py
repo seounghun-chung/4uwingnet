@@ -109,6 +109,8 @@ class TestView(QWidget, form_class):
         
     def _btnRun_clicked(self):
         """ unittest run start """
+        self.btnRun.setEnabled(False)
+        
         self.__rollbackImporter.rollbackImports() # clearly make sure test modules    
     
         selectedIndex = self.listView.selectedIndexes()
@@ -135,6 +137,7 @@ class TestView(QWidget, form_class):
             """ there are not selected item """
             print("there are not selected item")
             logger.debug("there are not selected item")
+        self.btnRun.setEnabled(True)
 
     def __extract_exceptiontestunit(self, testsuite):
         """ extract error from testsuite discover was used"""
