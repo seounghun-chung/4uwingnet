@@ -75,6 +75,7 @@ class ConsoleView(QWidget, form_class):
         QComboBox.keyPressEvent(self.comboBox, e)
         if e.key() == Qt.Key_Return:
             cmd = self.comboBox.currentText()
+            self._append_text('>>> %s\n' % (cmd),color='blue')        
             console.cexec(cmd)
             self.textBrowser.moveCursor(QtGui.QTextCursor.End)            
             self.comboBox.setCurrentText("")
