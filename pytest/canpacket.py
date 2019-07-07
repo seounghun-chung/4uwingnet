@@ -1,4 +1,3 @@
-import can
 import bitstruct
 import copy
 import struct
@@ -23,6 +22,9 @@ class CanPacket(object):
     def parse(self, message):
         if type(message) is list:
             message = bytes(message)
+        elif type(message) is str:
+            message = bytes.fromhex(message)
+            
         o = iter(bitstruct.unpack(self.pack_fmt,message))
         packet_data = OrderedDict()
         for k,v in self.packet_info.items():
@@ -32,7 +34,6 @@ class CanPacket(object):
     def gen(self, *argv, **kwargs):
         pack_data = list()
         argv_it = iter(argv)
-
         for k,v in self.packet_info.items():
             if (len(argv) == 0):
                 pack_data.append(kwargs[k])
@@ -59,12 +60,22 @@ class CanPacket(object):
         self.message
         CRC calculate logic
         '''
-        crc = 0xab
+        crc = 0xa5
         crc = crc.to_bytes(crc_length, byteorder='little', signed=False)
         for crc_byte in crc:    # put calculate crc value
             self.message.insert(offsetbyte,crc_byte)
 
         return self.message
+        
+    def update(self, signal_value):
+        d = self.parse(self.message)
+        for k, v in signal_value.items():
+            if (k in d) is True:
+                pass
+            else:
+                raise RuntimeError('%s is not included in CanPacket' % (k))
+        d.update(signal_value)
+        return self.gen(**d)        
         
     def _get_crc_offset(self):
         offsetbyte = 0
