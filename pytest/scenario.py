@@ -3,6 +3,7 @@ import copy
 import struct
 import configparser
 import re
+import time
 
 from canpacket import CanPacket
 from itertools import cycle
@@ -21,6 +22,7 @@ class Scenario(object):
         self.alivecycle = cycle([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14])
         self.base_txpacket = dict()
         self.type_of_method = dict()
+        self.rx_tx_delta_time = 0
         
     def set_send_function(self,pf_send):
         ''' register send bus method '''
@@ -49,6 +51,7 @@ class Scenario(object):
         self.cfg = configparser.ConfigParser()
         self.cfg.read(path)
 
+        self.rx_tx_delta_time = self.cfg.getint('TestConfig','rx_tx_gap')
         self.base_txpacket = self.cfg._sections['tx_default']
         for k,v in self.cfg._sections['rx'].items():
             self.cfg._sections['rx'][k] = int(v)
@@ -181,6 +184,7 @@ class Scenario(object):
             base_message = self.tx.parse(bytes.fromhex(base_message))
 
         msg = pf_gen(base_message)        
+        time.sleep(self.rx_tx_delta_time / 1000)
         return self._send(canid, msg)
         
     def _send(self, identifier, message):
